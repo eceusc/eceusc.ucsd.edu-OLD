@@ -2,185 +2,387 @@
 <html lang="en">
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Webpage for the ECE Undergraduate Student Council!">
-<meta name="author" content="ECE USC '17-'18">
-<title>UCSD - ECE USC</title>
-<script>
-function getJsonFromUrl() {
-  var query = location.search.substr(1);
-  var result = {};
-  query.split("&").forEach(function(part) {
-      var item = part.split("=");
-      result[item[0]] = decodeURIComponent(item[1]);
-      });
-  return result;
-}
-
-var args = getJsonFromUrl();
-
-if(!args.test)
-  window.location.replace("https://sites.google.com/a/eng.ucsd.edu/ece-undergraduate-student-council/");
-</script>
-
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Webpage for the ECE Undergraduate Student Council!">
+  <meta name="author" content="ECE USC '17-'18">
+  <title>UCSD - ECE USC</title>
+  
+  <link rel="shortcut icon" type="image/png" href="/pics/favicon.png"/>
+  <style>
+    #footer {
+      margin-top:15px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      background-color: #111;
+      text-align: center;
+    }
+    
+    #container {
+      padding-top:25px;
+      padding-bottom:25px;
+      min-height:75vh;
+    }
+  </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css" integrity="sha256-FpjP45Pz019159CFCReBCsZtVeCvGawN2Om1w+SIi0A=" crossorigin="anonymous" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js" integrity="sha256-M9jjNz+jr/lTI+xVx2lpn3g6810YEPpSk8lReqH+qWE=" crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js" integrity="sha256-M9jjNz+jr/lTI+xVx2lpn3g6810YEPpSk8lReqH+qWE=" crossorigin="anonymous"></script>
+    
+      <!-- more tags here -->
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha256-DHF4zGyjT7GOMPBwpeehwoey18z8uiz98G4PRu2lV0A=" crossorigin="anonymous"></script>
+    
   </head>
   <body>
 
-  <div class="ui inverted segment">
+  <div id="menu" class="ui inverted segment">
     <div class="ui inverted secondary pointing right menu">
+      <div class="left menu">
+        <div class="item">
+          <img class="ui small image" src="/pics/logo.png">
+        </div>
+      </div>
       <div class="right menu">
-        <a class="active item">
+        
+        <a href="/" class="item">
           Home
         </a>
-        <a href="./mentorship" class="item">
+        <a href="/mentorship" class="item">
           Mentorship
         </a>
-        <a href="./resources" class="item">
+        <a href="/resources" class="item">
           Resources
         </a>
-        <a class="item">
+        <a href="/contact" class="item">
           Contact Us
         </a>
       </div>
     </div>
   </div>
+  <div id="container">
 
-  <div class="ui grid">
-
-    <div class="ui row">
-
-      <div class="three wide column">
-      </div>
-
-      <div class="ten wide column">
-
-        <!-- About Us -->
-        <div class="ui row">
-          <div class="ui centered header">About Us</div>
-          <img class="ui centered big image" src="/pics/eceusc17.jpg">
-          
-          <div class="ui divider"></div>
-        </div>
-
-        <!-- Council -->
-        <div class="ui row">
-          <div class="ui centered header">Council</div>
-
-          <div class="ui two column grid">
-            
-            <!--Executives -->
-            <div class="column">
-              
-              <div class="ui centered header">Executive</div>
-              <div class="ui divider"></div>
-              <div class="ui items">
-                
-                <!-- President (Galex) -->
-                <div class="item">
-                  <div class="ui small image">
-                    <img src="http://via.placeholder.com/150x150">
-                  </div>
-                  <div class="content">
-                    <div class="header">Alexander Garcia</div>
-                    <div class="meta">
-                      <span class="position">President</span>
-                    </div>
-                    <div class="description">
-                      <p>
-
-                      <div class="ui bulleted list">
-                        <div class="item">Computer Engineering</div>
-                        <div class="item">Power Depth</div>
-                        <div class="item">Interned at Salesforce - Stripe and Facebook next year</div>
-                        <div class="item">Also part of <a href="http://quidditch.ucsd.edu">Quidditch @ UCSD</a></div>
-                      </div>
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            
-            <!-- General -->
-            <div class="column">
-              <div class="ui centered header">General</div>
-              <div class="ui divider"></div>
-              <div class="ui items">
-
-                <!-- Secretary (Daniel) -->
-                <div class="item">
-                  <div class="ui small image">
-                    <img src="http://via.placeholder.com/150x150">
-                  </div>
-                  <div class="content">
-                    <div class="header">Daniel Troung</div>
-                    <div class="meta">
-                      <span class="position">Secretary</span>
-                    </div>
-                    <div class="description">
-                      <p>
-
-                      <div class="ui bulleted list">
-                        <div class="item">Electrical Engineering</div>
-                        <div class="item">Machine Learning and Controls Depth</div>
-                        <div class="item">Student Research Assistant at the Qualcomm Institute</div>
-                        <div class="item">Also part of <a href="http://tbp.ucsd.edu">Tau Beta Pi</a></div>
-                      </div>
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-
-            
-          </div>
-        
-          <div class="ui divider"></div>
-        </div>
-
-        <!-- Calendar -->
-        <div class="ui row">
-          <div class="ui centered header">Calendar</div>
-          <div class="ui row">
-            <div style="text-align:center;">
-              <iframe src="https://calendar.google.com/calendar/b/2/embed?title=ECE%20USC%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=eceusc%40eng.ucsd.edu&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            </div>
-          </div> 
-        </div>
-        
-      </div>
-
-      <div class="three wide column">
-      </div>
-
-    </div>
     
-    <div class="ui row">
-      <!-- Footer -->
-      <div class="ui right floated inverted segment">
-        <div class="ui inverted secondary menu">
-          <a href="http://eceusc.ucsd.edu/past-years" class="ui item">
-            Past Years
-          </a>
-          <a href="https://github.com/ucsdeceusc/eceusc.ucsd.edu" class="item">
-            Github
-          </a>
+    <div class="ui grid">
+      <div class="ui centered row">
+        <h1 class="ui centered header">ECE Undergrad Student Council
+          <div class="ui divider" style="margin-top:.25rem;margin-bottom:.5rem"></div>
+          <div class="ui sub header" style="text-transform:none">
+            Serving and representing all ECE students at UC San Diego.
+          </div>
+        </h1>
+        
+      </div>
+      
+      <div class="ui row">
+  
+        <div class="three wide column">
+        </div>
+  
+        <div class="ten wide column">
+  
+          <!-- About Us -->
+          <div class="ui row">
+            <div class="ui centered header">About Us</div>
+            <img class="ui centered big image" src="/pics/eceusc17.jpg">
+            <p style="margin-top: 20px; margin-bottom: 40px;">
+              We are the ECE Undergraduate Student Council - we put on many different
+              events, workshops, and programs specifically for ECE students at UC San Diego.
+              Our main projects are our Quarterly Mentorship Program, Town Halls, and social
+              events - with more to come!
+            </p>
+            
+            <div id="picture-carousel">
+              <div><img class="ui centered medium image" src="/pics/front/1.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/2.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/3.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/4.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/6.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/7.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/8.png"></div>
+              <div><img class="ui centered medium image" src="/pics/front/9.png"></div>
+            </div>
+            <div class="ui divider"></div>
+          </div>
+  
+          <!-- Council -->
+          <div class="ui row">
+            <div class="ui centered header">Council</div>
+  
+            <div class="ui stackable two column grid">
+              
+              <!--Executives -->
+              <div class="column">
+                
+                <div class="ui centered header">Executive</div>
+                <div class="ui divider"></div>
+                <div class="ui items">
+                  
+                  <!-- President (Galex) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/galex.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Alexander Garcia</div>
+                      <div class="meta">
+                        <span class="position">President</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Computer Engineering</div>
+                          <div class="item">Power Depth</div>
+                          <div class="item">Interned at Salesforce - Stripe and Facebook next year</div>
+                          <div class="item">Also part of <a href="http://quidditch.ucsd.edu">Quidditch @ UCSD</a></div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Vice-President (ahnaf) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/ahnaf.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Ahnaf Ahmed</div>
+                      <div class="meta">
+                        <span class="position">Vice-President</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Electrical Engineering - Business Minor</div>
+                          <div class="item">DSP Depth</div>
+                          <div class="item"> Electrical Engineering Intern at Cubic Global Defense </div>
+                          <div class="item">Also part of <a href="https://www.facebook.com/ieeeucsd/">IEEE</a> Quarterly Projects</div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- VP Finance (Louise) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/louise.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Louise Xu</div>
+                      <div class="meta">
+                        <span class="position">VP Finance</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Electrical Engineering</div>
+                          <div class="item">Machine Learning Depth</div>
+                          <div class="item">Grand PrIEEE, Human Powered Submarine, EnVision Makerspace Summer Project, California Space Grant Consortium Summer Project, SIO Marine Physical Laboratory</div>
+                          <div class="item">Also part of <a href="http://swe.ucsd.edu/">SWE</a> and <a href="http://asme.ucsd.edu/">ASME</a></div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+              
+              <!-- General -->
+              <div class="column">
+                <div class="ui centered header">General</div>
+                <div class="ui divider"></div>
+                <div class="ui items">
+  
+                  <!-- Secretary (Daniel) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/daniel.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Daniel Troung</div>
+                      <div class="meta">
+                        <span class="position">Secretary</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Electrical Engineering</div>
+                          <div class="item">Machine Learning and Controls Depth</div>
+                          <div class="item">Student Research Assistant at the Qualcomm Institute</div>
+                          <div class="item">Also part of <a href="http://tbp.ucsd.edu">Tau Beta Pi</a></div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Secretary (Alex T) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/talex.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Alex Tung</div>
+                      <div class="meta">
+                        <span class="position">Social Chair I</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Electrical Engineering</div>
+                          <div class="item">Signal Image Processing Depth</div>
+                          <div class="item">Incoming Acoustics Intern at Qualcomm, Research Intern at Qualcomm Institute</div>
+                          <div class="item">Also part of <a href="http://www.tritonnavs.org/">The Navigators</a></div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Secretary (Min Faye) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/min%20faye.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Min Faye Chua</div>
+                      <div class="meta">
+                        <span class="position">Social Chair II</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Electrical Engineering</div>
+                          <div class="item">Power Depth</div>
+                          <div class="item">Intern at Parker Aerospace</div>
+                          <div class="item">Peer Educator at <a href="http://jacobsschool.ucsd.edu/idea/programs/idea_studylab.shtml">IDEA Engineering Learning Communities</a></div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- Secretary (halex) -->
+                  <div class="item">
+                    <div class="ui small image">
+                      <img src="/pics/17-18/halex.jpg">
+                    </div>
+                    <div class="content">
+                      <div class="header">Alexandra Hernandez</div>
+                      <div class="meta">
+                        <span class="position">Publicity</span>
+                      </div>
+                      <div class="description">
+                        <p>
+  
+                        <div class="ui bulleted list">
+                          <div class="item">Electrical Engineering</div>
+                          <div class="item">Custom Depth</div>
+                          <div class="item">Intern at Treeline</div>
+                          <div class="item">apparantly scared of bees</div>
+                        </div>
+  
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+  
+              
+            </div>
+          
+            <div class="ui divider"></div>
+          </div>
+  
+          <!-- Calendar -->
+          <div class="ui row">
+            <div class="ui centered header">Calendar</div>
+            <div class="ui row">
+              <div style="text-align:center;">
+                <iframe src="https://calendar.google.com/calendar/b/2/embed?title=ECE%20USC%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=eceusc%40eng.ucsd.edu&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+              </div>
+            </div>
+          </div>
           
         </div>
+  
+        <div class="three wide column">
+        </div>
+  
       </div>
+      
+      
+  
     </div>
-
+  
+    </div>
+    <div id="footer">
+    
+    <button class="ui circular icon button"
+      data-tooltip="Find us on Facebook!"
+      href="https://www.facebook.com/ECEUSC/">
+      <i class="facebook f icon"></i>
+    </button>
+    <button class="ui circular icon button"
+      data-tooltip="ECEUSC Github"
+      href="https://github.com/ucsdeceusc">
+      <i class="github icon"></i>
+    </button>
+    <button class="ui circular icon button"
+      data-tooltip="Previous ECEUSC Websites!"
+      href="/past-years">
+      <i class="fast backward icon"></i>
+      </button>
+    
   </div>
+  <script>
+    $('#picture-carousel').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      autoplay: true,
+      autoplaySpeed: 1250,
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+  </script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114295595-1"></script>
