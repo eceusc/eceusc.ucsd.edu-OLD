@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Webpage for the ECE Undergraduate Student Council!">
+  <meta name="author" content="ECE USC '17-'18">
+  <title>UCSD - ECE USC</title>
+  
+  <link rel="shortcut icon" type="image/png" href="/pics/favicon.png"/>
+  <style>
+    #footer {
+      margin-top:15px;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      background-color: #111;
+      text-align: center;
+    }
+    
+    #container {
+      padding-top:25px;
+      padding-bottom:25px;
+      min-height:75vh;
+    }
+
+    body {
+      font-size: 16px!important;
+    }
+
+  </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css" integrity="sha256-FpjP45Pz019159CFCReBCsZtVeCvGawN2Om1w+SIi0A=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.js" integrity="sha256-M9jjNz+jr/lTI+xVx2lpn3g6810YEPpSk8lReqH+qWE=" crossorigin="anonymous"></script>
+    
+      <!-- more tags here -->
+      <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+    
+  </head>
+  <body>
+
+  <div id="menu" class="ui inverted segment">
+    <div class="ui inverted secondary pointing right menu">
+      <div class="left menu">
+        <div class="item">
+          <img class="ui small image" src="/pics/logo.png">
+        </div>
+      </div>
+      <div class="right menu">
+        
+        <a href="/" class="item">
+          Home
+        </a>
+        <a href="/mentorship" class="item">
+          Mentorship
+        </a>
+        <a href="/resources" class="item">
+          Resources
+        </a>
+        <a href="/contact" class="item">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    
+    <div class="ui grid">
+      <div class="ui centered row">
+        <h1 class="ui centered header">Workshop #1
+          <div class="ui divider" style="margin-top:.25rem;margin-bottom:.5rem"></div>
+          <div class="ui sub header" style="text-transform:none">
+            Learning Git and GitHub, making your first contribution!
+          </div>
+        </h1>
+        
+      </div>
+      
+      <div class="ui row">
+  
+        <div class="three wide column">
+        </div>
+  
+        <div class="ten wide column">
+
+          <div class="ui divider"></div>
+
+          <section id="intro">
+            <h2>Introduction</h2>
+            <p>
+              This page is to to help guide you through ECE USC's Open Source 
+              Project Team's workshop! By the end of this workshop, you will have:
+              <ul>
+                <li>Learned what git is and why it's useful for software projects</li>
+                <li>Navigated the basics tools of GitHub</li>
+                <li>Made your first contribution to an open source project!</li>
+              </ul>
+            </p>
+          </section>
+          
+          <section id="prereqs">
+            
+            <h2>Pre-Requisites</h2>
+            <p>
+              Follow the guide <a href="https://docs.google.com/document/d/1IC6iB1LW5__8od9d5xa6rQa-I4LVK2emVeASbbrPk88/edit?usp=sharing">here</a>
+              to set up your environment on your computer!
+            </p>
+            <p>
+              As a general gist, you will need:
+              <ul>
+                <li>Git installed on your computer</li>
+                <li>A ready-to-go GitHub account</li>
+                <li>A terminal to run commands!</li>
+              </ul>
+            <p>
+
+          </section>
+
+
+          <div class="ui divider"></div>
+          <section id="goal">
+            <h2>Goal</h2>
+            <p>
+              In Slack, there are "slash commands." These are quick commands
+              you can invoke by using <code>/<command name></code> in a message.
+              Here is an example of the <code>/todo</code> command.
+            </p>
+              <img 
+                src="/pics/projects/eceusc-os-slack1.gif"
+                alt="Example of a working \"slash command\" on Slack"/>
+              <p class="ui small"><i>A common slash command in Slack.</i></p>
+              <br/>
+            <p>
+              In the ECE USC Slack workspace, we have created a Slack App.
+              Part of that Slack App is our custom "slash command,", <code>/eceusc</code>.
+              The standard way to call this <code>/eceusc</code> slash command is the following:
+            </p>
+
+            <div class="slash-eceusc">/eceusc {{command name}} {{arguments}}</div>
+
+            <p>
+              So, for example, we could program our slack bot to take in the command 
+              <code>get-doggo</code> that'll return a random picture of a dog.
+              This would look like:
+            </p>
+
+            <div class="slash-eceusc">
+              /eceusc get-doggo
+            </div>
+
+            <p>
+              And this is how it appears on Slack:
+            </p>
+            <img 
+              src="/pics/projects/eceusc-os-slack2.gif"
+              alt="Example of the \"/eceusc get-doggo\" slash command on Slack"/>
+            <p class="ui small"><i><code>/eceusc get-doggo</code> on Slack.</i></p>
+
+            <p>
+              <b>
+                Today, you will make your own command on this <code>/eceusc</code>
+                slash command!
+              </b>
+            </p>
+            <style>
+             .slash-eceusc {
+                font-size: 32px;
+                font-weight: bold;
+                width: 80%; 
+                margin: 2rem auto;
+                background-color: #ddd;
+                text-align: center;
+                vertical-align: middle;
+                line-height: 40px; 
+                border-radius: 8px;
+             }
+            </style>
+          </section>
+
+          <div class="ui divider"></div>
+          <section id="instructions">
+            <h2>Instructions</h2>
+            <div class="ui one column stackable center aligned page grid">
+              <div class="ui row">
+                <div class="ui compact segment" >
+                  <div class="ui header">What's your first name?</div>
+                  <div class="ui huge icon input" style="margin: 0 auto;">
+                    <input id="input-name" type="text" placeholder="Name...">
+                    <i class="search icon"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br/>
+            <br/>
+<style>
+.name {
+}
+</style>
+            <p>
+              Awesome! We are going to make a command called <span class="name"></span>.
+              We will call <span class="name"></span> with the slash command:
+            <p>
+
+            <div class="slash-eceusc">/eceusc <span class="name"></span></div>
+
+            <p>
+              To do this, all we have to do is:
+            </p>
+            <ol>
+              <li>"Fork" the ECE USC Server GitHub repository.</li>
+              <li>Make a file called <code><span class="name">.py</span></code> inside <code>slack/modules</code></li>
+              <li>Add some code to that <code><span class="name"></span>.py</code>.</li>
+              <li>Add the string "<span class="name"></span>" to <code>slack/modules/__init__.py</code></li>
+              <li>Commit your changes and make a Pull Request on GitHub!</li>
+          </section>
+
+          <p>Let's go!</p>
+          
+          <div class="ui divider"></div>
+          <section id="step1-fork">
+            <h2>Step 1: Git and GitHub - Forking</h2>
+
+            <p>
+              We are going to "fork" the <a href="https://github.com/ucsdeceusc/ECE-USC-Server">ECE USC Server GitHub repository</a>,
+              so you can start working on your own version of the code.
+            </p>
+
+            <h3>What are we doing?</h3>
+            <p>Confused by all these tools and acronyms? Here's a quick rundown!</p>
+            <div class="ui accordion">
+              <h4 class="ui header title">
+                <i class="dropdown icon"></i>
+                What is git?
+              </h4>
+              <div class="content">
+                <p>
+                Git is a tool software engineers use to better manage their code.
+                With large projects where there may be hundreds or even thousands
+                of files, engineers will need to have several "versions" of their code.
+                For example, you may have a project that needs a <code>production</code>
+                version of code (for code that is being ran "in production," or live
+                for customers), a <code>development</code> version, or a <code>new-feature</code>
+                version. Git allows people to easily switch between version and contribute 
+                to changing projects.
+                </p>
+
+                <p>Some benefits of git include:</p>
+                <ul>
+                  <li>Many people can work on the same codebase at the same time</li>
+                  <li>Code can be "version controlled" (e.g. version 2.0, 2.1, 2.2.4, etc.)</li>
+                  <li>You can "undo" or "revert" back to old/working version of your code very easily.</li>
+                </ul>
+
+                <p>
+                For every project you have, you'll have one <b>git repository</b>.
+                A repository (or "repo") is basically like a folder, or directory.
+                You can have as many files or folders inside this repo as you wish.
+                </p>
+              </div>
+              <h4 class="ui header title">
+                <i class="dropdown icon"></i>
+                What is GitHub?
+              </h4>
+            <div class="content">
+              <p>
+              GitHub is a website that displays git repositories on an open and public
+              website. You're able to find projects and code that other people
+              have written, share your work with others, and contribute to other 
+              people's projects.
+              </p>
+            </div>
+
+            <h4 class="ui header title">
+              <i class="dropdown icon"></i>
+              What is Forking?
+            </h4>
+            <div class="content">
+              <p>
+              Forking on GitHub means you are making a copy of someone else's
+              repo for your own use. Usually, you do this when you want to 
+              contribute back to a repository.
+              </p>
+              <p>For example, Facebook has a few open source projects on GitHub,
+              and their most popular repo is <a href="https://github.com/facebook/react">React</a>.
+              React is a JavaScript library that builds user interfaces for web projects.
+              </p>
+
+              <p>
+              Since React is open source, anyone can go in and check out the
+              source code for React. Anyone could "contribute" to, or help, the React
+              Project.
+              </p>
+              <p>
+              However, only a select few people have direct access to the 
+              <code>facebook/react</code> repo on GitHub. So, if I wanted to 
+              contribute to React, I would "fork", or make a copy, of the 
+              React Project so I could work on my own version and make improvements.
+              My fork could then be found at <code>asg017/react</code>.
+              Once I am done making my changes, if I wanted my changes to be 
+              in the original projects, I would make a "Pull Request." 
+              </p>
+              <p>
+              A Pull Request is done when you want the changes you made to your local
+              forked repo to appear on the original repository. The Pull Request
+              is sent to the people in charge of the original repository (i.e. Facebook),
+              And they will review the changes and decide if they want them
+              in their project. If they approve, then your changes will be 
+              "merged" into that repository and you will be an official contributor!
+              </p>
+            </div>
+            <script>$('.ui.accordion').accordion();</script>
+
+
+            <h3>Let's jump in!</h3>
+
+            <ol>
+              <li>Make sure you're signed into GitHub. Navigate to <a href="https://github.com/ucsdeceusc/ECE-USC-Server">the ECE USC Server GitHub repository</a>.</li>
+              <br/>
+                <p>
+                  This is the codebase we will be working with. This repo is
+                  primarily in Python, it is a webserver that works with the 
+                  <a href="https://www.djangoproject.com/">Django library</a>
+                  to receive/handle/make HTTP requests. You can see it live <a href="https://eceusc.herokuapp.com">here</a>!
+                </p>
+              <li>DONT PANIC</li>
+                <p>
+                  There's a lot of files in this repo: don't worry! Today, we are
+                  only going to deal with manipulating 2 files, don't worry if you 
+                  don't know what the rest do, we'll tackle those later!
+                </p>
+                <li>Press the <code>fork</code> button to create your own copy of this repo!</li>
+                  <p> example below:</p>
+                  <img 
+                    src="/pics/projects/eceusc-os-gitfork.gif"
+                    alt="Example of a working \"slash command\" on Slack"/>
+                  <p>
+                    You know have your own repo that is owned by your account!
+                  </p>
+                  
+                  <!-- `git clone` instructions -->
+                  <li>
+                    <code>git clone</code> your new repository on your machine.
+                    <ol>
+
+                      <li> Click on the <span class="ui label" style="cursor:pointer; color: #fff;background-color: #28a745;background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);">Clone or Download <i class="angle down icon"></i></span> button. 
+                        Copy the given link.
+                      </li>
+                      <li>Go to your terminal. run the command <code>git clone  &lt;link_you_copied &gt;</code></li>
+
+                      <a style="cursor:pointer;" onclick="$('#git-clone-help').toggle();">
+                        <i class="question icon"></i>
+                        <span class="small"><i>What does this command do?</i></span>
+                      </a>
+                      <p id="git-clone-help" style="display:none;">
+                        <code>git clone</code> is a git command that will "clone" the repo
+                        that is located in the given link. It will copy
+                        all the files/folders/metadata of that git repo and 
+                        place those files into your local machine.
+                      </p>
+                      <li><code>cd</code> into your new directory</li>
+                      <li><code>ls</code> (or <code>dir</code> on Windows) to see your the root directory of this project!</li>
+                    </ol>
+                  </li>
+                  
+            </ol>
+          </section>
+
+          <div class="ui divider"></div>
+          <section id="step2">
+            <h2>Step 2: Creating <code><span class="name"></span>.py</code></h2>
+            <p>
+              Next step into making your slash command: creating a python file <span class="name"></span>.
+            </p>
+
+            <ol>
+              <li><code>cd</code> into <code>slack/modules</code></li>
+                <h3>What does this folder have?</h3>
+                <p>
+                  Remember how we invoke the <code>/eceusc</code> slash command?
+                  It looks something like this:
+                </p>
+                <div class="slash-eceusc">/eceusc {{command name}} {{arguments}}</div>
+                
+                <p>
+                  For each <code>{{command name}}</code>, we have a cooresponding
+                  python file called <code>command_name.py</code>. For example,
+                  right now, we have files in <code>slack/modules</code> called
+                  <code>galex.py</code>(my personal command), <code>help.py</code>, and <code>get-doggo.py</code>.
+                </p>
+                <p>
+                  Whenever a user sends a <code>/eceusc command_name</code> message,
+                  our server will try to find the <code>command_name.py</code> inside
+                  the <code>slack/modules</code> directory and try to run a 
+                  <code>process</code> function inside. If it can't find that 
+                  command, it'll return an error.
+                </p>
+                <li>Create a <code><span class="name"></span>.py</code></li>
+                <p>If you are on a Mac or linux (including Google Cloud Console and
+                Codenvy), simply run <code>touch <span class="name"></span>.py</code>
+                and you're set! If not, try to right-click on the <code>slack/modules</code>
+                folder and select "New file."
+            </ol>
+            <p>
+              Now, with your <code><span class="name"></span>.py</code> complete,
+              you're ready to start with actual coding!
+            </p>
+          </section>
+          <br>
+          <div class="ui divider"></div>
+          <section id="step3">
+            <h2>Step 3: Add code to <span class="name"></span>.py</h2>
+            <p>
+            The only thing you need to have in <code><span class="name"></span></code> is
+            a function called <code>process</code>. <code>process</code> takes in
+            a single parameter <code>words</code> that is a list (array) of 
+            the {{arguments}} pased in by the user.
+            </p>
+            <p>
+              For example, the command:
+            </p>
+            <div class="slash-eceusc">/eceusc <span class="name"></span> these are args yo</div>
+
+            <p>
+              would mean that <code>words</code> would be the list <code>["these", "are", "args", "yo"]</code>
+              of length 4 elements.
+            </p>
+
+            <ol>
+              <li>Open your <code><span class="name"></span>.py</code></li>.
+              <li>Add the code for the <code>process</code> function.</li>
+              <pre>
+              <code class="py-code prettyprint">
+#<span class="name"></span>.py
+def process(words):
+    msg = '' # Message to send back
+    # Add your code/logic here!
+    return msg
+              </code>
+              </pre>
+
+<style>
+.py-code {
+  display:block;
+  padding: 5px 20px;
+}
+</style>
+                <p class="ui small"><i><b>NOTE:</b> It's best to <b>not</b> copy/paste this code! Try typing
+                  it out, word-by-word, all of the spaces/tabs comments. You'll learn
+                  it better that way!</i>
+                </p>
+                <p>
+
+                <li>Add your logic inside <code>process</code></li>
+                <p>
+                  What could users get our of your command? How do you want your
+                  slash-command to interact with people? Do you want users to provide
+                  input and get a certain output?
+                </p>
+
+                <p>For example, the most basic command would just return a string.
+<pre><code class="py-code prettyprint">
+def process(words):
+    msg = 'hello! this is my command!'
+    return msg
+</code></pre>
+
+<p>
+  You could also "echo" back what the user said:
+</p>
+<pre><code class="py-code prettyprint">
+def proccess(words):
+    msg = 'Your message was: "'
+    msg += ' '.join(words) # convert array to space-delimited string: ['a','b','c'] =&gt; 'a b c'
+    return msg
+</code></pre>
+
+<p>
+  Or, you can add logic based on their message:
+</p>
+<pre><code class="py-code prettyprint">
+def proccess(words):
+    if words[0] == 'hello':
+        return 'Hello!'
+    elif words[0] == 'goodbye':
+        return 'Goodbye!'
+    else:
+        return 'Sorry, I don\'t understand! Please try again'
+</code></pre>
+
+<p>
+  Wanna go deeper? Import some libraries to extend your slash command's capabilities!
+</p>
+<pre><code class="py-code prettyprint">
+import datetime
+
+def proccess(words):
+    msg = 'Right now it is currently: ' + str(datetime.datetime.now())
+    return msg
+</code></pre>
+
+<p>
+  For this first contribution, feel free to do whatever you'd like: either
+  as simple or as complex as you wish!
+</p>
+              <li>Test your new command!</li>
+              <p>
+                Let's make sure your <span class="name"></span> command works!
+              </p>
+
+              <ol>
+                <li>Make sure you have added code to <code><span class="name"></span>.py</code>
+                  and that you've saved the file.</li>
+                <li>Switch back to your terminal. Make sure you're in the <code>slack/modules</code> directory.</li> 
+                  <p>
+                    To verify, use <code>pwd</code>, the last part of the output
+                    should say <code>slack/modules</code>.
+                  </p>
+                <li>Run test.py for your command.</li>
+                  <p>
+                    Let's test <span class="name"></span> before contributing!
+                  </p>
+                  <p>
+                    There is a <code>test.py</code> file within this directory.
+                    To run it, we use:
+                  </p>
+                  <div class="slash-eceusc">python3 test.py <span class="name"></span> {{arguments}}</div>
+                  
+                  <p>
+                    If your command requires arguments (meaning you used that
+                    <code>words</code> array), you can pass them where it says
+                    {{arguments}} above.
+                  </p>
+                  <h5>Common <code>test.py</code> Errors</h5>
+                  <p>If all goes well, you'll see:
+<pre><code class="py-code prettyprint">
+$python3 test.py <span class="name"></span>
+
+================== BEGIN TEST =====================
+Testing the process function inside "<span class="name"></span>"...
+Calling `<span class="name"></span>.process([])`...
+Message to send: "Your Message"
+Test Successful!
+================== END TEST =======================
+
+$
+</code></pre>
+
+<p>
+  Otherwise, you may get something like:
+</p>
+<pre><code class="py-code prettyprint">
+$python3 test.py <span class="name"></span>
+
+================== BEGIN TEST =====================
+Testing the process function inside "<span class="name"></span>"...
+oh No! Unknown error: "unexpected indent (<span class="name"></span>.py, line 5)"
+Test Failed :(
+================== END TEST =======================
+</code></pre>
+
+<p>
+  If you do get errors, make sure to read the messages that are displayed,
+  try to debug it and google any error codes, and if you're completely stuck,
+  raise your hand and we can help!
+</p>
+
+<p>
+  Once your test is successful, you're ready to connect your slash command to the 
+  rest of the ECE USC Django server!
+</p>
+              </ol>
+            </ol>
+          </section>
+          <div class="ui divider"></div>
+          <section id="step-4">
+            <h2>Step 4: Connect <span class="name"></span> to the Django App</h2>
+            <p>
+              Right now, <span class="name"></span>.py is not connected to 
+              any other python code. So if we were to run the Django server, 
+              other python files would not be able to run your code.
+            </p>
+            <p>
+              Changing <code>__init__.py</code> will do the trick!
+            <p>
+            <ol>
+              <li>Open up <code>__init__.py</code> in <code>slack/modules</code></li>
+              <p>You will see something like:</p>
+<pre><code class"prettify py-code">
+__all__ = [                                                                        
+  'help',                                                                        
+  'galex',                                                                       
+  'find',                                                                        
+  'get-doggo',                                                                   
+]
+</code></pre>
+              <p>
+                What does this mean? Don't worry about it too much. Basically,
+                <code>__init__.py</code> files are used in python to make 
+                "packages," and for this file, <code>__all__</code> is just
+                defining what files to include as the "package".
+              </p>
+              <p>
+                This "package" is used elsewhere in this repo. It's actually 
+                used <a href="https://github.com/ucsdeceusc/ECE-USC-Server/blob/master/slack/views.py#L6">
+                  in this line!</a>
+              </p>
+              <li>Add <code>'<span class="name"></span>'</code> to the end of
+                the <code>__all__</code> code.</li>
+              <p>
+                This simple addition will allow our python project to recognize
+                your <span class="name"></span> command and add it to our repo!
+              </p>
+              <li>Save your changes to <code>__init__.py</code> and quit!</li>
+            </ol>
+          </section>
+
+          <div class="ui divider"></div>
+          <section id="step5">
+            <h2>Step 5: Commit your Changes, make a Pull Request</h2>
+            <p>
+              We are now done with all the code changes that we need to include
+              your slash command into our Slack App!
+            </p>
+            <p>
+              However, our changes are only <b>local</b>, meaning that the 
+              new repository that we forked has no idea that we made changes.
+              So we are going to need to <code>add</code>, <code>commit</code>,
+              and <code>push</code> our changes to our forked repository.
+            </p>
+            <p>
+              And then, those changes that we push will only be shown in the forked
+              repo that you own. <a href="https://github.com/ucsdeceusc/server">ECE USC's repo</a>
+              will not know about these changes. So, we will make a Pull Request (PR)
+              on GitHub to take the changes made in your repo and put them on
+              ECE USC's repo.
+            </p>
+            <p>
+              As soon as the PR is created, the owners of the ECE USC repo (me)
+              will be able to review the changes and merge it to our product!
+            </p>
+
+            <ol>
+              <li>Commit your changes to your profile's forked repository.</li>
+                <p>
+                  To do these, we will run a series of <code>git</code> commands
+                  in the terminal.
+                </p>
+                <ol>
+                  <li>Add your files to the "staging area" with <code>git add --all</code></li>
+
+                      <a style="cursor:pointer;" onclick="$('#git-add-help').toggle();">
+                        <i class="question icon"></i>
+                        <span class="small"><i>What does <code>add</code> do?</i></span>
+                      </a>
+                      <p id="git-add-help" style="display:none;">
+                        <code>git add</code> tells git "I wanna include these
+                        files into my next commit,", which basically means "I want
+                        to change these files." The <code>--all</code> flag
+                        is a shortcut that'll add every single changed file to
+                        the "staging area." If you want to add files one at a
+                        time, you could use <code>git add example.py</code>.
+                      </p>
+
+                      <li>"Commit" to your changes with <code>git commit -m "adding <span class="name"></span> to the server"</code></li>
+
+                      <a style="cursor:pointer;" onclick="$('#git-commit-help').toggle();">
+                        <i class="question icon"></i>
+                        <span class="small"><i>What does <code>commit</code> do?</i></span>
+                      </a>
+                      <div id="git-commit-help" style="display:none;">
+                      <p>
+                        <code>git commit</code> tells git "commit all the changes 
+                        I've made that's in my staging area", which basically means 
+                        "go ahead and record the changes I've made and <code>git add</code>'ed already".
+                        The <code>-m</code> flag allows you to pass a message 
+                        with a short description as a summary of the changes you
+                        made for that commit. Try to keep it short and descriptive. 
+                        Good examples are:
+                      </p>
+                        <ul>
+                          <li><a href="https://github.com/ucsdeceusc/ECE-USC-Server/commit/3bf15fb2048bc69d833cb0be69fb44a8abc4230f">
+                              made token management better
+                            </a>
+                          </li>
+                          <li><a href="https://github.com/ucsdeceusc/ECE-USC-Server/commit/baa2e6d57c46db2b1ef3e857fe3661bfa1f1e9da">
+                              updated to make heroku friendly
+                            </a>
+                          </li>
+                          <li><a href="https://github.com/ucsdeceusc/ECE-USC-Server/commit/49d670df2f211b696e5d8384e7cfa3b9f5d652de">
+                              updated requirements, added requests
+                            </a>
+                          </li>
+
+                        </ul>
+
+                        Bad ones:
+                        <ul>
+                          <li><a href="https://github.com/ucsdeceusc/ECE-USC-Server/commit/a7ab86f6773efbd381084b51042b4fea58cd4a92">
+                              whoops
+                            </a>
+                          </li>
+                        </ul>
+
+                        <p>
+                          As you can see from the links above, once you do
+                          the next step and push, you can see a webpage on GitHub
+                          of each single commit you make, along with the message,
+                          what files you changed, and everything else. Pretty useful!
+                      </p>
+                    </div>
+
+                  <li>Push your changes to your repository with <code>git push origin master</code></li>
+
+                      <a style="cursor:pointer;" onclick="$('#git-push-help').toggle();">
+                        <i class="question icon"></i>
+                        <span class="small"><i>What does <code>push</code> do?</i></span>
+                      </a>
+                      <div id="git-push-help" style="display:none;">
+                        <p>
+                          <code>git push</code> tells git "push my changes outside of my
+                          local computer and share it with the world!". 
+                          <code>git push</code> takes 2 parameters - a <code>remote_name</code>
+                          and <code>branch_name</code>.
+                        </p>
+                        <p>
+                          For most of what you do, <code>remote_name</code> will always
+                          be <code>origin</code>, which is the default name that
+                          GitHub uses. Git remotes are used in more complex project,
+                          we will only need to deal with 1 remote.
+                        </p>
+                        <p>
+                          <code>branch_name</code> will almost always be <code>master</code>
+                          as well. Git branches are used if you want different versions
+                          of your code - for example, a single git repo may have a 
+                          <code>master</code> branch where all the official code is,
+                          an <code>experiment</code> branch where developers try experimental
+                          features, and a <code>integration</code> branch where
+                          they test new features before officially adding to <code>master</code>.
+                          For now, we will only work with 1 branch - <code>master</code>,
+                          in all of our work.
+                        </p>
+                      </div>
+                </ol>
+
+                <p>
+                  All in all, this will be the code you run everytime you want
+                  to put your local changes into your repo:
+                </p>
+<pre><code class="prettify py-code">
+git add --all
+git commit -m "Your short, descriptive message here"
+git push origin master
+</code></pre>
+
+<p>If you head to the GitHub repo of your fork, you will notice your changes!</p>
+              <li>Make a Pull Request!</li>
+              <p>
+                Now, we will make a PR to make sure your changes to your own
+                repo will now reflect in the ECE USC repository.
+              </p>
+              <ol>
+                <li>Navigate to your GitHub repo. Click on the <span class="ui label" style="color: #24292e; background-color: #eff3f6;background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%)">New pull request</span> button.
+                </li>
+                  <img 
+                    src="/pics/projects/eceusc-os-gitpr.gif"
+                    alt="Creating a pull request on github"/>
+                  <p class="ui subheader">Where to find the button.</p>
+                <li>Make sure you are merging the right branches together.</li>
+
+                  <img 
+                    src="/pics/projects/eceusc-os-prdeets.png" 
+                    alt="What the PR shoud look like"/>
+                  <li>Press the 
+                    <span class="ui label" style="color: #fff;background-color: #28a745;background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);"><i class="fork icon">
+                      </i>Create Pull Request</span> 
+                       button. Add some details 
+                      and descriptions then submit with the next 
+                    <span class="ui label"style="color: #fff;background-color: #28a745;background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);">
+                      Create Pull Request</span> 
+                      button!
+                  </li>
+
+                  <p>
+                    And that's it! Your PR will be reviewed and if it's merged,
+                    your slash-command will be ready to go! go to slack and try
+                    it out:
+                  </p>
+                  <div class="slash-eceusc">/eceusc <span class="name"></span></div>
+              </ol>
+
+            </ol>
+          </section>
+          <div class="ui divider"></div>
+          <section id="nextsteps">
+            <h2>Next Steps</h2>
+            <p>
+              At the next ECE USC Open Source Workshop, we will work on:
+            </p>
+              <ul>
+                <li>Setting up the local environment for both projects</li>
+                <ul>
+                  <li>Messenger Bot: Setting up FB Page, API keys, ngrok</li>
+                  <li>Data Analysis: Downloading packages, webscraping, learning BeautifulSoup</li>
+                </ul>
+                <li>Brainstorming Ideas and sub-projects to work on</li>
+              </ul>
+          </section>
+          <section id="">
+            <h2></h2>
+            <p>
+            </p>
+          </section>
+
+        </div>
+  
+        <div class="three wide column">
+        </div>
+  
+      </div>
+      
+      <div class="ui row">
+        
+      </div>
+  
+    </div>
+    
+    
+      
+
+    </div>
+  <div id="footer">
+    
+    <a class="ui circular icon button"
+      data-tooltip="Find us on Facebook!"
+      href="https://www.facebook.com/ECEUSC/">
+      <i class="facebook f icon"></i>
+    </a>
+    <a class="ui circular icon button"
+      data-tooltip="ECEUSC Github"
+      href="https://github.com/ucsdeceusc">
+      <i class="github icon"></i>
+    </a>
+    <a class="ui circular icon button"
+      data-tooltip="Previous ECEUSC Websites!"
+      href="/past-years">
+      <i class="fast backward icon"></i>
+      </a>
+    
+  </div>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114295595-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114295595-1');
+  </script>
+  <style>
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(27,31,35,0.05);
+  border-radius: 3px;
+}
+  </style>
+            <script>
+
+$('#input-name')
+.text('example')
+.on('input', function(a) {
+  var v = $(this).val().replace(/[^a-zA-Z]/g, '').toLowerCase();
+  $('.name').text(v.toLowerCase());
+});
+            </script>
+  </body>
+</html>
