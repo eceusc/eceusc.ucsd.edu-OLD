@@ -5,7 +5,7 @@ const avatar = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avat
 
 const members = [
   {
-    name: 'Ahnaf Ahmed',
+    name: 'Ahnsdfadsfgdfgaf Ahmed',
     position: 'President',
     major: 'Electrical Engineering',
     minor: 'Business',
