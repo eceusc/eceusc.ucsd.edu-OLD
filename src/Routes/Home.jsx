@@ -12,6 +12,7 @@ const members = [
     depth: 'DSP',
     lines: [],
     isExec: true,
+    pic: 'pics/18-19/ahnaf.png',
   },
   {
     name: 'Jasmine Chiang',
@@ -21,6 +22,7 @@ const members = [
     depth: null,
     lines: [],
     isExec: true,
+    pic: 'pics/18-19/jasmine.jpeg',
   },
   {
     name: 'Victor Miranda',
@@ -30,6 +32,7 @@ const members = [
     depth: null,
     lines: [],
     isExec: true,
+    pic: 'pics/18-19/victor.jpeg',
   },
   {
     name: 'Bassel Hatoum',
@@ -37,7 +40,17 @@ const members = [
     major: 'Electrical Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/bassel.png',
+  },
+  {
+    name: 'Shivani Bhakta',
+    position: 'Treasurer',
+    major: 'Electrical Engineering',
+    minor: null,
+    depth: null,
+    lines: [],
+    pic: 'pics/18-19/shivani.png',
   },
   {
     name: 'Bryant Liu',
@@ -45,7 +58,8 @@ const members = [
     major: 'Computer Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/bryant.png',
   },
   {
     name: 'Arden Ma',
@@ -53,7 +67,8 @@ const members = [
     major: 'Electrical Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/arden.jpeg',
   },
   {
     name: 'Po Hsiang Huang',
@@ -61,7 +76,8 @@ const members = [
     major: 'Electrical Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/po.png',
   },
   {
     name: 'Kelsey Haughan',
@@ -69,7 +85,8 @@ const members = [
     major: 'Electrical Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/kelsey.png',
   },
   {
     name: 'Chau Vu',
@@ -77,7 +94,8 @@ const members = [
     major: 'Computer Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/chau.jpeg',
   },
   {
     name: 'Hassan Eid',
@@ -85,14 +103,15 @@ const members = [
     major: 'Electrical Engineering',
     minor: null,
     depth: null,
-    lines: []
+    lines: [],
+    pic: 'pics/18-19/hassan.jpeg',
   },
 ]
 
 const MemberItem = (props) => (
   <div class="item">
     <div class="ui small image">
-      <img src={avatar}/>
+      <img src={props.pic}/>
     </div>
     <div class="content">
       <div class="header">{props.name}</div>
