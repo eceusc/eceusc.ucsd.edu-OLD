@@ -12,7 +12,7 @@ export default class Mentorship extends React.Component {
         content2={
           <div style={{fontSize: '1.5rem', textAlign:'center'}}>
             Sign up for the Fall 2018 Mentorship Program {' '}
-            <a href="https://goo.gl/forms/bF0mTqK3jEh4AI3c2">here!</a>
+            <a href="https://goo.gl/forms/bF0mTqK3jEh4AI3c2" target="_blank">here!</a>
           </div>
         }/>
     </div>);
