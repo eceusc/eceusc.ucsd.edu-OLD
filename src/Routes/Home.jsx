@@ -25,10 +25,10 @@ export default class Home extends React.Component {
   render() {
     return (<div class="ui grid">
       <div class="ui centered row">
-        <h1 class="ui centered header">ECE Undergrad Student Council
+        <h1 class="ui centered header">ECE Undergraduate Student Council
           <div class="ui divider" style={{marginTop:'.25rem', marginBottom:'.5rem'}}></div>
           <div class="ui sub header" style={{textTransform: 'none'}}>
-            Serving and representing all ECE students at UC San Diego
+            Serving and representing all ECE undergraduate students at UC San Diego
           </div>
         </h1>
         
@@ -52,7 +52,7 @@ export default class Home extends React.Component {
             style={{marginLeft:120}}/>
             
             <p style={{marginTop: '20px', marginBottom: '40px'}}>
-              The ECE Undergraduate Student Council (USC) is the voice of Electrical and Computer Engineering (ECE) students at UC San Diego. Through community building, networking, and leadership, the council strives to effect change within the department and campus at large though various events and programs.
+              The ECE Undergraduate Student Council (ECE USC) is the voice of Electrical and Computer Engineering (ECE) students at UC San Diego. Through community building, networking, and leadership, the council strives to effect change within the department and campus at large though various events and programs.
             </p>
             <div class="ui divider"></div>
           </div>
