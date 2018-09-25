@@ -24,7 +24,7 @@ export default class Footer extends React.Component {
         </a>
         <a class="ui circular icon button"
           data-tooltip="ECEUSC Github"
-          href="https://github.com/ucsdeceusc">
+          href="https://github.com/eceusc">
           <i class="github icon"></i>
         </a>
         <a class="ui circular icon button"

@@ -7,7 +7,7 @@ export default class TownHalls extends React.Component {
     return (<div>
       <Container
         header="Town Halls"
-        subheader="lol fix me"
+        subheader=""
         content="Through our quarterly Town Halls, students can give feedback about different aspects of the ECE curriculum, opportunities and lifestyle as well as desired changes. Students will have their voices heard from the ECE department chair himself, Professor Truong Nguyen, who has the ability to make a change in the ECE curriculum and resources offered to students."/>
     </div>);
   }
