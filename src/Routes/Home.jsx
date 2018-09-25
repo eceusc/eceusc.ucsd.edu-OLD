@@ -1,98 +1,11 @@
 import * as React from 'react';
 import {Image} from 'semantic-ui-react';
-
-const avatar = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
-
-const members = [
-  {
-    name: 'Ahnaf Ahmed',
-    position: 'President',
-    major: 'Electrical Engineering',
-    minor: 'Business',
-    depth: 'DSP',
-    lines: [],
-    isExec: true,
-  },
-  {
-    name: 'Jasmine Chiang',
-    position: 'VP External',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: [],
-    isExec: true,
-  },
-  {
-    name: 'Victor Miranda',
-    position: 'VP Internal',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: [],
-    isExec: true,
-  },
-  {
-    name: 'Bassel Hatoum',
-    position: 'Secretary',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-  {
-    name: 'Bryant Liu',
-    position: 'Mentorship Chair',
-    major: 'Computer Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-  {
-    name: 'Arden Ma',
-    position: 'Outreach Chair',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-  {
-    name: 'Po Hsiang Huang',
-    position: 'Events Coordinator',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-  {
-    name: 'Kelsey Haughan',
-    position: 'Publicity Chair',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-  {
-    name: 'Chau Vu',
-    position: 'Committee Liason',
-    major: 'Computer Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-  {
-    name: 'Hassan Eid',
-    position: 'Committee Liason',
-    major: 'Electrical Engineering',
-    minor: null,
-    depth: null,
-    lines: []
-  },
-]
+import members from './members';
 
 const MemberItem = (props) => (
   <div class="item">
     <div class="ui small image">
-      <img src={avatar}/>
+      <img src={props.pic}/>
     </div>
     <div class="content">
       <div class="header">{props.name}</div>
