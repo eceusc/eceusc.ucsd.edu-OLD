@@ -8,6 +8,7 @@ export default [
     lines: [],
     isExec: true,
     pic: 'pics/18-19/ahnaf.png',
+    email: "bvb112Avdte/fev",
   },
   {
     name: 'Jasmine Chiang',
@@ -18,6 +19,7 @@ export default [
     lines: [],
     isExec: true,
     pic: 'pics/18-19/jasmine.jpeg',
+    email: "kzd1:9Avdte/fev",
   },
   {
     name: 'Victor Miranda',
@@ -28,6 +30,7 @@ export default [
     lines: [],
     isExec: true,
     pic: 'pics/18-19/victor.jpeg',
+    email: "WNjsboebAvdte/fev",
   },
   {
     name: 'Bassel Hatoum',
@@ -37,6 +40,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/bassel.png',
+    email: "cibupvnAvdte/fev",
   },
   {
     name: 'Shivani Bhakta',
@@ -46,6 +50,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/shivani.png',
+    email: "t:ciblubAvdte/fev",
   },
   {
     name: 'Bryant Liu',
@@ -55,6 +60,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/bryant.png',
+    email: "csm183Avdte/fev",
   },
   {
     name: 'Arden Ma',
@@ -64,6 +70,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/arden.jpeg',
+    email: "bxnbAvdte/fev",
   },
   {
     name: 'Po Hsiang Huang',
@@ -73,6 +80,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/po.png',
+    email: "qii114Avdte/fev",
   },
   {
     name: 'Kelsey Haughan',
@@ -82,6 +90,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/kelsey.png',
+    email: "libvhiboAvdte/fev",
   },
   {
     name: 'Chau Vu',
@@ -91,6 +100,7 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/chau.jpeg',
+    email: "diw115Avdte/fev",
   },
   {
     name: 'Hassan Eid',
@@ -100,5 +110,6 @@ export default [
     depth: null,
     lines: [],
     pic: 'pics/18-19/hassan.jpeg',
+    email: "infjeAvdte/fev",
   },
 ]

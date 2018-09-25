@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Container} from './helpers';
+import members from './members';
 
 export default class Outreach extends React.Component {
 
@@ -15,7 +16,8 @@ export default class Outreach extends React.Component {
             <a href="https://goo.gl/forms/7ClxPLGr4HdboiUG2" target="_blank">here!</a>
           </div>
           
-        }/>
+        }
+        contacts={[members[6]]}/>
     </div>);
   }
 }

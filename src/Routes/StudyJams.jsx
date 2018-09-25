@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Container} from './helpers';
+import members from './members';
 
 export default class StudyJams extends React.Component {
 
@@ -14,7 +15,8 @@ export default class StudyJams extends React.Component {
             Sign up for our Study Jams {' '}
             <a href="https://goo.gl/forms/UP51q0utrRA4siQq1" target="_blank">here!</a>
           </div>
-        }/>
+        }
+        contacts={[members[10]]}/>
     </div>);
   }
 }

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Container} from './helpers';
+import members from './members';
 
 export default class OpenSource extends React.Component {
 
@@ -23,7 +24,8 @@ export default class OpenSource extends React.Component {
           
           </div>
           
-        }/>
+        }
+        contacts={[members[2]]}/>
     </div>);
   }
 }
