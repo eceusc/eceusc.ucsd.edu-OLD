@@ -12,7 +12,7 @@ export default class Wece extends React.Component {
         content2={
           <div style={{fontSize: '1.2rem', textAlign:'center'}}>
             Sign up for Women in ECE {' '}
-            <a href="https://goo.gl/forms/Gznmr4e3vtRpW2FP2">here!</a>
+            <a href="https://goo.gl/forms/Gznmr4e3vtRpW2FP2" target="_blank">here!</a>
           </div>
         }/>
     </div>);

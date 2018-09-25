@@ -12,7 +12,7 @@ export default class StudyJams extends React.Component {
         content2={
           <div style={{fontSize: '1.2rem', textAlign:'center'}}>
             Sign up for our Study Jams {' '}
-            <a href="https://goo.gl/forms/UP51q0utrRA4siQq1">here!</a>
+            <a href="https://goo.gl/forms/UP51q0utrRA4siQq1" target="_blank">here!</a>
           </div>
         }/>
     </div>);

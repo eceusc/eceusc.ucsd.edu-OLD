@@ -14,11 +14,11 @@ export default class OpenSource extends React.Component {
           <br/>
           <p>
             Interested? Sign up for a project {' '}
-              <a href="https://goo.gl/forms/Sthg5fw99n6QflcJ3">here!</a>
+              <a href="https://goo.gl/forms/Sthg5fw99n6QflcJ3" target="_blank">here!</a>
           </p>
           <p>
             Interested in helping run a project? Sign up for a committee position {' '}
-            <a href="https://goo.gl/forms/k5XLKCibcPbmuIs93">here!</a>
+            <a href="https://goo.gl/forms/k5XLKCibcPbmuIs93" target="_blank">here!</a>
           </p>
           
           </div>
