@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Container} from './helpers';
+import members from './members';
 
 export default class Wece extends React.Component {
 
@@ -14,7 +15,8 @@ export default class Wece extends React.Component {
             Sign up for Women in ECE {' '}
             <a href="https://goo.gl/forms/Gznmr4e3vtRpW2FP2" target="_blank">here!</a>
           </div>
-        }/>
+        }
+        contacts={[members[9], members[4]]}/>
     </div>);
   }
 }

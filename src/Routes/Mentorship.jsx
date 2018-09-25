@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Container} from './helpers';
+import members from './members';
 
 export default class Mentorship extends React.Component {
 
@@ -14,7 +15,8 @@ export default class Mentorship extends React.Component {
             Sign up for the Fall 2018 Mentorship Program {' '}
             <a href="https://goo.gl/forms/bF0mTqK3jEh4AI3c2" target="_blank">here!</a>
           </div>
-        }/>
+        }
+        contacts={[members[5]]}/>
     </div>);
   }
 }
