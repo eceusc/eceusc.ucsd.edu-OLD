@@ -7,7 +7,7 @@ export default class Wece extends React.Component {
     return (<div>
       <Container
         header="Women in ECE"
-        subheader="lol fix me"
+        subheader=""
         content="Women in ECE (WECE) is dedicated to supporting and connecting women of all levels (undergrad, grad, faculty) within the Electrical and Computer Engineering department at UCSD. We strive to bring together an underrepresented community of the field by hosting professional, social, technical, and outreach events."
         content2={
           <div style={{fontSize: '1.2rem', textAlign:'center'}}>

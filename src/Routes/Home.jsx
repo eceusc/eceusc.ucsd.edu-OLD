@@ -5,7 +5,7 @@ const avatar = "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avat
 
 const members = [
   {
-    name: 'Ahnsdfadsfgdfgaf Ahmed',
+    name: 'Ahnaf Ahmed',
     position: 'President',
     major: 'Electrical Engineering',
     minor: 'Business',
@@ -139,10 +139,7 @@ export default class Home extends React.Component {
             style={{marginLeft:120}}/>
             
             <p style={{marginTop: '20px', marginBottom: '40px'}}>
-              We are the ECE Undergraduate Student Council - we put on many different
-              events, workshops, and programs specifically for ECE students at UC San Diego.
-              Our main projects are our Quarterly Mentorship Program, Town Halls, and social
-              events - with more to come!
+              The ECE Undergraduate Student Council (USC) is the voice of Electrical and Computer Engineering (ECE) students at UC San Diego. Through community building, networking, and leadership, the council strives to effect change within the department and campus at large though various events and programs.
             </p>
             <div class="ui divider"></div>
           </div>
