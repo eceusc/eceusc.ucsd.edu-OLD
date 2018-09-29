@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Image} from 'semantic-ui-react';
+import {Segment, Image} from 'semantic-ui-react';
 import members from './members';
 
 const MemberItem = (props) => (
@@ -46,11 +46,8 @@ export default class Home extends React.Component {
             {/*<img class="ui centered big image" src="/pics/eceusc17.jpg"/>*/}
             <Image
             src="/pics/eceusc17.jpg"
-            label={{ as: 'a', color: 'black', content: '\'17-\'18 Council', icon: 'warning sign', ribbon: true }}
             centered
-            size="big"
-            style={{marginLeft:120}}/>
-            
+            size="big"/>
             <p style={{marginTop: '20px', marginBottom: '40px'}}>
               The ECE Undergraduate Student Council (ECE USC) is the voice of Electrical and Computer Engineering (ECE) students at UC San Diego. Through community building, networking, and leadership, the council strives to effect change within the department and campus at large though various events and programs.
             </p>

@@ -94,7 +94,7 @@ export default [
   },
   {
     name: 'Chau Vu',
-    position: 'Committee Liason',
+    position: 'Committee Liaison',
     major: 'Computer Engineering',
     minor: null,
     depth: null,
@@ -104,7 +104,7 @@ export default [
   },
   {
     name: 'Hassan Eid',
-    position: 'Committee Liason',
+    position: 'Committee Liaison',
     major: 'Electrical Engineering',
     minor: null,
     depth: null,
