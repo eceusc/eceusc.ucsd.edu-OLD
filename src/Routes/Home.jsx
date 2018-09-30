@@ -2,6 +2,7 @@ import * as React from 'react';
 import {Button, Segment,Grid, Image} from 'semantic-ui-react';
 import members from './members';
 import {getEmail} from './helpers';
+import {Link} from 'react-router-dom';
 
 const MemberItemX = (props) => (
   <div style={{width: '100px', margin:'0 auto'}}>
@@ -56,7 +57,7 @@ const CouncilTeaser = () => (
         ))}
       </Grid>
       <Segment textAlign='center' style={{margin: '0 auto',marginTop:35, width:'200px'}}>
-        <Button primary>Meet the council!</Button>
+        <Button primary as={Link} to="/about">Meet the council!</Button>
       </Segment>
   </React.Fragment>);
   
