@@ -2,17 +2,7 @@ import * as React from 'react';
 import {Button, Segment, Image, Grid} from 'semantic-ui-react';
 import members from './members';
 
-const MemberItemX = (props) => (
-  <div style={{width: '100px', margin:'0 auto'}}>
-    <Image src={props.pic} size={100} circular/>
-    <div style={{textAlign:'center'}}>
-      <div class="header">{props.name.split(' ')[0]}</div>
-      <div class="meta">
-        <span class="position">{props.position}</span>
-      </div>
-    </div>
-  </div>);
-  const MemberItem = (props) => (
+const MemberItem = (props) => (
   <div class="item">
     <div class="ui small image">
       <img src={props.pic}/>
@@ -40,10 +30,10 @@ export default class OpenSource extends React.Component {
     return (
     <div class="ui grid">
       <div class="ui centered row">
-        <h1 class="ui centered header">ECE Undergraduate Student Council
+        <h1 class="ui centered header">About us
           <div class="ui divider" style={{marginTop:'.25rem', marginBottom:'.5rem'}}></div>
           <div class="ui sub header" style={{textTransform: 'none'}}>
-            Serving and representing all ECE undergraduate students at UC San Diego
+            Who we are, what we do
           </div>
         </h1>
         
@@ -55,19 +45,6 @@ export default class OpenSource extends React.Component {
         </div>
   
         <div class="ten wide column">
-  
-          <div class="ui row">
-            <div class="ui centered header">About Us</div>
-            {/*<img class="ui centered big image" src="/pics/eceusc17.jpg"/>*/}
-            <Image
-            src="/pics/eceusc17.jpg"
-            centered
-            size="big"/>
-            <p style={{marginTop: '20px', marginBottom: '40px'}}>
-              The ECE Undergraduate Student Council (ECE USC) is the voice of Electrical and Computer Engineering (ECE) students at UC San Diego. Through community building, networking, and leadership, the council strives to effect change within the department and campus at large though various events and programs.
-            </p>
-            <div class="ui divider"></div>
-          </div>
   
           <div class="ui row">
           <div class="ui stackable two column grid">

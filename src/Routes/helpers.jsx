@@ -37,7 +37,11 @@ export const Container = (props) =>  (
                   <Item.Header as='a'>{c.name}</Item.Header>
                   <Item.Meta>{c.position}</Item.Meta>
                   <Item.Description>
-                    {getEmail(c.email)}
+                    <a
+                    href={`mailto:${getEmail(c.email)}`}
+                    style={{fontSize:'.8rem'}}>
+                      {getEmail(c.email)}
+                    </a>
                   </Item.Description>
                 </Item.Content>
               </Item>
