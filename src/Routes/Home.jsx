@@ -1,11 +1,17 @@
 import * as React from 'react';
 import {Button, Segment,Grid, Image} from 'semantic-ui-react';
 import members from './members';
+import {getEmail} from './helpers';
+
 const MemberItemX = (props) => (
   <div style={{width: '100px', margin:'0 auto'}}>
     <Image src={props.pic} size={100} circular/>
     <div style={{textAlign:'center'}}>
-      <div class="header">{props.name.split(' ')[0]}</div>
+      <div class="header" style={{fontWeight:600}}>
+        <a href={`mailto:${getEmail(props.email)}`}>
+          {props.name.split(' ')[0]}
+        </a>
+      </div>
       <div class="meta">
         <span class="position">{props.position}</span>
       </div>
