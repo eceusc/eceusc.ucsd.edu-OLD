@@ -3,6 +3,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 
 /*     Routes    */
+import About from './Routes/About';
 import Contact from './Routes/Contact';
 import DeStress from './Routes/DeStress';
 import FacultyMixers from './Routes/FacultyMixers';
@@ -26,6 +27,7 @@ class App extends Component {
           <Menu/>
           <div style={{paddingTop: 25, paddingBottom: 25, minHeight: '75vh'}}>
             <Route exact path="/" component={Home}/>
+            <Route exact path="/about" component={About} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/deestressers" component={DeStress} />
             <Route exact path="/faculty-mixers" component={FacultyMixers} />
