@@ -49,7 +49,7 @@ const CouncilTeaser = () => (
           ))}
       </Grid>
       <div class="ui centered header">General</div>
-      <Grid columns={8}>
+      <Grid columns={8} stackable>
         {members.filter(m=>!m.isExec).map(m=>(
           <Grid.Column>
           <MemberItemX {...m}/>

@@ -7,7 +7,7 @@ export default class Menu extends React.Component {
   render() {
     return (
       <Segment inverted>
-        <MenuUI inverted secondary pointing>
+        <MenuUI inverted secondary pointing stackable>
           <MenuUI.Menu position="left">
             <MenuUI.Item as={Link}  to="/">
               <Image src="/logo.png" size="small"/>
