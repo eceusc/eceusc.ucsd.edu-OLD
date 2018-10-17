@@ -8,6 +8,27 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@observablehq/notebook-inspector@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@observablehq/notebook-inspector/-/notebook-inspector-1.2.2.tgz#e80b4d80c3b570c878e38185bf437ff7c86b1cb3"
+  dependencies:
+    esm "^3.0.76"
+
+"@observablehq/notebook-runtime@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@observablehq/notebook-runtime/-/notebook-runtime-1.5.4.tgz#4746daae4f5c83a5d9a0f46a1184c5e6690e464a"
+  dependencies:
+    "@observablehq/notebook-inspector" "^1.2.2"
+    "@observablehq/notebook-stdlib" "^1.2.1"
+    esm "^3.0.76"
+
+"@observablehq/notebook-stdlib@^1.2.1":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@observablehq/notebook-stdlib/-/notebook-stdlib-1.2.3.tgz#2e5948735b5959985962481f7c8150e32e1cfcd6"
+  dependencies:
+    d3-require "^1.1.0"
+    esm "^3.0.5"
+
 "@semantic-ui-react/event-stack@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-ui-react/event-stack/-/event-stack-2.0.0.tgz#d2d568a9fb0ee204b0e40d6b73ac2a2403c08451"
@@ -1840,6 +1861,10 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+d3-require@^1.1.0:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/d3-require/-/d3-require-1.1.4.tgz#f5b229aaab5586bfcd67383c78652147d3def72b"
+
 d@1:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/d/-/d-1.0.0.tgz#754bb5bfe55451da69a58b94d45f4c5b0462d58f"
@@ -2403,6 +2428,10 @@ eslint@4.10.0:
     strip-json-comments "~2.0.1"
     table "^4.0.1"
     text-table "~0.2.0"
+
+esm@^3.0.5, esm@^3.0.76:
+  version "3.0.84"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.84.tgz#bb108989f4673b32d4f62406869c28eed3815a63"
 
 espree@^3.5.1:
   version "3.5.4"
