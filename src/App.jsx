@@ -7,6 +7,7 @@ import About from './Routes/About';
 import Contact from './Routes/Contact';
 import DeStress from './Routes/DeStress';
 import FacultyMixers from './Routes/FacultyMixers';
+import GraffitiWall from './Routes/GraffitiWall';
 import Home from './Routes/Home';
 import Mentorship from './Routes/Mentorship';
 import OpenSource from './Routes/OpenSource';
@@ -19,10 +20,13 @@ import TownHalls from './Routes/TownHalls';
 import Wece from './Routes/Wece';
 import Workshop from './Routes/Workshop';
 
-import {Route} from 'react-router-dom';
+import {Route, Redirect} from 'react-router-dom';
 
 class App extends Component {
   render() {
+    if(window.location.pathname==='/graffiti-wall')
+      return <GraffitiWall/>;
+    //debugger;
     return (
         <React.Fragment>
           <Menu/>
