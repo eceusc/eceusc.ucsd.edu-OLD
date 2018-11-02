@@ -17,20 +17,20 @@ export default class Footer extends React.Component {
     return (
       <div style={footerStyle}>
 
-        <a class="ui circular icon button"
+        <a className="ui circular icon button"
           data-tooltip="Find us on Facebook!"
           href="https://www.facebook.com/ECEUSC/">
-          <i class="facebook f icon"></i>
+          <i className="facebook f icon"></i>
         </a>
-        <a class="ui circular icon button"
+        <a className="ui circular icon button"
           data-tooltip="ECEUSC Github"
           href="https://github.com/eceusc">
-          <i class="github icon"></i>
+          <i className="github icon"></i>
         </a>
-        <a class="ui circular icon button"
+        <a className="ui circular icon button"
           data-tooltip="Previous ECEUSC Websites!"
           href="/past-years/index.html">
-          <i class="fast backward icon"></i>
+          <i className="fast backward icon"></i>
         </a>
         
       </div>

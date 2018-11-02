@@ -19,6 +19,7 @@ import StudyJams from './Routes/StudyJams';
 import TownHalls from './Routes/TownHalls';
 import Wece from './Routes/Wece';
 import Workshop from './Routes/Workshop';
+import Workshop2 from './Routes/Workshop2';
 
 import {Route, Redirect} from 'react-router-dom';
 
@@ -45,6 +46,7 @@ class App extends Component {
             <Route exact path="/town-halls" component={TownHalls} />
             <Route exact path="/women-ece" component={Wece} />
             <Route exact path="/open-source/workshop1" component={Workshop} />
+            <Route exact path="/open-source/workshop2" component={Workshop2} />
           </div>
           <Footer/>
         </React.Fragment>
