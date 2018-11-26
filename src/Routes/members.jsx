@@ -7,7 +7,7 @@ export default [
     depth: 'DSP',
     lines: [],
     isExec: true,
-    pic: 'pics/18-19/ahnaf.png',
+    pic: 'pics/18-19/ahnaf.jpg',
     email: "bvb112Avdte/fev",
   },
   {
@@ -18,7 +18,7 @@ export default [
     depth: null,
     lines: [],
     isExec: true,
-    pic: 'pics/18-19/jasmine.jpeg',
+    pic: 'pics/18-19/jasmine.jpg',
     email: "kzd1:9Avdte/fev",
   },
   {
@@ -29,7 +29,7 @@ export default [
     depth: null,
     lines: [],
     isExec: true,
-    pic: 'pics/18-19/victor.jpeg',
+    pic: 'pics/18-19/victor.jpg',
     email: "WNjsboebAvdte/fev",
   },
   {
@@ -39,7 +39,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/bassel.png',
+    pic: 'pics/18-19/bassel.jpg',
     email: "cibupvnAvdte/fev",
   },
   {
@@ -49,7 +49,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/shivani.png',
+    pic: 'pics/18-19/shivani.jpg',
     email: "t:ciblubAvdte/fev",
   },
   {
@@ -59,7 +59,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/bryant.png',
+    pic: 'pics/18-19/bryant.jpg',
     email: "csm183Avdte/fev",
   },
   {
@@ -69,7 +69,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/arden.jpeg',
+    pic: 'pics/18-19/arden.jpg',
     email: "bxnbAvdte/fev",
   },
   {
@@ -79,7 +79,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/po.png',
+    pic: 'pics/18-19/po.jpg',
     email: "qii114Avdte/fev",
   },
   {
@@ -99,7 +99,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/chau.jpeg',
+    pic: 'pics/18-19/chau.jpg',
     email: "diw115Avdte/fev",
   },
   {
@@ -109,7 +109,7 @@ export default [
     minor: null,
     depth: null,
     lines: [],
-    pic: 'pics/18-19/hassan.jpeg',
+    pic: 'pics/18-19/hassan.jpg',
     email: "infjeAvdte/fev",
   },
 ]
