@@ -15,7 +15,8 @@ const MemberItem = (props) => (
       <div class="description">
         <p>
           <div class="ui bulleted list">
-            <div class="item">{props.major}</div>
+            <div class="item">{props.major} {props.depth ? <span>({props.depth})</span> : null}</div>
+            {props.lines.map(line=><div class="item">{line}</div>)}
           </div>
         </p>
       </div>
