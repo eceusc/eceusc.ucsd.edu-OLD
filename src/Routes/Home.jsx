@@ -83,7 +83,7 @@ export default class Home extends React.Component {
           <div class="ui row">
             <div class="ui centered header">About Us</div>
             <Image
-            src="/pics/eceusc17.jpg"
+            src="/pics/18-19/all.jpeg"
             centered
             size="big"/>
             <p style={{marginTop: '20px', marginBottom: '40px'}}>
