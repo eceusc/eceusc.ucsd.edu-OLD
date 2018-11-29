@@ -127,7 +127,7 @@ export default [
       'Enjoys soccer, indoor cycling, plannering, food',
       '"Couldn\'t snap until I was 14 ):"',
     ],
-    pic: 'pics/18-19/kelsey.png',
+    pic: 'pics/18-19/kelsey.jpeg',
     email: "libvhiboAvdte/fev",
   },
   {
