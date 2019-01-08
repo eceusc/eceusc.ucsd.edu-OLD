@@ -14,12 +14,7 @@ export default class OpenSource extends React.Component {
           <div style={{fontSize: '1.3rem', textAlign:'center'}}>
           <br/>
           <p>
-            Interested? Sign up for a project {' '}
-              <a href="https://goo.gl/forms/Sthg5fw99n6QflcJ3" target="_blank">here!</a>
-          </p>
-          <p>
-            Interested in helping run a project? Sign up for a committee position {' '}
-            <a href="https://goo.gl/forms/k5XLKCibcPbmuIs93" target="_blank">here!</a>
+            Signups for Winter 2019 program will come soon!
           </p>
           
           </div>
