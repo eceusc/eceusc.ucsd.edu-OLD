@@ -46,5 +46,10 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-114295595-1');
+    // eceusc.ucsd.edu?notrack=1
+    const params = new URLSearchParams(window.location.search);
+    if(params.has('notrack')){
+      window['ga-disable-UA-114295595-1'] = true; 
+    }
   </script>
 </html>
