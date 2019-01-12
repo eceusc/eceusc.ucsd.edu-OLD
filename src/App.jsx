@@ -38,15 +38,17 @@ class App extends Component {
             <Route exact path="/deestressers" component={DeStress} />
             <Route exact path="/faculty-mixers" component={FacultyMixers} />
             <Route exact path="/mentorship" component={Mentorship} />
+
             <Route exact path="/open-source" component={OpenSource} />
+            <Route exact path="/open-source/workshop1" component={Workshop} />
+            <Route exact path="/open-source/workshop2" component={Workshop2} />
+
             <Route exact path="/outreach" component={Outreach} />
             <Route exact path="/professional-workshops" component={Professional} />
             <Route exact path="/resources" component={Resources} />
             <Route exact path="/study-jams" component={StudyJams} />
             <Route exact path="/town-halls" component={TownHalls} />
             <Route exact path="/women-ece" component={Wece} />
-            <Route exact path="/open-source/workshop1" component={Workshop} />
-            <Route exact path="/open-source/workshop2" component={Workshop2} />
           </div>
           <Footer/>
         </React.Fragment>
