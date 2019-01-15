@@ -15,6 +15,7 @@ import Outreach from './Routes/Outreach';
 import Professional from './Routes/Professional';
 import Programs from './Routes/Programs';
 import Resources from './Routes/Resources';
+import Shadow from './Routes/Shadow';
 import StudyJams from './Routes/StudyJams';
 import TownHalls from './Routes/TownHalls';
 import Wece from './Routes/Wece';
@@ -46,6 +47,7 @@ class App extends Component {
             <Route exact path="/outreach" component={Outreach} />
             <Route exact path="/professional-workshops" component={Professional} />
             <Route exact path="/resources" component={Resources} />
+            <Route exact path="/shadowing" component={Shadow} />
             <Route exact path="/study-jams" component={StudyJams} />
             <Route exact path="/town-halls" component={TownHalls} />
             <Route exact path="/women-ece" component={Wece} />
