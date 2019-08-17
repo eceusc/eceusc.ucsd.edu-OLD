@@ -1,20 +1,5 @@
 export default [
   {
-    name: "Shivani Bhakta",
-    position: "VP External",
-    major: "Electrical Engineering",
-    minor: null,
-    depth: "Machine Learning",
-    lines: [
-      "Part of PiB and IEEE",
-      "Researcher for SRIP Triton Town Project",
-      '"I studied abroad in Paris, France. I enjoy badminton, cooking, board games and eating food."'
-    ],
-    isExec: true,
-    pic: "pics/18-19/shivani.jpg",
-    email: "kzd1:9Avdte/fev"
-  },
-  {
     name: "Po Hsiang Huang",
     position: "President",
     major: "Electrical Engineering",
@@ -28,6 +13,21 @@ export default [
     isExec: true,
     pic: "pics/18-19/po.jpg",
     email: "bvb112Avdte/fev"
+  },
+  {
+    name: "Shivani Bhakta",
+    position: "VP External",
+    major: "Electrical Engineering",
+    minor: null,
+    depth: "Machine Learning",
+    lines: [
+      "Part of PiB and IEEE",
+      "Researcher for SRIP Triton Town Project",
+      '"I studied abroad in Paris, France. I enjoy badminton, cooking, board games and eating food."'
+    ],
+    isExec: true,
+    pic: "pics/18-19/shivani.jpg",
+    email: "kzd1:9Avdte/fev"
   },
   {
     name: "Chau Vu",
@@ -84,7 +84,7 @@ export default [
       "Enjoys playing pool, hiking, board games, swimming",
       '"I can juggle and continue to explore new juggling styles"'
     ],
-    pic: "pics/18-19/bryant.jpg",
+    pic: "pics/19-20/bryant.jpg",
     email: "csm183Avdte/fev"
   },
   {
@@ -94,11 +94,12 @@ export default [
     minor: null,
     depth: null,
     lines: [
-      "Intern at American Express",
-      "Enjoys Photography, web development, biking",
-      '"I drink a lot of caffiene"'
+      "Back-end Software Engineer Intern at American Express",
+      "ECE 140 grader",
+      "Enjoys hiking, biking",
+      '"I went to three different middle schools"'
     ],
-    pic: "pics/18-19/bryant.jpg",
+    pic: "pics/19-20/bryant.jpg",
     email: "bxnbAvdte/fev"
   },
   {
