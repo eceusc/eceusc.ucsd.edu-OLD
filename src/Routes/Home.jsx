@@ -102,7 +102,7 @@ export default class Home extends React.Component {
           <div class="ten wide column">
             <div class="ui row">
               <div class="ui centered header">About Us</div>
-              <Image src="pics/19-20/all_new.jpg" centered size="big" />
+              <Image src="pics/19-20/all_new.JPG" centered size="big" />
               <p style={{ marginTop: "20px", marginBottom: "40px" }}>
                 The ECE Undergraduate Student Council (ECE USC) is the voice of
                 Electrical and Computer Engineering (ECE) students at UC San
