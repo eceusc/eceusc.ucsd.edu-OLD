@@ -56,10 +56,10 @@ export default class Menu extends React.Component {
                 <Dropdown.Item as={Link} to="/outreach">
                   Outreach
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/outreach">
+                <Dropdown.Item as={Link} to="/project-teams">
                   Project Teams
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/outreach">
+                <Dropdown.Item as={Link} to="/professional-committee">
                   Professional
                 </Dropdown.Item>
               </Dropdown.Menu>
