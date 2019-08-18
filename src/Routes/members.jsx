@@ -107,13 +107,13 @@ export default [
     position: "Events Coordinator",
     major: "Electrical Engineering",
     minor: null,
-    depth: "Machine Learning and Controls",
+    depth: "Machine Learning",
     lines: [
-      "Employed at Teaching and Learning Commons in Geisel",
-      "Enjoys Guitar, many sports, food, sleep",
-      '"The name I go by is the same as Kungfu Panda and the red Teletubby"'
+      "Part of SRIP 2019",
+      "Enjoys cooking, sitcom, movies, video games",
+      '"I have watched the entired Big Bang Theory show 5 times"'
     ],
-    pic: "pics/18-19/po.jpg",
+    pic: "pics/19-20/tommy.jpg",
     email: "qii114Avdte/fev"
   },
   {

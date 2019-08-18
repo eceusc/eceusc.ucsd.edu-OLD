@@ -46,7 +46,7 @@ const CouncilTeaser = () => (
         .filter(m => m.isExec)
         .sort((a, b) => {
           // We want president in middle since more visually pleasing
-          const scores = { A: 2, J: 1, V: 3 };
+          const scores = { P: 2, S: 1, C: 3 };
           const aVal = scores[a.name[0]];
           const bVal = scores[b.name[0]];
           return aVal - bVal;

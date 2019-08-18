@@ -40,10 +40,10 @@ export default class OpenSource extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Sign up for the 2019-2020 Project Teams{" "}
-              <a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
+              Interested in signing up for the 2019-2020 Project Teams ?{" "}
+              {/*<a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
                 here!
-              </a>
+            </a>*/}
             </div>
           }
           content3={
@@ -54,10 +54,13 @@ export default class OpenSource extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Interested in being a Project Lead? Sign up{" "}
-              <a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
+              Interested in being a Project Lead?{" "}
+              {/*<a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
                 here!
-              </a>
+            </a>*/}
+              <div style={{ marginTop: "22px" }}>
+                More information coming up soon
+              </div>
             </div>
           }
           contacts={[members[2], members[9]]}

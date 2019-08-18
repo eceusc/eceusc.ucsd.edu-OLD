@@ -20,9 +20,10 @@ export default class Outreach extends React.Component {
               }}
             >
               Sign up for the 2019-2020 Outreach Committee{" "}
-              <a href="https://goo.gl/forms/7ClxPLGr4HdboiUG2" target="_blank">
+              <p>More information coming up soon </p>
+              {/*<a href="https://goo.gl/forms/7ClxPLGr4HdboiUG2" target="_blank">
                 here!
-              </a>
+            </a>*/}
             </div>
           }
           contacts={[members[1]]}

@@ -19,11 +19,11 @@ export default class Professional extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Interested in being a part of our planning committee? More
-              information{" "}
-              <a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
+              Interested in being a part of our planning committee?
+              <p>More information coming up soon </p>
+              {/*<a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
                 here!
-              </a>
+            </a>*/}
             </div>
           }
           contacts={[members[6]]}

@@ -16,15 +16,18 @@ export default class Wece extends React.Component {
           content2={
             <div
               style={{
-                fontSize: "1.2rem",
+                fontSize: "1.5rem",
                 textAlign: "center",
-                marginTop: "5px"
+                marginTop: "22px"
               }}
             >
               Sign up for Women in ECE{" "}
-              <a href="https://goo.gl/forms/Gznmr4e3vtRpW2FP2" target="_blank">
+              <div style={{ marginTop: "22px" }}>
+                More information coming up soon
+              </div>
+              {/*<a href="https://goo.gl/forms/Gznmr4e3vtRpW2FP2" target="_blank">
                 here!
-              </a>
+            </a>*/}
             </div>
           }
           contacts={[members[2], members[1]]}

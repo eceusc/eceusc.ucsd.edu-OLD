@@ -41,9 +41,12 @@ export default class Mentorship extends React.Component {
               }}
             >
               Sign up for the 2019-2020 Mentorship Program{" "}
-              <a href="https://goo.gl/forms/Rdx6kjTDsOwXdD4H2" target="_blank">
+              <div style={{ marginTop: "22px" }}>
+                More information coming up soon
+              </div>
+              {/*<a href="https://goo.gl/forms/Rdx6kjTDsOwXdD4H2" target="_blank">
                 here!
-              </a>
+            </a>*/}
             </div>
           }
           contacts={[members[5]]}
