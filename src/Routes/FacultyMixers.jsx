@@ -1,16 +1,22 @@
-import * as React from 'react';
-import {Container} from './helpers';
-import members from './members';
+import * as React from "react";
+import { Container } from "./helpers";
+import members from "./members";
 
 export default class FacultyMixers extends React.Component {
-
   render() {
-    return (<div>
-    <Container
-        header="Faculty Mixers"
-        subheader=""
-        content="Through our quarterly Faculty Mixers, undergraduate students have the chance to interact with renowned ECE faculty. Interested in certain courses? Talk to one of the TAs! Interested in research studies? Talk to one of the professors! This is your opportunity to make personal and meaningful connections with our ECE faculty."
-        contacts={[members[7]]}/>
-    </div>);
+    return (
+      <div>
+        <Container
+          header="Coffee with Professors"
+          subheader=""
+          content="Coffee With Professors is a quarterly event where we invite Professors,
+          TAs, and Undergraduate students in the ECE department to come meet and mingle with 
+          students and other faculties over some casual breakfast and pastries. Our goal is 
+          to enhance students and faculties’ relationships and to establish meaningful connections 
+          amongst them."
+          contacts={[members[7]]}
+        />
+      </div>
+    );
   }
 }
