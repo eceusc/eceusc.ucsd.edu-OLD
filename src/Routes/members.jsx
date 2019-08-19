@@ -12,7 +12,7 @@ export default [
     ],
     isExec: true,
     pic: "pics/18-19/po.jpg",
-    email: "bvb112Avdte/fev"
+    email: "qii114Avdte/fev"
   },
   {
     name: "Shivani Bhakta",
@@ -27,7 +27,7 @@ export default [
     ],
     isExec: true,
     pic: "pics/18-19/shivani.jpg",
-    email: "kzd1:9Avdte/fev"
+    email: "t:ciblubAvdte/fev"
   },
   {
     name: "Chau Vu",
@@ -43,7 +43,7 @@ export default [
     ],
     isExec: true,
     pic: "pics/19-20/chau.jpg",
-    email: "WNjsboebAvdte/fev"
+    email: "diw115Avdte/fev"
   },
   {
     name: "Jon Carlo Bibat",
@@ -56,8 +56,8 @@ export default [
       "Enjoys movies, soccer, basketball, food",
       '"I\'ve lived in 5 different countries"'
     ],
-    pic: "pics/18-19/bassel.jpg",
-    email: "cibupvnAvdte/fev"
+    pic: "pics/19-20/jon.jpg",
+    email: "kcjcbuAvdte/fev"
   },
   {
     name: "Bao Hoang",
@@ -67,11 +67,12 @@ export default [
     depth: null,
     lines: [
       "Used to be IT for UCSD",
-      "Enjoys video games, movies",
+      "Also a part of SRIP 2019",
+      "Enjoys video games, movies, listening to music",
       '"I lived in Arkansas for a year"'
     ],
     pic: "pics/19-20/bao.jpg",
-    email: "t:ciblubAvdte/fev"
+    email: "chipbohAvdte/fev"
   },
   {
     name: "Prem Shelat",
@@ -84,8 +85,8 @@ export default [
       "Enjoys playing pool, hiking, board games, swimming",
       '"I can juggle and continue to explore new juggling styles"'
     ],
-    pic: "pics/19-20/bryant.jpg",
-    email: "csm183Avdte/fev"
+    pic: "pics/19-20/prem.jpg",
+    email: "qtifmbuAvdte/fev"
   },
   {
     name: "Bryant Liu",
@@ -100,7 +101,7 @@ export default [
       '"I went to three different middle schools"'
     ],
     pic: "pics/19-20/bryant.jpg",
-    email: "bxnbAvdte/fev"
+    email: "csm183Avdte/fev"
   },
   {
     name: "Tommy Man",
@@ -114,7 +115,7 @@ export default [
       '"I have watched the entired Big Bang Theory show 5 times"'
     ],
     pic: "pics/19-20/tommy.jpg",
-    email: "qii114Avdte/fev"
+    email: "gnboAvdte/fev"
   },
   {
     name: "Imanol Tovar",
@@ -123,13 +124,12 @@ export default [
     minor: null,
     depth: null,
     lines: [
-      "Also a part of Kappa Alpha Theta",
-      "Employed at Ametek Programmable Power, SoulCycle",
-      "Enjoys soccer, indoor cycling, plannering, food",
-      '"Couldn\'t snap until I was 14 ):"'
+      "Like painting, drawing, designing",
+      "Enjoys basketball, working out and mural painting",
+      '"I love comic books"'
     ],
-    pic: "pics/18-19/kelsey.jpeg",
-    email: "libvhiboAvdte/fev"
+    pic: "pics/19-20/imanol.jpg",
+    email: "jnupwbsAvdte/fev"
   },
   {
     name: "Christopher Salgado",
@@ -143,7 +143,7 @@ export default [
       "Enjoys soccer, indoor cycling, plannering, food",
       '"Couldn\'t snap until I was 14 ):"'
     ],
-    pic: "pics/18-19/kelsey.jpeg",
-    email: "libvhiboAvdte/fev"
+    pic: "pics/19-20/chris.jpg",
+    email: "detbmhbeAvdte/fev"
   }
 ];
