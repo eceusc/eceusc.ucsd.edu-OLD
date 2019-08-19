@@ -42,8 +42,8 @@ export default class Mentorship extends React.Component {
             >
               Sign up for the 2019-2020 Mentorship Program{" "}
               <a
-                href="https://docs.google.com/forms/d/1AbgrAou5SBB6pZRhkbG1KEn7sCvA2EFnl-MPe4f6fAU/edit
-"
+                href="https://forms.gle/5JZyPi2AnAvkFX4Z6
+                "
                 target="_blank"
               >
                 here
@@ -60,11 +60,7 @@ export default class Mentorship extends React.Component {
               }}
             >
               Interested in being a Mentor? Sign up{" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfqgwL6iB7sZZn_BUF01lrFDhQB0tytBs0J45z7GQP-B3YUEw/viewform
-"
-                target="_blank"
-              >
+              <a href="https://forms.gle/RS2or5CCqLQcLFn7A" target="_blank">
                 here
               </a>
               !
