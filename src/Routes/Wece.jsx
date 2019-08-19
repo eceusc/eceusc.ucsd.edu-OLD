@@ -9,7 +9,7 @@ export default class Wece extends React.Component {
         <Container
           header="Women in ECE"
           subheader=""
-          content="Women in ECE (WECE) is dedicated to supporting and connecting women 
+          content="Women in ECE (WECE) is dedicated to supporting and connecting women
           of all levels (undergrad, grad, faculty) within the Electrical and Computer
           Engineering department at UCSD. We strive to bring together an underrepresented
           community of the field by hosting social, professional, and outreach events."
@@ -21,13 +21,15 @@ export default class Wece extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Sign up for Women in ECE{" "}
-              <div style={{ marginTop: "22px" }}>
-                More information coming up soon
-              </div>
-              {/*<a href="https://goo.gl/forms/Gznmr4e3vtRpW2FP2" target="_blank">
-                here!
-            </a>*/}
+              Sign up for the 2019-2020 Women in ECE Program{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfOrDY6GsYlaGInp5PLsSius9GKLWqsYFgsC23ugnTGox8EFA/viewform
+"
+                target="_blank"
+              >
+                here
+              </a>
+              !
             </div>
           }
           contacts={[members[2], members[1]]}

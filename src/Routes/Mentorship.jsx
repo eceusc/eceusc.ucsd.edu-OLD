@@ -18,7 +18,7 @@ export default class Mentorship extends React.Component {
                 mentors and mentees will participate in{" "}
                 <b>
                   large group socials and mixers, small group meetings, and
-                  one-on-one mentorship opportunities
+                  one-on-one mentorship opportunities{" "}
                 </b>
                 each quarter.
               </div>
@@ -41,12 +41,33 @@ export default class Mentorship extends React.Component {
               }}
             >
               Sign up for the 2019-2020 Mentorship Program{" "}
-              <div style={{ marginTop: "22px" }}>
-                More information coming up soon
-              </div>
-              {/*<a href="https://goo.gl/forms/Rdx6kjTDsOwXdD4H2" target="_blank">
-                here!
-            </a>*/}
+              <a
+                href="https://docs.google.com/forms/d/1AbgrAou5SBB6pZRhkbG1KEn7sCvA2EFnl-MPe4f6fAU/edit
+"
+                target="_blank"
+              >
+                here
+              </a>
+              !
+            </div>
+          }
+          content3={
+            <div
+              style={{
+                fontSize: "1.5rem",
+                textAlign: "center",
+                marginTop: "22px"
+              }}
+            >
+              Interested in being a Mentor? Sign up{" "}
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfqgwL6iB7sZZn_BUF01lrFDhQB0tytBs0J45z7GQP-B3YUEw/viewform
+"
+                target="_blank"
+              >
+                here
+              </a>
+              !
             </div>
           }
           contacts={[members[5]]}

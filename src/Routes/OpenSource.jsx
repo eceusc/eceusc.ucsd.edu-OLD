@@ -13,7 +13,7 @@ export default class OpenSource extends React.Component {
             <div>
               <div>
                 The Project Teams Program will host 3 to 4{" "}
-                <b>hands-on ECE projects</b>
+                <b>hands-on ECE projects </b>
                 for the year. There will be dedicated Project Leads for each
                 project, who will guide the project progress and teach members
                 necessary skills and knowledge. Our projects are designed to be
@@ -40,7 +40,7 @@ export default class OpenSource extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Interested in signing up for the 2019-2020 Project Teams ?{" "}
+              Interested in joining the 2019-2020 Project Teams?{" "}
               {/*<a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
                 here!
             </a>*/}
@@ -54,12 +54,9 @@ export default class OpenSource extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Interested in being a Project Lead?{" "}
-              {/*<a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
-                here!
-            </a>*/}
-              <div style={{ marginTop: "22px" }}>
-                More information coming up soon
+              <div>Coming to our Project Launch event in Week 2</div>
+              <div style={{ fontSize: "1.2rem", marginTop: "22px" }}>
+                More detail coming up soon!
               </div>
             </div>
           }
