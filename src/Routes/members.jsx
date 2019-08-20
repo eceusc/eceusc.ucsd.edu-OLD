@@ -52,9 +52,10 @@ export default [
     minor: null,
     depth: null,
     lines: [
-      "Also a part of IEEE (Project Space Chair)",
-      "Enjoys movies, soccer, basketball, food",
-      '"I\'ve lived in 5 different countries"'
+      "Business Development Student Assistant for UCSD Environment, Health, & Safety Department",
+      "Research Intern for NEATLabs",
+      "Enjoys playing alto and baritone saxophone, video games, board games, movies, biking, eating food",
+      '"I can interpret 3 languages"'
     ],
     pic: "pics/19-20/jon.jpg",
     email: "kcjcbuAvdte/fev"
@@ -138,10 +139,10 @@ export default [
     minor: null,
     depth: null,
     lines: [
-      "Also a part of Kappa Alpha Theta",
-      "Employed at Ametek Programmable Power, SoulCycle",
-      "Enjoys soccer, indoor cycling, plannering, food",
-      '"Couldn\'t snap until I was 14 ):"'
+      "Ametek Electrical Engineering Intern",
+      "Undergraduate Researcher in Talke's Ophthalmic Instrumentation Laboratory",
+      "Enjoy cooking, gaming, spike Ball, weight lifting, hiking, anything beach related",
+      '"I love fruit"'
     ],
     pic: "pics/19-20/chris.jpg",
     email: "detbmhbeAvdte/fev"
