@@ -82,7 +82,7 @@ export default [
     minor: null,
     depth: null,
     lines: [
-      "Neurotechnology Intern at UCSD",
+      "Neurotechnology Intern for NEATLabs",
       "Enjoys playing pool, hiking, board games, swimming",
       '"I can juggle and continue to explore new juggling styles"'
     ],
