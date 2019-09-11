@@ -13,7 +13,6 @@ import Mentorship from "./Routes/Mentorship";
 import OpenSource from "./Routes/OpenSource";
 import Outreach from "./Routes/Outreach";
 import Professional from "./Routes/Professional";
-import Programs from "./Routes/Programs";
 import Resources from "./Routes/Resources";
 import Shadow from "./Routes/Shadow";
 import StudyJams from "./Routes/StudyJams";
@@ -21,8 +20,6 @@ import TownHalls from "./Routes/TownHalls";
 import Wece from "./Routes/Wece";
 import Workshop from "./Routes/Workshop";
 import Workshop2 from "./Routes/Workshop2";
-import ProjectTeam from "./Routes/ProjectTeam";
-import Professional2 from "./Routes/Professoional2";
 import { Route, Redirect } from "react-router-dom";
 
 class App extends Component {
@@ -39,11 +36,9 @@ class App extends Component {
           <Route exact path="/deestressers" component={DeStress} />
           <Route exact path="/faculty-mixers" component={FacultyMixers} />
           <Route exact path="/mentorship" component={Mentorship} />
-
           <Route exact path="/open-source" component={OpenSource} />
           <Route exact path="/open-source/workshop1" component={Workshop} />
           <Route exact path="/open-source/workshop2" component={Workshop2} />
-
           <Route exact path="/outreach" component={Outreach} />
           <Route
             exact
@@ -55,12 +50,6 @@ class App extends Component {
           <Route exact path="/study-jams" component={StudyJams} />
           <Route exact path="/town-halls" component={TownHalls} />
           <Route exact path="/women-ece" component={Wece} />
-          <Route exact path="/project-teams" component={ProjectTeam} />
-          <Route
-            exact
-            path="/professional-committee"
-            component={Professional2}
-          />
         </div>
         <Footer />
       </React.Fragment>
