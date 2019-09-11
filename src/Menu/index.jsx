@@ -51,19 +51,6 @@ export default class Menu extends React.Component {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Dropdown item text="Committees">
-              <Dropdown.Menu>
-                <Dropdown.Item as={Link} to="/outreach">
-                  Outreach
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/project-teams">
-                  Project Teams
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/professional-committee">
-                  Professional
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
             <MenuUI.Item as={NavLink} to="/resources" activeClassName="active">
               Resources
             </MenuUI.Item>
