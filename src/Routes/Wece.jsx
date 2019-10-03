@@ -32,6 +32,24 @@ export default class Wece extends React.Component {
               !
             </div>
           }
+          content3={
+            <div
+              style={{
+                fontSize: "1.5rem",
+                textAlign: "center",
+                marginTop: "22px"
+              }}
+            >
+              Join Women in ECE Facebook Page for their latest events update{" "}
+              <a
+                href="https://www.facebook.com/groups/WomeninECE/"
+                target="_blank"
+              >
+                here
+              </a>
+              !
+            </div>
+          }
           contacts={[members[2], members[1]]}
         />
       </div>

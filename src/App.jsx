@@ -10,7 +10,7 @@ import FacultyMixers from "./Routes/FacultyMixers";
 import GraffitiWall from "./Routes/GraffitiWall";
 import Home from "./Routes/Home";
 import Mentorship from "./Routes/Mentorship";
-import OpenSource from "./Routes/OpenSource";
+import ProjectTeam from "./Routes/ProjectTeam";
 import Outreach from "./Routes/Outreach";
 import Professional from "./Routes/Professional";
 import Resources from "./Routes/Resources";
@@ -36,7 +36,7 @@ class App extends Component {
           <Route exact path="/deestressers" component={DeStress} />
           <Route exact path="/faculty-mixers" component={FacultyMixers} />
           <Route exact path="/mentorship" component={Mentorship} />
-          <Route exact path="/open-source" component={OpenSource} />
+          <Route exact path="/project-teams" component={ProjectTeam} />
           <Route exact path="/open-source/workshop1" component={Workshop} />
           <Route exact path="/open-source/workshop2" component={Workshop2} />
           <Route exact path="/outreach" component={Outreach} />

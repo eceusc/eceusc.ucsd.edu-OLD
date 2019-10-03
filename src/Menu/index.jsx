@@ -21,7 +21,7 @@ export default class Menu extends React.Component {
             </MenuUI.Item>
             <Dropdown item text="Programs">
               <Dropdown.Menu>
-                <Dropdown.Item as={Link} to="/open-source">
+                <Dropdown.Item as={Link} to="/project-teams">
                   Project Teams
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/mentorship">
