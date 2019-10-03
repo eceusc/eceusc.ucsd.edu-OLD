@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Container } from "./helpers";
 import members from "./members";
+import { Image } from "semantic-ui-react";
 
 export default class ProjectTeam extends React.Component {
   render() {
@@ -22,7 +23,8 @@ export default class ProjectTeam extends React.Component {
               </div>
               <div
                 style={{
-                  marginTop: "5px"
+                  marginTop: "5px",
+                  marginBottom: "15px"
                 }}
               >
                 In this program, you will <b>meet weekly</b> throughout the
@@ -34,19 +36,8 @@ export default class ProjectTeam extends React.Component {
           }
           content2={
             <div>
-              <div
-                style={{
-                  marginLeft: "150px",
-                  marginTop: "20px"
-                }}
-              >
-                <img
-                  src="pics/projectTeamPic.png"
-                  alt="projectPic"
-                  height="400"
-                  width="500"
-                />
-              </div>
+              <Image src="pics/projectTeamPic.jpg" centered size="big" />
+
               <div
                 style={{
                   fontSize: "1.5rem",
