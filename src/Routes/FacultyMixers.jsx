@@ -7,10 +7,10 @@ const PhotoAlign = () => (
   <Grid>
     <Grid.Row columns={2}>
       <Grid.Column>
-        <Image src="pics/facultyMixer1.jpg" />
+        <Image src="pics/facultyMixer1.JPG" />
       </Grid.Column>
       <Grid.Column>
-        <Image src="pics/facultyMixer2.jpg" />
+        <Image src="pics/facultyMixer2.JPG" />
       </Grid.Column>
     </Grid.Row>
   </Grid>
