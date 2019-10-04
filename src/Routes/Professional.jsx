@@ -7,14 +7,14 @@ const ThreePhotoAlign = () => (
   <Grid>
     <Grid.Row columns={2}>
       <Grid.Column>
-        <Image src="pics/professPic3.jpg" />
+        <Image src="pics/professPic3.JPG" />
       </Grid.Column>
       <Grid.Column>
-        <Image src="pics/professPic2.jpg" />
+        <Image src="pics/professPic2.JPG" />
       </Grid.Column>
     </Grid.Row>
     <Grid.Row>
-      <Image src="pics/professPic1.jpg" centered />
+      <Image src="pics/professPic1.JPG" centered />
     </Grid.Row>
   </Grid>
 );
