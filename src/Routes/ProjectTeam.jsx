@@ -45,10 +45,7 @@ export default class ProjectTeam extends React.Component {
                   marginTop: "22px"
                 }}
               >
-                Interested in joining the 2019-2020 Project Teams?{" "}
-                {/*<a href="https://goo.gl/forms/iK5SKlx7A76RLNxD2" target="_blank">
-                here!
-            </a>*/}
+                Interested in joining the 2019-2020 Project Teams?
               </div>
             </div>
           }
@@ -60,9 +57,12 @@ export default class ProjectTeam extends React.Component {
                 marginTop: "22px"
               }}
             >
-              <div>Coming to our Project Launch event in Week 2</div>
-              <div style={{ fontSize: "1.2rem", marginTop: "22px" }}>
-                More detail coming up soon!
+              <div>
+                Come to our Projects Launch event on October 8th, 2019 at
+                6PM-7PM
+              </div>
+              <div style={{ marginTop: "10px" }}>
+                in Henry Booker Room (Jacobs building 2nd Floor)
               </div>
             </div>
           }
