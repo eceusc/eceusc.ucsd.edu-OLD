@@ -1,6 +1,20 @@
 import * as React from "react";
 import { Container } from "./helpers";
 import members from "./members";
+import { Grid, Image } from "semantic-ui-react";
+
+const PhotoAlign = () => (
+  <Grid>
+    <Grid.Row columns={2}>
+      <Grid.Column>
+        <Image src="pics/mentorPic1.jpg" />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src="pics/mentorPic2.jpg" />
+      </Grid.Column>
+    </Grid.Row>
+  </Grid>
+);
 
 export default class Mentorship extends React.Component {
   render() {
@@ -22,7 +36,7 @@ export default class Mentorship extends React.Component {
                 </b>
                 each quarter.
               </div>
-              <div style={{ marginTop: "5px" }}>
+              <div style={{ marginTop: "5px", marginBottom: "10px" }}>
                 {" "}
                 The Mentorship Program strives to bring ECE students of all
                 class levels together to build connections with fellow students,
@@ -33,22 +47,25 @@ export default class Mentorship extends React.Component {
             </div>
           }
           content2={
-            <div
-              style={{
-                fontSize: "1.5rem",
-                textAlign: "center",
-                marginTop: "22px"
-              }}
-            >
-              Sign up for the 2019-2020 Mentorship Program{" "}
-              <a
-                href="https://forms.gle/5JZyPi2AnAvkFX4Z6
-                "
-                target="_blank"
+            <div>
+              <PhotoAlign />
+              <div
+                style={{
+                  fontSize: "1.5rem",
+                  textAlign: "center",
+                  marginTop: "22px"
+                }}
               >
-                here
-              </a>
-              !
+                Sign up for the 2019-2020 Mentorship Program{" "}
+                <a
+                  href="https://forms.gle/5JZyPi2AnAvkFX4Z6
+                "
+                  target="_blank"
+                >
+                  here
+                </a>
+                !
+              </div>
             </div>
           }
           content3={
