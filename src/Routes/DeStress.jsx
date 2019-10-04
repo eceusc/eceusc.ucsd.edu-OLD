@@ -5,19 +5,19 @@ import { Grid, Image, Segment } from "semantic-ui-react";
 
 const ThreePhotoAlign = () => (
   <Grid columns={2}>
-    <Grid.Row stretched>
+    <Grid.Row>
       <Grid.Column>
         <Image src="pics/deePic3.JPG" />
       </Grid.Column>
       <Grid.Column>
         <div
           style={{
-            marginBottom: "10px"
+            marginBottom: "22px"
           }}
         >
-          <Image src="pics/deePic2.JPG" />
+          <Image src="pics/deePic2.JPG" size="medium" />
         </div>
-        <Image src="pics/deePic1.JPG" />
+        <Image src="pics/deePic1.JPG" size="medium" />
       </Grid.Column>
     </Grid.Row>
   </Grid>
