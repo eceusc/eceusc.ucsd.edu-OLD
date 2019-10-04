@@ -7,7 +7,7 @@ const ThreePhotoAlign = () => (
   <Grid columns={2}>
     <Grid.Row stretched>
       <Grid.Column>
-        <Image src="pics/deePic3.jpg" />
+        <Image src="pics/deePic3.JPG" />
       </Grid.Column>
       <Grid.Column>
         <div
@@ -15,9 +15,9 @@ const ThreePhotoAlign = () => (
             marginBottom: "10px"
           }}
         >
-          <Image src="pics/deePic2.jpg" />
+          <Image src="pics/deePic2.JPG" />
         </div>
-        <Image src="pics/deePic1.jpg" />
+        <Image src="pics/deePic1.JPG" />
       </Grid.Column>
     </Grid.Row>
   </Grid>
