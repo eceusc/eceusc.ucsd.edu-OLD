@@ -16,3 +16,7 @@ jobs:
     - run: npm install 
     - run: npm run build
     - run: ls -lah  
+    - uses: asg017/actions/acsweb@master
+      with:
+        username: eceusc
+        password: "${{secrets.ACSWEB_PASSWORD}}"
