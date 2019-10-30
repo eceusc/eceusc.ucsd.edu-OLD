@@ -20,3 +20,4 @@ jobs:
       with:
         username: eceusc
         password: "${{secrets.ACSWEB_PASSWORD}}"
+        local_dir: "./build/
