@@ -16,7 +16,7 @@ jobs:
     - run: npm install 
     - run: npm run build
     - run: ls -lah  
-    - uses: asg017/actions/acsweb@master
+    - uses: os-ucsd/actions/acsweb@0.1.0
       with:
         username: eceusc
         password: "${{secrets.ACSWEB_PASSWORD}}"
@@ -25,4 +25,4 @@ jobs:
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
         SLACK_CHANNEL: website
-        SLACK_MESSAGE: 'The site has been updated with a Github Action! :rocket:'
+        SLACK_MESSAGE:  The site has been updated  by ${{ github.actor }} with a Github Action! :rocket: 
