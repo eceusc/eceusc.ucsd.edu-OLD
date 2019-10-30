@@ -21,3 +21,8 @@ jobs:
         username: eceusc
         password: "${{secrets.ACSWEB_PASSWORD}}"
         local_dir: "./build/"
+    - uses: rtCamp/action-slack-notify@v1.0.0
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_CHANNEL: website
+        SLACK_MESSAGE: 'The site has been updated with a Github Action! :rocket:'
