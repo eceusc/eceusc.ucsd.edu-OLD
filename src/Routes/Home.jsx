@@ -84,7 +84,7 @@ export default class Home extends React.Component {
       <div class="ui grid">
         <div class="ui centered row">
           <h1 class="ui centered header">
-            ECE Undergraduate Student Council
+            ECE Undergraduate Student Council (test)
             <div
               class="ui divider"
               style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
