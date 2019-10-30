@@ -1,6 +1,9 @@
-name: CI
+name: Deply to eceusc.ucsd.edu
 
-on: [push]
+on:
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
@@ -9,11 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Setup Node.js for use with actions
-      uses: actions/setup-node@v1.1.0
-    - name: Install NPM dependencies
-      run: npm install 
-    - name: Build the app
-      run: npm run build
-    - run: echo "yee haw"
+    - uses: actions/setup-node@v1.1.0
+    - run: npm install 
+    - run: npm run build
     - run: ls -lah  
