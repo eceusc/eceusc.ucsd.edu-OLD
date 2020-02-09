@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Container } from "./helpers";
 import members from "./members";
-import { Grid, Image, Segment } from "semantic-ui-react";
+import { Grid, Image } from "semantic-ui-react";
 
 const ThreePhotoAlign = () => (
   <Grid>

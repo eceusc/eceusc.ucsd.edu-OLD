@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Grid, Item, Image, Header } from "semantic-ui-react";
+import { Grid, Item, Header } from "semantic-ui-react";
 
 export const hideEmail = email => {
   return email

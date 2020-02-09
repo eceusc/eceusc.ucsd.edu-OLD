@@ -20,7 +20,7 @@ import TownHalls from "./Routes/TownHalls";
 import Wece from "./Routes/Wece";
 import Workshop from "./Routes/Workshop";
 import Workshop2 from "./Routes/Workshop2";
-import { Route, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 class App extends Component {
   render() {

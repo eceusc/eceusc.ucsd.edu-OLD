@@ -26,6 +26,7 @@ const Calendar = () => (
     <div class="ui row">
       <div style={{ textAlign: "center" }}>
         <iframe
+          title="calendar"
           src="https://calendar.google.com/calendar/b/2/embed?title=ECE%20USC%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=eceusc%40eng.ucsd.edu&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles"
           width="800"
           height="600"

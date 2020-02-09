@@ -27,7 +27,10 @@ export default class Shadow extends React.Component {
                 open to all students! Come shadow a Council member to see what
                 they work on, and help support the Council with our new
                 initiatives and programs designed to benefit all ECE students!
-                Check out our <a href="https://drive.google.com/file/d/1GXy_SLUbn6GGc5IhNsSlfnpqy-Ip12ig/view?usp=sharing">Positional Duties!</a>{" "}
+                Check out our{" "}
+                <a href="https://drive.google.com/file/d/1GXy_SLUbn6GGc5IhNsSlfnpqy-Ip12ig/view?usp=sharing">
+                  Positional Duties!
+                </a>{" "}
               </p>{" "}
               <p>
                 The Shadowing Program begins <b> Week 3 of Winter Quarter </b>,
@@ -49,7 +52,11 @@ export default class Shadow extends React.Component {
               }}
             >
               Apply{" "}
-              <a href="https://goo.gl/forms/6LS7VBE36OQajn042" target="_blank">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdKRds9-dxPFHrACEhj6ceNZE7zUSroQMq4dNL4IhCDD1XOcw/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {" "}
                 here!{" "}
               </a>

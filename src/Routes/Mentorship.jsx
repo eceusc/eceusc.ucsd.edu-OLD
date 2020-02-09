@@ -61,6 +61,7 @@ export default class Mentorship extends React.Component {
                   href="https://forms.gle/5JZyPi2AnAvkFX4Z6
                 "
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   here
                 </a>
@@ -77,7 +78,11 @@ export default class Mentorship extends React.Component {
               }}
             >
               Interested in being a Mentor? Sign up{" "}
-              <a href="https://forms.gle/RS2or5CCqLQcLFn7A" target="_blank">
+              <a
+                href="https://forms.gle/RS2or5CCqLQcLFn7A"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 here
               </a>
               !

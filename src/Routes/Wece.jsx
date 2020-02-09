@@ -26,6 +26,7 @@ export default class Wece extends React.Component {
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfOrDY6GsYlaGInp5PLsSius9GKLWqsYFgsC23ugnTGox8EFA/viewform
 "
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 here
               </a>
@@ -44,6 +45,7 @@ export default class Wece extends React.Component {
               <a
                 href="https://www.facebook.com/groups/WomeninECE/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 here
               </a>
