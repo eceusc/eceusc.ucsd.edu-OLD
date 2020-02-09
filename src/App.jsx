@@ -46,7 +46,7 @@ class App extends Component {
             component={Professional}
           />
           <Route exact path="/resources" component={Resources} />
-          <Route exact path="/shadowing" component={Shadow} />
+          <Route exact path="/shadow" component={Shadow} />
           <Route exact path="/study-jams" component={StudyJams} />
           <Route exact path="/town-halls" component={TownHalls} />
           <Route exact path="/women-ece" component={Wece} />
