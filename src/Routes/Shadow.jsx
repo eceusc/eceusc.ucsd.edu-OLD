@@ -33,7 +33,7 @@ export default class Shadow extends React.Component {
                 </a>{" "}
               </p>{" "}
               <p>
-                The Shadowing Program begins <b> Week 3 of Winter Quarter </b>,
+                The Shadowing Program begins <b> Week 8 of Winter Quarter </b>,
                 with an expected workload of 2-3 hours per week (with flexible
                 hours!). Anyone can apply, no prior experience required!{" "}
               </p>{" "}
@@ -51,20 +51,17 @@ export default class Shadow extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Apply{" "}
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSdKRds9-dxPFHrACEhj6ceNZE7zUSroQMq4dNL4IhCDD1XOcw/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {" "}
-                here!{" "}
+                Here{" "}
               </a>
+              is the link to the application
               <br /> <br />
-              <b>
-                {" "}
-                Applications due 11: 59 pm Friday, January 18 th during Week 2{" "}
-              </b>{" "}
+              <b> Please apply as soon as possible </b>{" "}
             </div>
           }
           contacts={[members[0]]}
