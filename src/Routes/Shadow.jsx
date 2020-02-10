@@ -12,10 +12,9 @@ export default class Shadow extends React.Component {
           content={
             <div>
               <p>
-                Are you looking to get involved in the ECE Department ? Do you
-                want to meet other ECE students, learn more about the ECE
-                Undergraduate Student Council, and learn more about how the
-                department operates ?
+                Are you looking to get involved in the ECE Department?
+                Do you want to meet other ECE students, get involved in program
+                and event planning, and gain more leadership experience?
               </p>{" "}
               <p>
                 The{" "}
@@ -28,17 +27,17 @@ export default class Shadow extends React.Component {
                 they work on, and help support the Council with our new
                 initiatives and programs designed to benefit all ECE students!
                 Check out our{" "}
-                <a href="https://drive.google.com/file/d/1GXy_SLUbn6GGc5IhNsSlfnpqy-Ip12ig/view?usp=sharing">
+                <a href="https://docs.google.com/document/d/130I63BJZePH-WKJ7hHNKafwfFGw7AExPkbGQ5wKrHFY/edit?usp=sharing">
                   Positional Duties!
                 </a>{" "}
               </p>{" "}
               <p>
-                The Shadowing Program begins <b> Week 8 of Winter Quarter </b>,
+                The Shadowing Program officially begins <b> Week 1 of Spring Quarter </b>,
                 with an expected workload of 2-3 hours per week (with flexible
                 hours!). Anyone can apply, no prior experience required!{" "}
               </p>{" "}
               <p>
-                Freshmen, Sophomore and Juniors are strongly encouraged to
+                Freshmen and Sophomores are strongly encouraged to
                 apply.{" "}
               </p>{" "}
             </div>
@@ -57,11 +56,11 @@ export default class Shadow extends React.Component {
                 rel="noopener noreferrer"
               >
                 {" "}
-                Here{" "}
+                Apply Here{" "}
               </a>
-              is the link to the application
+              to join the 2020 Shadowing Program 
               <br /> <br />
-              <b> Please apply as soon as possible </b>{" "}
+              <b> Applications are closed 11:59PM Friday February 21, 2020, so apply early! </b>{" "}
             </div>
           }
           contacts={[members[0]]}
