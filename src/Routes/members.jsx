@@ -118,7 +118,7 @@ export default [
     email: "n2bmgbspAvdte/fev"
   },
   {
-    name: "Songyu Lu",
+    name: "Lu Songyu",
     position: "Events Coordinator Internal",
     major: "Computer Engineering",
     minor: null,
