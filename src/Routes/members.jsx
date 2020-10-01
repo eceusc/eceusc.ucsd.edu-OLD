@@ -114,7 +114,7 @@ export default [
       "Enjoys going to coffee shops, exercising, reading, listening and playing music, playing video games, and going to the beach",
       'Fun Fact: Have played an instrument for 10 years.'
     ],
-    pic: "pics/20-21/matthew.jpg",
+    pic: "pics/20-21/matthew.JPG",
     email: "n2bmgbspAvdte/fev"
   },
   {
