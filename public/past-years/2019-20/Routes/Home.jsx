@@ -27,9 +27,9 @@ const Calendar = () => (
       <div style={{ textAlign: "center" }}>
         <iframe
           title="calendar"
-          src="https://calendar.google.com/calendar/b/2/embed?title=ECE%20USC%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=eceusc%40eng.ucsd.edu&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles"
+          src="https://calendar.google.com/calendar/b/2/embed?title=ECE%20USC%20Events&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=eceusc%40eng.ucsd.edu&amp;color=%232F6309&amp;ctz=America%2FLos_Angeles"
           width="800"
-          height="400"
+          height="600"
           frameborder="0"
           scrolling="no"
         />
@@ -40,14 +40,14 @@ const Calendar = () => (
 
 const CouncilTeaser = () => (
   <React.Fragment>
-    <div class="ui centered header">'20-'21 Council</div>
+    <div class="ui centered header">'19-'20 Council</div>
     <div class="ui centered header">Executive</div>
     <Grid columns={3} centered stackable>
       {members
         .filter(m => m.isExec)
         .sort((a, b) => {
           // We want president in middle since more visually pleasing
-          const scores = { C: 2, B: 1, T: 3 };
+          const scores = { P: 2, S: 1, C: 3 };
           const aVal = scores[a.name[0]];
           const bVal = scores[b.name[0]];
           return aVal - bVal;
@@ -59,7 +59,7 @@ const CouncilTeaser = () => (
         ))}
     </Grid>
     <div class="ui centered header">General</div>
-    <Grid columns={8} stackable>
+    <Grid columns={7} stackable>
       {members
         .filter(m => !m.isExec)
         .map(m => (
@@ -99,10 +99,11 @@ export default class Home extends React.Component {
 
         <div class="ui row">
           <div class="three wide column" />
-          
+
           <div class="ten wide column">
             <div class="ui row">
               <div class="ui centered header">About Us</div>
+              <Image src="pics/19-20/all_new.JPG" centered size="big" />
               <p style={{ marginTop: "20px", marginBottom: "40px" }}>
                 The ECE Undergraduate Student Council (ECE USC) is the voice of
                 Electrical and Computer Engineering (ECE) students at UC San
@@ -112,12 +113,14 @@ export default class Home extends React.Component {
               </p>
               <div class="ui divider" />
             </div>
-            <div class="ui row">
-                <Calendar />
-                <div class="ui divider" />
-              </div>
+
             <div class="ui row">
               <CouncilTeaser />
+              <div class="ui divider" />
+            </div>
+
+            <div class="ui row">
+              <Calendar />
             </div>
           </div>
           <div class="three wide column" />

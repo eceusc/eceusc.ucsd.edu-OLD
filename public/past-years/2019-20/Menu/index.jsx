@@ -49,13 +49,13 @@ export default class Menu extends React.Component {
                 <Dropdown.Item as={Link} to="/study-jams">
                   Study Jams
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/ece-interview">
-                  ECE Interview
-                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <MenuUI.Item as={NavLink} to="/shadow" activeClassName="active">
               Shadow
+            </MenuUI.Item>
+            <MenuUI.Item as={NavLink} to="/resources" activeClassName="active">
+              Resources
             </MenuUI.Item>
             <MenuUI.Item as={NavLink} to="/contact" activeClassName="active">
               Contact

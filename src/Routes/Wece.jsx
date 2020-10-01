@@ -1,6 +1,20 @@
 import * as React from "react";
 import { Container } from "./helpers";
 import members from "./members";
+import { Grid, Image } from "semantic-ui-react";
+
+const PhotoAlign = () => (
+  <Grid>
+    <Grid.Row columns={2}>
+      <Grid.Column>
+        <Image src="pics/wecePic2.png" />
+      </Grid.Column>
+      <Grid.Column>
+        <Image src="pics/wecePic1.png" />
+      </Grid.Column>
+    </Grid.Row>
+  </Grid>
+);
 
 export default class Wece extends React.Component {
   render() {
@@ -9,50 +23,35 @@ export default class Wece extends React.Component {
         <Container
           header="Women in ECE"
           subheader=""
-          content="Women in ECE (WECE) is dedicated to supporting and connecting women
-          of all levels (undergrad, grad, faculty) within the Electrical and Computer
-          Engineering department at UCSD. We strive to bring together an underrepresented
-          community of the field by hosting social, professional, and outreach events."
+          content="Women in ECE (WECE) is dedicated to supporting and connecting women 
+          of all levels (undergrad, grad, faculty) within the Electrical and Computer 
+          Engineering department at UCSD. We strive to bring together an underrepresented 
+          community of the field by hosting casual meetups, socials, and professional 
+          events. We welcome new members and would love to grow our tight-knit community! "
           content2={
-            <div
-              style={{
-                fontSize: "1.5rem",
-                textAlign: "center",
-                marginTop: "22px"
-              }}
-            >
-              Sign up for the 2019-2020 Women in ECE Program{" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfOrDY6GsYlaGInp5PLsSius9GKLWqsYFgsC23ugnTGox8EFA/viewform
-"
-                target="_blank"
-                rel="noopener noreferrer"
+            <div>
+              <PhotoAlign />
+              <div
+                style={{
+                  fontSize: "1.5rem",
+                  textAlign: "center",
+                  marginTop: "22px"
+                }}
               >
-                here
-              </a>
-              !
+                Sign up for the 2020-2021 Women in ECE Program{" "}
+                <a
+                  href="https://forms.gle/3nGfsaSYMejimd8Z6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  here
+                </a>
+                !
+              </div>
             </div>
           }
-          content3={
-            <div
-              style={{
-                fontSize: "1.5rem",
-                textAlign: "center",
-                marginTop: "22px"
-              }}
-            >
-              Join Women in ECE Facebook Page for their latest events update{" "}
-              <a
-                href="https://www.facebook.com/groups/WomeninECE/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
-              !
-            </div>
-          }
-          contacts={[members[2], members[1]]}
+          
+          contacts={[members[0], members[4]]}
         />
       </div>
     );

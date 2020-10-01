@@ -7,24 +7,24 @@ const PhotoAlign = () => (
   <Grid>
     <Grid.Row columns={2}>
       <Grid.Column>
-        <Image src="pics/townHall1.JPG" />
+        <Image src="pics/studyPic1.JPG" />
       </Grid.Column>
       <Grid.Column>
-        <Image src="pics/townHall2.JPG" />
+        <Image src="pics/studyPic2.JPG" />
       </Grid.Column>
     </Grid.Row>
   </Grid>
 );
 
-export default class TownHalls extends React.Component {
+export default class StudyJams extends React.Component {
   render() {
     return (
       <div>
         <Container
-          header="Town Halls"
+          header="Study Jams"
           subheader=""
-          content="Through our quarterly Town Halls, students can give feedback about different aspects of the ECE curriculum and opportunities in addition to desired changes. Students will have their voices heard from the ECE department chair himself, who has the ability to make a change in the ECE curriculum and student resources.
-        "
+          content="During midterm season and finals week, our Study Jams create an environment that promotes learning. Whether working independently or with a group, the ECE Undergraduate Student Council works to ensure that ECE students will have a place to study during these intense times. These programs will also include the refreshments/light snacks necessary to keep on studying.
+          "
           content2={
             <div
               style={{
@@ -34,7 +34,7 @@ export default class TownHalls extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[2]]}
+          contacts={[members[4]]}
         />
       </div>
     );

@@ -30,18 +30,6 @@ export default class FacultyMixers extends React.Component {
           amongst them."
           content2={
             <div
-            style={{
-              fontSize: "1.5rem",
-              textAlign: "center",
-              marginTop: "22px"
-            }}
-            >
-              Currently, due to Covid-19, Coffee with Professors by USC is 
-              delayed until further notice.
-            </div>
-          }
-          content3={
-            <div
               style={{
                 marginTop: "20px"
               }}
@@ -49,7 +37,7 @@ export default class FacultyMixers extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[8]]}
+          contacts={[members[7]]}
         />
       </div>
     );

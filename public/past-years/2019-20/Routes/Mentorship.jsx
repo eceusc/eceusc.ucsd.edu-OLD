@@ -7,14 +7,11 @@ const PhotoAlign = () => (
   <Grid>
     <Grid.Row columns={2}>
       <Grid.Column>
-        <Image src="pics/mentorPic3.png" />
+        <Image src="pics/mentorPic1.jpg" />
       </Grid.Column>
       <Grid.Column>
-        <Image src="pics/mentorPic4.png" />
+        <Image src="pics/mentorPic2.jpg" />
       </Grid.Column>
-    </Grid.Row>
-    <Grid.Row>
-    <Image src="pics/mentorPoster.png" centered size="large" />
     </Grid.Row>
   </Grid>
 );
@@ -59,9 +56,10 @@ export default class Mentorship extends React.Component {
                   marginTop: "22px"
                 }}
               >
-                Sign up to be a <b>Mentee</b> for the 2020-2021 Mentorship Program{" "}
+                Sign up for the 2019-2020 Mentorship Program{" "}
                 <a
-                  href="http://tinyurl.com/eceuscmentee20"
+                  href="https://forms.gle/5JZyPi2AnAvkFX4Z6
+                "
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -79,9 +77,9 @@ export default class Mentorship extends React.Component {
                 marginTop: "22px"
               }}
             >
-              Interested in being a <b>Mentor</b>? Sign up{" "}
+              Interested in being a Mentor? Sign up{" "}
               <a
-                href="http://tinyurl.com/eceuscmentor20"
+                href="https://forms.gle/RS2or5CCqLQcLFn7A"
                 target="_blank"
                 rel="noopener noreferrer"
               >

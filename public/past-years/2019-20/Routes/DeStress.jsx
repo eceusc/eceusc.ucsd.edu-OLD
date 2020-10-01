@@ -4,16 +4,20 @@ import members from "./members";
 import { Grid, Image } from "semantic-ui-react";
 
 const ThreePhotoAlign = () => (
-  <Grid columns={3}>
+  <Grid columns={2}>
     <Grid.Row>
       <Grid.Column>
         <Image src="pics/deePic3.JPG" />
       </Grid.Column>
       <Grid.Column>
-          <Image src="pics/deePic2.JPG" />
-      </Grid.Column>
-      <Grid.Column>
-        <Image src="pics/deePic1.JPG" />
+        <div
+          style={{
+            marginBottom: "22px"
+          }}
+        >
+          <Image src="pics/deePic2.JPG" size="medium" />
+        </div>
+        <Image src="pics/deePic1.JPG" size="medium" />
       </Grid.Column>
     </Grid.Row>
   </Grid>

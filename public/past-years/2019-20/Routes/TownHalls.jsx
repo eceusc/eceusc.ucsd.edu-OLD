@@ -34,7 +34,7 @@ export default class TownHalls extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[2]]}
+          contacts={[members[3]]}
         />
       </div>
     );

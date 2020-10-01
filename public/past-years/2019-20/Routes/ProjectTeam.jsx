@@ -13,7 +13,7 @@ export default class ProjectTeam extends React.Component {
           content={
             <div>
               <div>
-                The Project Teams Program will host 2{" "}
+                The Project Teams Program will host 3 to 4{" "}
                 <b>hands-on ECE projects </b>
                 for the year. There will be dedicated Project Leads for each
                 project, who will guide the project progress and teach members
@@ -27,7 +27,9 @@ export default class ProjectTeam extends React.Component {
                   marginBottom: "15px"
                 }}
               >
-                Details about the projects and the
+                In this program, you will <b>meet weekly</b> throughout the
+                duration of the project to attend team meetings and workshops
+                led by a Project Lead. Details about the projects and the
                 meetings will be announced in our Projects Team Launch event.
               </div>
             </div>
@@ -43,7 +45,7 @@ export default class ProjectTeam extends React.Component {
                   marginTop: "22px"
                 }}
               >
-                Interested in joining the 2020-2021 Project Teams?
+                Interested in joining the 2019-2020 Project Teams?
               </div>
             </div>
           }
@@ -56,36 +58,15 @@ export default class ProjectTeam extends React.Component {
               }}
             >
               <div>
-                Come to our Projects Launch event on October 14th, 2020 at
-                7PM-8PM
+                Come to our Projects Launch event on October 8th, 2019 at
+                6PM-7PM
               </div>
               <div style={{ marginTop: "10px" }}>
-                Launch Zoom link {" "}
-                <a
-                href="https://ucsd.zoom.us/j/94725608079"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  here
-                </a>
-                !
+                in Henry Booker Room (Jacobs building 2nd Floor)
               </div>
-              <div style={{ marginTop:"10px"}}>
-                Sign up for Projects{" "}
-                <a
-                href="https://tinyurl.com/eceuscprojects"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  here
-                </a>
-                !
-              </div>
-
             </div>
           }
-          
-          contacts={[members[10]]}
+          contacts={[members[2], members[9]]}
         />
       </div>
     );

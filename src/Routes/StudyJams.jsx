@@ -23,8 +23,7 @@ export default class StudyJams extends React.Component {
         <Container
           header="Study Jams"
           subheader=""
-          content="During midterm season and finals week, our Study Jams create an environment that promotes learning. Whether working independently or with a group, the ECE Undergraduate Student Council works to ensure that ECE students will have a place to study during these intense times. These programs will also include the refreshments/light snacks necessary to keep on studying.
-          "
+          content="During midterm season and finals week, our Study Jams create an environment that promotes learning. Whether working independently or with a group, the ECE Undergraduate Student Council works to ensure that ECE students will have a place to study during these intense times. These programs will also include the refreshments/light snacks necessary to keep on studying."
           content2={
             <div
               style={{
@@ -34,7 +33,7 @@ export default class StudyJams extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[4]]}
+          contacts={[members[7]]}
         />
       </div>
     );
