@@ -60,13 +60,32 @@ export default class OpenSource extends React.Component {
         <Container
           header="Contact"
           subheader="Get in contact with the council"
-          content="Email: eceusc@eng.ucsd.edu"
+          content={
+            <div class="ui centered row">
+              <div class="ui centered sub header">
+                Email: eceusc@eng.ucsd.edu
+              </div>
+            </div>
+          }
           content2={
             <div>
+              <div class="ui centered sub header">
               Facebook:{" "}
               <a href="https://www.facebook.com/ECEUSC/">
                 https://www.facebook.com/ECEUSC/{" "}
               </a>{" "}
+              </div>
+              <div class="ui divider" />
+              <div class="ui centered row">
+              <div class="ui centered header">Join our Newsletter!</div>
+              <div class="ui centered sub header" style={{ marginTop: "20px", marginBottom: "5px" }}>
+                Subscribe to our newsletter to get weekly updates on USC related events!
+              </div>
+              <div class="ui centered sub header" style={{ marginTop: "5px", marginBottom: "40px" }}>
+                To subscribe, click <a href="http://tinyurl.com/eceuscnewsletter">here</a>!
+              </div>
+              <div class="ui divider" />
+            </div>
             </div>
           }
           content3={

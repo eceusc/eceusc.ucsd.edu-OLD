@@ -112,6 +112,16 @@ export default class Home extends React.Component {
               </p>
               <div class="ui divider" />
             </div>
+            <div class="ui centered row">
+              <div class="ui centered header">Join our Newsletter!</div>
+              <div class="ui centered sub header" style={{ marginTop: "20px", marginBottom: "5px" }}>
+                Subscribe to our newsletter to get weekly updates on USC related events!
+              </div>
+              <div class="ui centered sub header" style={{ marginTop: "5px", marginBottom: "40px" }}>
+                To subscribe, click <a href="http://tinyurl.com/eceuscnewsletter">here</a>!
+              </div>
+              <div class="ui divider" />
+            </div>
             <div class="ui row">
                 <Calendar />
                 <div class="ui divider" />
