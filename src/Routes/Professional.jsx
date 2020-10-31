@@ -10,10 +10,40 @@ const TwoPhotoAlign = () => (
         <Image src="pics/professPic3.JPG" />
       </Grid.Column>
       <Grid.Column>
-        <Image src="pics/professPic1.JPG" />
+        <Image src="pics/professPic4.JPG" />
       </Grid.Column>
     </Grid.Row>
   </Grid>
+);
+
+const Slides = () => (
+  <React.Fragment>
+    <div class="ui centered header"
+    style={{
+      fontSize: "1.5rem",
+      textAlign: "center",
+      marginTop: "22px"
+    }}
+    >Previous Workshop Slides</div>
+    <div class="ui row">
+      <div class="ui centered header"
+      style={{
+        fontSize: "1.0rem",
+        textAlign: "center",
+      }}
+      >October 15th, 2020: Nailing Your Internship Application</div>
+      <div style={{ textAlign: "center" }}>
+        <iframe
+          title="calendar"
+          src="slides/UCSD ECE USC Presentation 10_15_2020.pdf"
+          width="600"
+          height="500"
+          frameborder="0"
+          scrolling="no"
+        />
+      </div>
+    </div>
+  </React.Fragment>
 );
 
 export default class Professional extends React.Component {
@@ -38,6 +68,13 @@ export default class Professional extends React.Component {
               }}
             >
               <TwoPhotoAlign />
+              
+            </div>
+          }
+          content3={
+            <div>
+              <div class="ui divider" />
+              <Slides />
             </div>
           }
           contacts={[members[6]]}
