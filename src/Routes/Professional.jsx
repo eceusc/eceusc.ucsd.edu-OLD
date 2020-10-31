@@ -10,7 +10,7 @@ const TwoPhotoAlign = () => (
         <Image src="pics/professPic3.JPG" />
       </Grid.Column>
       <Grid.Column>
-        <Image src="pics/professPic4.JPG" />
+        <Image src="pics/professPic4.jpg" />
       </Grid.Column>
     </Grid.Row>
   </Grid>

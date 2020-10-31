@@ -55,6 +55,7 @@ export default class Interview extends React.Component {
             >
               <div className="ui centered header"
                 style={{
+                  fontSize: "1.0rem",
                   marginBottom: "0px"
                 }}
               >
@@ -62,6 +63,7 @@ export default class Interview extends React.Component {
               </div>
               <div className="ui centered header"
                 style={{
+                  fontSize: "1.0rem",
                   marginTop: "0px"
                 }}
               >
