@@ -2,33 +2,6 @@ import * as React from "react";
 import { Container } from "./helpers";
 import members from "./members";
 
-const Video1 = () => (
-  <React.Fragment>
-    <div class="ui row">
-      <div style={{ textAlign: "center" }}>
-      <iframe 
-        src="https://drive.google.com/file/d/18r-2oTG70d3ataE847DSWOBwzBZloUPJ/preview" 
-        width="640" 
-        height="480" 
-      />
-      </div>
-    </div>
-  </React.Fragment>
-);
-const Video2 = () => (
-  <React.Fragment>
-    <div class="ui row">
-      <div style={{ textAlign: "center" }}>
-      <iframe 
-        src="https://drive.google.com/file/d/18r-2oTG70d3ataE847DSWOBwzBZloUPJ/preview" 
-        width="640" 
-        height="480" 
-      />
-      </div>
-    </div>
-  </React.Fragment>
-);
-
 const Slides1 = () => (
   <React.Fragment>
     <div class="ui row">
