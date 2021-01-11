@@ -100,7 +100,7 @@ export default class Interview extends React.Component {
                   marginBottom: "0px"
                 }}
               >
-                October 28th, 2020: Hanh-Phuc Le
+                November 25th, 2020: Tse Nga
               </div>
 
               <div className="ui centered header"
