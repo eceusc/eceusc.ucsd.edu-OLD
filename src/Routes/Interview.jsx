@@ -120,6 +120,29 @@ export default class Interview extends React.Component {
               <Slides2 />
               {/*<Video2 />*/}
 
+              <div className="ui centered header"
+                style={{
+                  fontSize: "1.0rem",
+                  marginBottom: "0px"
+                }}
+              >
+                January 21st, 2021: Fred Harris
+              </div>
+              <div className="ui centered header"
+                style={{
+                  fontSize: "1.0rem",
+                  marginTop: "0px"
+                }}
+              >
+                <a
+                  href="https://drive.google.com/file/d/1X53REplobWadM2HO467qUmexHSmkZ-sb/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Video
+                </a>
+              </div>
+
               </div>
           }
           contacts={[members[8]]}
