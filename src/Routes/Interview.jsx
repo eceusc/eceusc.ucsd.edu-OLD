@@ -34,6 +34,22 @@ const Slides2 = () => (
     </div>
   </React.Fragment>
 );
+const Slides3 = () => (
+  <React.Fragment>
+    <div class="ui row">
+      <div style={{ textAlign: "center" }}>
+        <iframe
+          title="slides"
+          src="slides/UCSD ECE USC Interview 01_21_2021.pdf"
+          width="575"
+          height="375"
+          frameborder="0"
+          scrolling="no"
+        />
+      </div>
+    </div>
+  </React.Fragment>
+);
 
 export default class Interview extends React.Component {
   render() {
@@ -92,7 +108,6 @@ export default class Interview extends React.Component {
                 </a>
               </div>
               <Slides1 />
-              {/*<Video1 />*/}
               
               <div className="ui centered header"
                 style={{
@@ -118,7 +133,6 @@ export default class Interview extends React.Component {
                 </a>
               </div>
               <Slides2 />
-              {/*<Video2 />*/}
 
               <div className="ui centered header"
                 style={{
@@ -142,7 +156,7 @@ export default class Interview extends React.Component {
                   Video
                 </a>
               </div>
-
+              <Slides3 />
               </div>
           }
           contacts={[members[8]]}
