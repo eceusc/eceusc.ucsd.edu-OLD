@@ -42,6 +42,22 @@ const Slides = () => (
           scrolling="no"
         />
       </div>
+      <div class="ui centered header"
+      style={{
+        fontSize: "1.0rem",
+        textAlign: "center",
+      }}
+      >January 27th, 2021: USCxACM - Innovating your Linkedin Profile</div>
+      <div style={{ textAlign: "center" }}>
+        <iframe
+          title="calendar"
+          src="slides/UCSD ECE USC Presentation 01_27_2021.pdf"
+          width="600"
+          height="500"
+          frameborder="0"
+          scrolling="no"
+        />
+      </div>
     </div>
   </React.Fragment>
 );
