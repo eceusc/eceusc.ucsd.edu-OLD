@@ -52,6 +52,9 @@ export default class Menu extends React.Component {
                 <Dropdown.Item as={Link} to="/ece-interview">
                   ECE Interview
                 </Dropdown.Item>
+                <Dropdown.Item as={Link} to="/ML-bootcamp">
+                  ML Bootcamp
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <MenuUI.Item as={NavLink} to="/shadow" activeClassName="active">

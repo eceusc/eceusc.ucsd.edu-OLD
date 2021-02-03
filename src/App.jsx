@@ -20,6 +20,7 @@ import Wece from "./Routes/Wece";
 import Workshop from "./Routes/Workshop";
 import Workshop2 from "./Routes/Workshop2";
 import ECEInterview from "./Routes/Interview";
+import MLBootcamp from "./Routes/MLBootcamp";
 import { Route } from "react-router-dom";
 
 class App extends Component {
@@ -46,6 +47,7 @@ class App extends Component {
           <Route exact path="/town-halls" component={TownHalls} />
           <Route exact path="/women-ece" component={Wece} />
           <Route exact path="/ece-interview" component={ECEInterview} />
+          <Route exact path="/ML-bootcamp" component={MLBootcamp} />
         </div>
         <Footer />
       </React.Fragment>
