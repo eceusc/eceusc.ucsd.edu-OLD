@@ -66,7 +66,7 @@ export default [
     minor: null,
     depth: null,
     lines: [
-      "Working for IT servies in UCSD",
+      "Working for IT services in UCSD",
       "Affiliated with Women in Computing",
       "Enjoys painting with acryilic & oil, and dancing",
       'Fun Fact: Favorite color is aquamarine'

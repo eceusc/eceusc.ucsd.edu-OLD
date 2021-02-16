@@ -47,44 +47,59 @@ export default class ProjectTeam extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                  Intro Video 
+                Video 
                 </a><br></br>
                 <a
                 href="https://docs.google.com/presentation/d/1yso05WGkqqGNo2k8dD0srbm04j4uis2HZR7xpzDlZc0/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer">
-                Intro Slides  
+                Slides  
                 </a><br></br>
                 <a
                 href="https://forms.gle/iKpChzU8LaY1UR2P6"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                  Intro Quiz
-                </a>
-              </div>
-              {/*<div style={{ marginTop: "10px" }}>
-                Launch Zoom link {" "}
+                Quiz
+                </a><br></br>
+                <br></br>
+                February 4th, Linear Regression
+                <br></br>
                 <a
-                href="https://ucsd.zoom.us/j/94725608079"
+                href="https://drive.google.com/file/d/1kLJovQItkE5Iqni6KlN2crZ2oGP6dBv8/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                  here
-                </a>
-                !
-              </div>
-              <div style={{ marginTop:"10px"}}>
-                Sign up for Projects{" "}
+                Video 
+                </a><br></br>
                 <a
-                href="https://tinyurl.com/eceuscprojects"
+                href="https://docs.google.com/presentation/d/1ufB8eFELNOFpPT7Y6wD28_24dtvUcZptO8W3Xxnrq6Q/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer">
+                Slides  
+                </a><br></br>
+                <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfu2x0UoWJ0XjX2lbdpbH-pMsXiId37M3FQaOIQbAvRQHzTUQ/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                  here
+                Quiz
+                </a><br></br>
+                <a
+                href="https://colab.research.google.com/drive/1yWMqJqP9b8vlaP4NXw6uRzf94qt2phwc?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Exercise
+                </a><br></br>
+                <a
+                href="https://colab.research.google.com/drive/1MNj--ddmQ13ZFRJcamzbTjB1hQJhqKw6?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                Exercise Solution
                 </a>
-                !
-            </div>*/}
+              </div>
 
             </div>
           }
