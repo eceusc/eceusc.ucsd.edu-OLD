@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Container } from "./helpers";
 import members from "./members";
+import { Image } from "semantic-ui-react";
 
 export default class Shadow extends React.Component {
   render() {
@@ -50,8 +51,8 @@ export default class Shadow extends React.Component {
                 marginTop: "22px"
               }}
             >
-              {/*<a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdKRds9-dxPFHrACEhj6ceNZE7zUSroQMq4dNL4IhCDD1XOcw/viewform"
+              <a
+                href="https://forms.gle/RH5m6WTQP5hy6MMd9"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -59,8 +60,8 @@ export default class Shadow extends React.Component {
                 Apply Here{" "}
               </a>
               to join the 2021 Shadowing Program 
-              <br /> <br />*/}
-              <b> Applications go out week 7 of Winter, 2021! </b>{" "}
+              <br></br><br></br>
+              <Image src="pics/Shadow_21.png" centered size="big" />
             </div>
           }
           contacts={[members[0]]}
