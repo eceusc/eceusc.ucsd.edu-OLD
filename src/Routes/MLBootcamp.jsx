@@ -61,7 +61,9 @@ export default class ProjectTeam extends React.Component {
                 rel="noopener noreferrer"
                 >
                 Quiz
-                </a><br></br>
+                </a>
+                
+                <br></br>
                 <br></br>
                 February 4th, Linear Regression
                 <br></br>
@@ -99,6 +101,10 @@ export default class ProjectTeam extends React.Component {
                 >
                 Exercise Solution
                 </a>
+
+                <br></br>
+                <br></br>
+                
               </div>
 
             </div>
