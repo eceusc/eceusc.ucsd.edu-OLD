@@ -48,6 +48,14 @@ class App extends Component {
           <Route exact path="/women-ece" component={Wece} />
           <Route exact path="/ece-interview" component={ECEInterview} />
           <Route exact path="/ML-bootcamp" component={MLBootcamp} />
+          <Route path='/positions' component={() => { 
+            window.location.href = 'https://docs.google.com/document/d/13sTv6RvrrNYfIXy6iVXueAHsTCEbrONBya01zCZuZZI/edit?usp=sharing'; 
+            return null;
+          }}/>
+          <Route path='/apply' component={() => { 
+            window.location.href = 'https://forms.gle/kxwxnmoENT5qqUeq5'; 
+            return null;
+          }}/>
         </div>
         <Footer />
       </React.Fragment>
