@@ -24,7 +24,38 @@ const Slides = () => (
       textAlign: "center",
       marginTop: "22px"
     }}
-    >Previous Workshop Slides</div>
+    >Previous Workshop Slides
+    </div>
+    <div class="ui centered header"
+      style={{
+        fontSize: "1.0rem",
+        textAlign: "center",
+      }}
+      >April 19th, 2021: ECE BS/MS Info Session and Panel</div>
+      <div style={{ textAlign: "center" }}>
+        <iframe 
+          title="bsms-recording"
+          src="https://drive.google.com/file/d/1YyzWF2H6JTD-bEWq3SJnqwo2NbuNVKpu/preview" 
+          width="640"
+          height="480">
+        </iframe>
+    </div>
+    <div class="ui centered header"
+      style={{
+        fontSize: "1.0rem",
+        textAlign: "center",
+      }}
+      >January 27th, 2021: USCxACM - Innovating your Linkedin Profile</div>
+      <div style={{ textAlign: "center" }}>
+        <iframe
+          title="calendar"
+          src="slides/UCSD ECE USC Presentation 01_27_2021.pdf"
+          width="600"
+          height="500"
+          frameborder="0"
+          scrolling="no"
+        />
+      </div>
     <div class="ui row">
       <div class="ui centered header"
       style={{
@@ -42,25 +73,10 @@ const Slides = () => (
           scrolling="no"
         />
       </div>
-      <div class="ui centered header"
-      style={{
-        fontSize: "1.0rem",
-        textAlign: "center",
-      }}
-      >January 27th, 2021: USCxACM - Innovating your Linkedin Profile</div>
-      <div style={{ textAlign: "center" }}>
-        <iframe
-          title="calendar"
-          src="slides/UCSD ECE USC Presentation 01_27_2021.pdf"
-          width="600"
-          height="500"
-          frameborder="0"
-          scrolling="no"
-        />
-      </div>
     </div>
   </React.Fragment>
 );
+
 
 export default class Professional extends React.Component {
   render() {
