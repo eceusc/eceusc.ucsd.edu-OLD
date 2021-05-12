@@ -31,6 +31,20 @@ const Slides = () => (
         fontSize: "1.0rem",
         textAlign: "center",
       }}
+      >May 10th, 2021: How to make your summer productive Workshop</div>
+      <div style={{ textAlign: "center" }}>
+        <iframe 
+          title="su-prep-recording"
+          src="https://drive.google.com/file/d/1_Px_x659szuzmAfS4V0L0R1kk6Po45wC/preview"
+          width="640"
+          height="480">
+        </iframe>
+    </div>
+    <div class="ui centered header"
+      style={{
+        fontSize: "1.0rem",
+        textAlign: "center",
+      }}
       >April 19th, 2021: ECE BS/MS Info Session and Panel</div>
       <div style={{ textAlign: "center" }}>
         <iframe 
