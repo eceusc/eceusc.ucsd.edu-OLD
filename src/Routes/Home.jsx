@@ -82,7 +82,7 @@ const CouncilTeaser = () => (
 export default class Home extends React.Component {
   render() {
     return (
-      <div class="ui grid">
+      <div class="ui grid" >
         <div class="ui centered row">
           <h1 class="ui centered header">
             ECE Undergraduate Student Council
@@ -123,11 +123,10 @@ export default class Home extends React.Component {
               <div class="ui divider" />
             </div>
             <div class="ui row">
-                <Calendar />
+                
                 <div class="ui divider" />
               </div>
             <div class="ui row">
-              <CouncilTeaser />
             </div>
           </div>
           <div class="three wide column" />

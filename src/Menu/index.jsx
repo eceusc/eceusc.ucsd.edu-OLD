@@ -19,46 +19,33 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/about" activeClassName="active">
               About
             </MenuUI.Item>
-            <Dropdown item text="Programs">
+            <Dropdown item text="Events">
               <Dropdown.Menu>
                 <Dropdown.Item as={Link} to="/project-teams">
-                  Project Teams
+                  Academic
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/mentorship">
                   Mentorship
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} to="/women-ece">
+                  Professional
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} to="/women-ece">
+                  Social
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} to="/women-ece">
+                  Technical
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/women-ece">
                   Women in ECE
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Dropdown item text="Events">
-              <Dropdown.Menu>
-                <Dropdown.Item as={Link} to="/faculty-mixers">
-                  Coffee with Professors
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/town-halls">
-                  Town Halls
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/professional-workshops">
-                  Professional Workshops
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/deestressers">
-                  dEEstressers
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/study-jams">
-                  Study Jams
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/ece-interview">
-                  ECE Interview
-                </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/ML-bootcamp">
-                  ML Bootcamp
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
             <MenuUI.Item as={NavLink} to="/shadow" activeClassName="active">
               Shadow
+            </MenuUI.Item>
+            <MenuUI.Item as={NavLink} to="/about" activeClassName="active">
+              Login
             </MenuUI.Item>
             <MenuUI.Item as={NavLink} to="/contact" activeClassName="active">
               Contact
