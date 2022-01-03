@@ -1,15 +1,16 @@
 import * as React from "react";
 import { Dropdown, Image, Menu as MenuUI, Segment } from "semantic-ui-react";
 import { Link, NavLink } from "react-router-dom";
+import "./menu.css"
 
 export default class Menu extends React.Component {
   render() {
     return (
-      <Segment inverted>
+      <Segment inverted className="Headest">
         <MenuUI inverted secondary pointing stackable>
           <MenuUI.Menu position="left">
-            <MenuUI.Item as={Link} to="/">
-              <Image src="/logo.png" size="small" />
+            <MenuUI.Item className="logo" as={Link} to="/">
+              <Image src="/logo.svg"/>
             </MenuUI.Item>
           </MenuUI.Menu>
           <MenuUI.Menu position="right">

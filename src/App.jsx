@@ -30,7 +30,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Menu />
-        <div style={{ paddingTop: 25, paddingBottom: 25, minHeight: "75vh" ,backgroundImage: "./Routes/jsoe.jpg" }}>
+        <div style={{ paddingTop: 125, paddingBottom: 105, minHeight: "75vh"}}>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
