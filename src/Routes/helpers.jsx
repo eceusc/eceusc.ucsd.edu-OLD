@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Grid, Item, Header } from "semantic-ui-react";
+import "./Route.css"
 
 export const hideEmail = email => {
   return email

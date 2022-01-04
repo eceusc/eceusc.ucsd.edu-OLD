@@ -3,6 +3,7 @@ import { Button, Segment, Grid, Image } from "semantic-ui-react";
 import members from "./members";
 import { getEmail } from "./helpers";
 import { Link } from "react-router-dom";
+import "./Route.css"
 
 const MemberItemX = props => (
   <div style={{ width: "100px", margin: "0 auto" }}>
@@ -82,7 +83,8 @@ const CouncilTeaser = () => (
 export default class Home extends React.Component {
   render() {
     return (
-      <div class="ui grid" >
+      <div class="ui grid">
+        
         <div class="ui centered row">
           <h1 class="ui centered header">
             ECE Undergraduate Student Council

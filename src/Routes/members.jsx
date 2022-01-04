@@ -1,6 +1,6 @@
 export default [
   {
-    name: "Chau Vu",
+    name: "Branson Beihl",
     position: "President",
     major: "Computer Engineering",
     minor: null,
@@ -12,8 +12,8 @@ export default [
       "Fun Fact: Played competitive chinese chess & went to nationals"
     ],
     isExec: true,
-    pic: "pics/20-21/chau.jpg",
-    email: "diw115Avdte/fev"
+    pic: "pics/21-22/Branson.JPG",
+    email: "ccfjimAvdte/fev"
   },
   {
     name: "Branson Beihl",

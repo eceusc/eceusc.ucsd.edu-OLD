@@ -35,6 +35,7 @@ export default class OpenSource extends React.Component {
   render() {
     return (
       <div class="ui grid">
+        
         <div class="ui centered row">
           <h1 class="ui centered header">
             Learn more about us
@@ -43,7 +44,7 @@ export default class OpenSource extends React.Component {
               style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
             ></div>
             <div class="ui sub header" style={{ textTransform: "none" }}>
-              Geting to know your ECE Undergrad Student Council:
+              Getting to know your ECE Undergrad Student Council:
             </div>
           </h1>
         </div>
