@@ -53,7 +53,7 @@ export default class OpenSource extends React.Component {
         <Grid columns={1}>
           <Grid.Row>
             <Grid.Column>
-              <Image src="pics/20-21/all.png" centered size="big"/>
+              <Image src="pics/21-22/Group1.JPG" centered size="massive"/>
             </Grid.Column>
           </Grid.Row>
         </Grid>

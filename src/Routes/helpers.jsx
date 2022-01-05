@@ -5,14 +5,14 @@ import "./Route.css"
 export const hideEmail = email => {
   return email
     .split("")
-    .map(c => c.charCodeAt(0) + 1)
+    .map(c => c.charCodeAt(0))
     .map(c => String.fromCharCode(c))
     .join("");
 };
 export const getEmail = hiddenEmail =>
   hiddenEmail
     .split("")
-    .map(c => String.fromCharCode(c.charCodeAt(0) - 1))
+    .map(c => String.fromCharCode(c.charCodeAt(0)))
     .join("");
 
 export const Container = props => (

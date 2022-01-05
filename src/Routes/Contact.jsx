@@ -24,7 +24,7 @@ const CouncilTeaser = () => (
   <React.Fragment>
     <div class="ui centered header">Getting in touch with the '20-'21 Council:</div>
     <div class="ui centered header">Executive</div>
-    <Grid columns={3} centered stackable>
+    <Grid columns={4} centered stackable>
       {members
         .filter(m => m.isExec)
         .sort((a, b) => {
