@@ -102,6 +102,19 @@ export default [
     email: "nsdange@ucsd.edu"
   },
   {
+    name: "Ruilin Hu",
+    position: "WECE Chair",
+    major: "Computer Engineering",
+    minor: null,
+    depth: null,
+    lines: [
+      "Loves video games and digital art. Also enjoy running and swimming a lot.",
+      'Fun Fact: There has not been one single school/institution that they\'ve stayed for more than three years yet.'
+    ],
+    pic: "pics/21-22/Ruilin.JPG",
+    email: "ruhu@ucsd.edu"
+  },
+  {
     name: "Harini Gurusankar",
     position: "Professional Chair",
     major: "Computer Engineering",
