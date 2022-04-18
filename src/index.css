@@ -2,7 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url('../public/jsoe.jpg');
+  background-image: url('../public/jsoe.png');
   background-attachment: fixed;
-  background-position: center;
+  background-size: cover;
+  background-position: right;
+}
+
+@media screen and (max-width:720px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../public/jsoe.png');
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
 }

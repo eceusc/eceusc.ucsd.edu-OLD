@@ -14,7 +14,6 @@ const MemberItem = props => (
         <span class="position">{props.position}</span>
       </div>
       <div class="description">
-        <p>
           <div class="ui bulleted list">
             <div class="item">
               {props.major} {props.depth ? <span>({props.depth})</span> : null}
@@ -23,7 +22,6 @@ const MemberItem = props => (
               <div class="item">{line}</div>
             ))}
           </div>
-        </p>
       </div>
     </div>
   </div>
