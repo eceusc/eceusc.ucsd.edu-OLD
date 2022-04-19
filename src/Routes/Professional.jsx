@@ -123,7 +123,7 @@ export default class Professional extends React.Component {
               <Slides />
             </div>
           }
-          contacts={[members[6]]}
+          contacts={[members[8]]}
         />
       </div>
     );

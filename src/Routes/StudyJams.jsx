@@ -33,7 +33,7 @@ export default class StudyJams extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[7]]}
+          contacts={[members[9]]}
         />
       </div>
     );

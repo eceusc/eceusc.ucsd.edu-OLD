@@ -28,13 +28,13 @@ export default class Menu extends React.Component {
                 <Dropdown.Item as={Link} to="/mentorship">
                   Mentorship
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/women-ece">
+                <Dropdown.Item as={Link} to="/professional">
                   Professional
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/women-ece">
+                <Dropdown.Item as={Link} to="/study-jams">
                   Social
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/women-ece">
+                <Dropdown.Item as={Link} to="/technical">
                   Technical
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/women-ece">

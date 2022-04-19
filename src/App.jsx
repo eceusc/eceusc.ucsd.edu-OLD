@@ -41,7 +41,7 @@ class App extends Component {
           <Route exact path="/open-source/workshop1" component={Workshop} />
           <Route exact path="/open-source/workshop2" component={Workshop2} />
           <Route exact path="/outreach" component={Outreach} />
-          <Route exact path="/professional-workshops" component={Professional} />
+          <Route exact path="/professional" component={Professional} />
           <Route exact path="/shadow" component={Shadow} />
           <Route exact path="/study-jams" component={StudyJams} />
           <Route exact path="/town-halls" component={TownHalls} />

@@ -34,7 +34,7 @@ export default class OpenSource extends React.Component {
   render() {
     return (
       <div className="Contain">
-      <div class="ui grid" style={{backgroundImage: "url('../../public/background.svg')"}}>
+      <div class="ui grid" style={{backgroundImage: "url('../../public/background.svg')", paddingBottom:"100px"}}>
         
         <div class="ui centered row" style={{paddingTop: "100px", backgroundImage: "url('../../public/background.svg')"}}>
           <h1 class="ui centered header">

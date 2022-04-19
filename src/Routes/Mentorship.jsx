@@ -90,7 +90,7 @@ export default class Mentorship extends React.Component {
               !
             </div>
           }
-          contacts={[members[5]]}
+          contacts={[members[6]]}
         />
       </div>
     );
