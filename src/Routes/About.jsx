@@ -2,6 +2,7 @@ import * as React from "react";
 
 import members from "./members";
 import { Grid, Image } from "semantic-ui-react";
+import "./Route.css"
 
 const MemberItem = props => (
   <div class="item">
@@ -32,9 +33,10 @@ const MemberItem = props => (
 export default class OpenSource extends React.Component {
   render() {
     return (
-      <div class="ui grid">
+      <div className="Contain">
+      <div class="ui grid" style={{backgroundImage: "url('../../public/background.svg')"}}>
         
-        <div class="ui centered row">
+        <div class="ui centered row" style={{paddingTop: "100px", backgroundImage: "url('../../public/background.svg')"}}>
           <h1 class="ui centered header">
             Learn more about us
             <div
@@ -91,6 +93,7 @@ export default class OpenSource extends React.Component {
             <div class="three wide column"></div>
           </div>
         </div>
+      </div>
       </div>
     );
   }

@@ -21,7 +21,7 @@ const MemberItemX = props => (
 );
 
 const CouncilTeaser = () => (
-  <React.Fragment>
+  <React.Fragment >
     <div class="ui centered header">Getting in touch with the '20-'21 Council:</div>
     <div class="ui centered header">Executive</div>
     <Grid columns={4} centered stackable>
@@ -41,7 +41,7 @@ const CouncilTeaser = () => (
         ))}
     </Grid>
     <div class="ui centered header">General</div>
-    <Grid columns={9} stackable>
+    <Grid columns={5} stackable>
       {members
         .filter(m => !m.isExec)
         .map(m => (

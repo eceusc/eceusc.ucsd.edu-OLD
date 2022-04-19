@@ -22,7 +22,7 @@ export default class Menu extends React.Component {
             </MenuUI.Item>
             <Dropdown item text="Events">
               <Dropdown.Menu>
-                <Dropdown.Item as={Link} to="/project-teams">
+                <Dropdown.Item as={Link} to="/town-halls">
                   Academic
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/mentorship">

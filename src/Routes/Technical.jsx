@@ -3,7 +3,7 @@ import { Container } from "./helpers";
 import members from "./members";
 import { Image } from "semantic-ui-react";
 
-export default class ProjectTeam extends React.Component {
+export default class Technical extends React.Component {
   render() {
     return (
       <div>

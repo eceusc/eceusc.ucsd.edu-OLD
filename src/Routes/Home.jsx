@@ -1,25 +1,7 @@
 import * as React from "react";
-import { Button, Segment, Grid, Image } from "semantic-ui-react";
-import members from "./members";
-import { getEmail } from "./helpers";
-import { Link } from "react-router-dom";
+import { Image } from "semantic-ui-react";
 import "./Route.css"
-
-const MemberItemX = props => (
-  <div style={{ width: "100px", margin: "0 auto" }}>
-    <Image src={props.pic} size={100} circular />
-    <div style={{ textAlign: "center" }}>
-      <div class="header" style={{ fontWeight: 600 }}>
-        <a href={`mailto:${getEmail(props.email)}`}>
-          {props.name.split(" ")[0]}
-        </a>
-      </div>
-      <div class="meta">
-        <span class="position">{props.position}</span>
-      </div>
-    </div>
-  </div>
-);
+import "./Home.css"
 
 const Calendar = () => (
   <React.Fragment>
@@ -39,84 +21,30 @@ const Calendar = () => (
   </React.Fragment>
 );
 
-const CouncilTeaser = () => (
-  <React.Fragment>
-    <div class="ui centered header">'20-'21 Council</div>
-    <div class="ui centered header">Executive</div>
-    <Grid columns={3} centered stackable>
-      {members
-        .filter(m => m.isExec)
-        .sort((a, b) => {
-          // We want president in middle since more visually pleasing
-          const scores = { C: 2, B: 1, T: 3 };
-          const aVal = scores[a.name[0]];
-          const bVal = scores[b.name[0]];
-          return aVal - bVal;
-        })
-        .map(m => (
-          <Grid.Column>
-            <MemberItemX {...m} />
-          </Grid.Column>
-        ))}
-    </Grid>
-    <div class="ui centered header">General</div>
-    <Grid columns={8} stackable>
-      {members
-        .filter(m => !m.isExec)
-        .map(m => (
-          <Grid.Column>
-            <MemberItemX {...m} />
-          </Grid.Column>
-        ))}
-    </Grid>
-    <Segment
-      textAlign="center"
-      style={{ margin: "0 auto", marginTop: 35, width: "200px" }}
-    >
-      <Button primary as={Link} to="/about">
-        Meet the council!
-      </Button>
-    </Segment>
-  </React.Fragment>
-);
-
 export default class Home extends React.Component {
   render() {
     return (
-      <div class="ui grid">
-        <div class="ui row">
-          <div class="ten wide column">
-          <h1 class="ui header" style={{textAlign: "center", marginTop: "230px", fontFamily: "serif"}}>
-            ECE Undergraduate Student Council
-            <div class="ui  sub header" style={{ textTransform: "none", fontFamily: "serif" }}>
+        <div className="Hero-Text">
+          <div className="Title">
+            <b>ECE Undergraduate Student Council</b>  
+          </div>
+          <div class="Subtitle">
               Serving and representing all ECE undergraduate students at UC San
               Diego
-            </div>
-          </h1>
-            <div class="ui row">
-              <div class="ui centered header">About Us
-              <div class="ui sub header" style={{ textTransform: "none", marginBottom: "20px", marginLeft: "80px", marginRight: "80px"}}>
-                The ECE Undergraduate Student Council (ECE USC) is the voice of
-                Electrical and Computer Engineering (ECE) students at UC San
-                Diego. Through community building, networking, and leadership,
-                the council strives to effect change within the department and
-                campus at large though various events and programs.
-              </div>
-              </div>
-              
-            </div>
-            <div class="ui centered row">
-              <div class="ui centered header">Join our Newsletter!</div>
-              <p align="center" style={{ marginTop: "20px", marginBottom: "0px" }}>
-                Subscribe to our newsletter to get weekly updates on USC related events!
-              </p>
-              <p align="center" style={{ marginTop: "0px", marginBottom: "40px" }}>
-                To subscribe, click <a href="http://tinyurl.com/eceuscnewsletter" style={{color: "green"}}>here</a>!
-              </p>
-            </div>
+          </div>
+          <div class="Title2"><b>About Us</b></div>
+          <div class="Text">
+              The ECE Undergraduate Student Council (ECE USC) is the voice of
+              Electrical and Computer Engineering (ECE) students at UC San
+              Diego. Through community building, networking, and leadership,
+              the council strives to effect change within the department and
+              campus at large though various events and programs.
+          </div>
+            <div className="Newsletter">
+              <div class="Title2"><b>Join our Newsletter!</b></div>
+              <Image className="ima" src="/Subscribe.svg" href="https://docs.google.com/forms/d/e/1FAIpQLSe4L9CgfkrNSQNcNzbMf0iXQuvEGWmDPPqFj4aAdFnZub3Ypw/viewform"/>
             </div>
           </div>
-        </div>
     );
   }
 }

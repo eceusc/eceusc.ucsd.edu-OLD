@@ -16,7 +16,8 @@ export const getEmail = hiddenEmail =>
     .join("");
 
 export const Container = props => (
-  <Grid>
+  <div className="Contain">
+  <Grid style={{paddingTop: "97px", paddingBottom: "97px", backgroundImage: "url('../../public/background.svg')"}}>
     <Grid.Row centered>
       <Header as="h1">
         {props.header}
@@ -60,6 +61,7 @@ export const Container = props => (
       <Grid.Column width={3} />
     </Grid.Row>
   </Grid>
+  </div>
 );
 
 //https://github.com/uupaa/dynamic-import-polyfill/blob/master/importModule.js

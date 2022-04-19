@@ -10,7 +10,7 @@ import FacultyMixers from "./Routes/FacultyMixers";
 import GraffitiWall from "./Routes/GraffitiWall";
 import Home from "./Routes/Home";
 import Mentorship from "./Routes/Mentorship";
-import ProjectTeam from "./Routes/ProjectTeam";
+import Technical from "./Routes/Technical";
 import Outreach from "./Routes/Outreach";
 import Professional from "./Routes/Professional";
 import Shadow from "./Routes/Shadow";
@@ -30,14 +30,14 @@ class App extends Component {
     return (
       <React.Fragment>
         <Menu />
-        <div style={{ paddingTop: 125, paddingBottom: 105, minHeight: "75vh"}}>
+        <div style={{}}>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/deestressers" component={DeStress} />
           <Route exact path="/faculty-mixers" component={FacultyMixers} />
           <Route exact path="/mentorship" component={Mentorship} />
-          <Route exact path="/project-teams" component={ProjectTeam} />
+          <Route exact path="/technical" component={Technical} />
           <Route exact path="/open-source/workshop1" component={Workshop} />
           <Route exact path="/open-source/workshop2" component={Workshop2} />
           <Route exact path="/outreach" component={Outreach} />
