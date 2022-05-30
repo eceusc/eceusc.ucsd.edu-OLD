@@ -26,7 +26,7 @@ export default [
       'Fun Fact: Cannot pronounce word "vanilla" correctly.'
     ],
     isExec: true,
-    pic: "pics/20-21/Lu.jpg",
+    pic: "pics/20-21/lu.jpg",
     email: "sol009@ucsd.edu"
   },
   {

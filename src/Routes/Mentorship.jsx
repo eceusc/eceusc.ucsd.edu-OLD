@@ -32,25 +32,11 @@ export default class Mentorship extends React.Component {
                   lineHeight: "1.75rem"
                 }}
               >
-              <div>
-                The Mentorship Program is an annual program to form{" "}
-                <b>mentorship groups</b> of ECE students consisting of
-                upperclassmen as mentors and underclassmen as mentees. The
-                mentors and mentees will participate in{" "}
-                <b>
-                  large group socials and mixers, small group meetings, and
-                  one-on-one mentorship opportunities{" "}
-                </b>
-                each quarter.
-              </div>
-              <div style={{ marginTop: "5px", marginBottom: "10px" }}>
-                {" "}
-                The Mentorship Program strives to bring ECE students of all
-                class levels together to build connections with fellow students,
-                alumni and professors. The program encourages personal growth
-                through professional workshops as well as guidance in academic
-                and career paths.
-              </div>
+              The Mentorship Program strives to build an inclusive community among ECE Undergraduate students at UC San Diego. <br></br><br></br>
+              By pairing freshman and transfer students with upperclassmen, the Mentorship program ensures that students can get the guidance they need to be successful <b>socially, 
+              professionally, and technically</b>. Running all year long, Mentorship hosts a range of events, including <b>1-1 guidance, small group socials, and large group socials</b>. 
+              Covering topics like building a strong resume and LinkedIn, how to search for internships & jobs, getting involved in research, as well as the best places to study 
+              and eat on campus - you're sure to get all your questions answered!
             </div>
           }
           content2={
