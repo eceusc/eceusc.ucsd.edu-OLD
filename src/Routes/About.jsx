@@ -71,7 +71,7 @@ export default class OpenSource extends React.Component {
                   <div class="ui divider"></div>
                   <div class="ui items">
                     {members
-                      .filter(m => m.isExec)
+                      .filter(m => m.isExec | m.isPrez)
                       .map(m => (
                         <MemberItem {...m} />
                       ))}
@@ -82,7 +82,7 @@ export default class OpenSource extends React.Component {
                   <div class="ui divider"></div>
                   <div class="ui items">
                     {members
-                      .filter(m => !m.isExec)
+                      .filter(m => !m.isExec & !m.isPrez)
                       .map(m => (
                         <MemberItem {...m} />
                       ))}
