@@ -42,7 +42,11 @@ export default class Home extends React.Component {
           </div>
             <div className="Newsletter">
               <div class="Title2"><b>Join our Newsletter!</b></div>
-              <Image className="ima" src="/Subscribe.svg" href="https://docs.google.com/forms/d/e/1FAIpQLSe4L9CgfkrNSQNcNzbMf0iXQuvEGWmDPPqFj4aAdFnZub3Ypw/viewform"/>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4L9CgfkrNSQNcNzbMf0iXQuvEGWmDPPqFj4aAdFnZub3Ypw/viewform">
+                <img className="subscribe" src="/Subscribe.svg" 
+                    onMouseOver={e => e.currentTarget.src = '/Subscribe-h.svg'} 
+                    onMouseOut={e => e.currentTarget.src = '/Subscribe.svg'}/>
+              </a>
             </div>
           </div>
     );

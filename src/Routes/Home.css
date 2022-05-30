@@ -6,21 +6,22 @@
     font-family: serif;
 }
 .Title {
-    font-size: 3.75rem;
+    font-size: 4rem;
     font-style: bold;
-    line-height: 3.75rem;
+    line-height: 4rem;
 }
 .Title2 {
-    padding-top: 20px;
+    padding: 20px 0 10px 0;
     font-size: 1.55rem;
     font-style: bold;
     line-height: 1.25rem;
 }
 .Subtitle {
-    font-size: 1.05rem;
+    font-size: 1.55rem;
 }
 .Text {
-    padding: 0 40px;
+    padding: 0 80px;
+    font-size: 1.25rem;
 }
 @media screen and (max-width:1111px) {
     .Hero-Text {

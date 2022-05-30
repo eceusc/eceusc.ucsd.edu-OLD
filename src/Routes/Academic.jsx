@@ -38,10 +38,24 @@ export default class TownHalls extends React.Component {
     return (
       <div>
         <Container
-          header="Town Halls"
+          header="Academic Events"
           subheader=""
-          content="Through our quarterly Town Halls, students can give feedback about different aspects of the ECE curriculum and opportunities in addition to desired changes. Students will have their voices heard from the ECE department chair himself, who has the ability to make a change in the ECE curriculum and student resources.
-        "
+          content={
+            <div
+              style={{
+                fontSize: "1.5rem",
+                textAlign: "center",
+                lineHeight: "1.75rem"                  
+              }}
+            >
+            Our Academic events is the bridge between the ECE department and undergraduate students. <br></br>
+            Their biggest event is their town hall, where students can provide feedback to ECE department professors, as well as ask any questions they have. <br></br><br></br>
+            Our Academic events also hosts professors for more informal AMAs - so if students have questions or would like to get to know a professor better, they can do so!
+            <br></br><br></br>Another key Academic event is our ECE Interviews!
+            Click <a href="/ece-interview">here</a> to view our past interviews and their recordings/slides.
+            
+            </div>
+        }
           content2={
             <div
               style={{

@@ -22,28 +22,47 @@ const MemberItemX = props => (
 
 const CouncilTeaser = () => (
   <React.Fragment >
-    <div class="ui centered header">Getting in touch with the '20-'21 Council:</div>
-    <div class="ui centered header">Executive</div>
-    <Grid columns={4} centered stackable>
+    <div class="ui centered header" style={{fontSize: "1.75rem"}}>Executive</div>
+    <div
+              class="ui divider"
+              style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
+            ></div>
+    <Grid columns={1} centered stackable>
       {members
-        .filter(m => m.isExec)
-        .sort((a, b) => {
-          // We want president in middle since more visually pleasing
-          const scores = { C: 2, B: 1, T: 3 };
-          const aVal = scores[a.name[0]];
-          const bVal = scores[b.name[0]];
-          return aVal - bVal;
-        })
+        .filter(m => m.isPrez)
         .map(m => (
           <Grid.Column>
             <MemberItemX {...m} />
           </Grid.Column>
         ))}
     </Grid>
-    <div class="ui centered header">General</div>
-    <Grid columns={5} stackable>
+    <Grid columns={3} centered stackable>
       {members
-        .filter(m => !m.isExec)
+        .filter(m => m.isExec)
+        .map(m => (
+          <Grid.Column>
+            <MemberItemX {...m} />
+          </Grid.Column>
+        ))}
+    </Grid>
+    <div class="ui centered header" style={{fontSize: "1.75rem"}}>General</div>
+    <div
+              class="ui divider"
+              style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
+            ></div>
+    <Grid columns={5}>
+      {members
+        .filter(m => m.isFirstRow)
+        .map(m => (
+          <Grid.Column>
+            <MemberItemX {...m} />
+          </Grid.Column>
+        ))}
+    </Grid>
+    <Grid columns={6}>
+      <Grid.Column></Grid.Column>
+      {members
+        .filter(m => m.isSecondRow)
         .map(m => (
           <Grid.Column>
             <MemberItemX {...m} />
@@ -60,34 +79,6 @@ export default class OpenSource extends React.Component {
         <Container
           header="Contact"
           subheader="Get in contact with the council"
-          content={
-            <div class="ui centered row">
-              <div class="ui centered sub header">
-                Email: eceusc@eng.ucsd.edu
-              </div>
-            </div>
-          }
-          content2={
-            <div>
-              <div class="ui centered sub header">
-              Facebook:{" "}
-              <a href="https://www.facebook.com/ECEUSC/">
-                https://www.facebook.com/ECEUSC/{" "}
-              </a>{" "}
-              </div>
-              <div class="ui divider" />
-              <div class="ui centered row">
-              <div class="ui centered header">Join our Newsletter!</div>
-              <div class="ui centered sub header" style={{ marginTop: "20px", marginBottom: "5px" }}>
-                Subscribe to our newsletter to get weekly updates on USC related events!
-              </div>
-              <div class="ui centered sub header" style={{ marginTop: "5px", marginBottom: "40px" }}>
-                To subscribe, click <a href="http://tinyurl.com/eceuscnewsletter">here</a>!
-              </div>
-              <div class="ui divider" />
-            </div>
-            </div>
-          }
           content3={
             <div class="ui row">
               <CouncilTeaser />

@@ -34,10 +34,10 @@ export default class OpenSource extends React.Component {
   render() {
     return (
       <div className="Contain">
-      <div class="ui grid" style={{backgroundImage: "url('../../public/background.svg')", paddingBottom:"100px"}}>
+      <div class="ui grid" style={{paddingTop: "97px",backgroundImage: "url('../../public/background.svg')", paddingBottom:"100px"}}>
         
-        <div class="ui centered row" style={{paddingTop: "100px", backgroundImage: "url('../../public/background.svg')"}}>
-          <h1 class="ui centered header">
+        <div class="ui centered row" style={{backgroundImage: "url('../../public/background.svg')", width: "100%"}}>
+          <h1 class="ui centered header" style={{ width: "80%"}}>
             Learn more about us
             <div
               class="ui divider"
@@ -46,6 +46,7 @@ export default class OpenSource extends React.Component {
             <div class="ui sub header" style={{ textTransform: "none" }}>
               Getting to know your ECE Undergrad Student Council:
             </div>
+            
           </h1>
         </div>
         

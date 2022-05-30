@@ -8,72 +8,29 @@ export default class Technical extends React.Component {
     return (
       <div>
         <Container
-          header="Project Teams"
+          header="Technical Events"
           subheader=""
-          content3={
-            <div>
-              <div>
-                The Project Teams Program will host 2{" "}
-                <b>hands-on ECE projects </b>
-                for the year. There will be dedicated Project Leads for each
-                project, who will guide the project progress and teach members
-                necessary skills and knowledge. Our projects are designed to be
-                <b> beginner-friendly</b> and suitable for all skill levels, as
-                long as you’re willing to commit time to learning.
-              </div>
-              <div
-                style={{
-                  marginTop: "5px",
-                  marginBottom: "15px"
-                }}
-              >
-                Details about the projects and the
-                meetings will be announced in our Projects Team Launch event.
-              </div>
-              <Image src="pics/projectTeamPic.jpg" centered size="big" />
-            </div>
-          }
           content={
-            <div>
               <div
                 style={{
                   fontSize: "1.5rem",
                   textAlign: "center",
-                  
+                  lineHeight: "1.75rem"                  
                 }}
               >
-                Due to Covid-19 and the remote environment of the 2020-21 school year
-                the Project team will<b> not </b>be doing annual projects.
+              The technical committee works to ensure ECE students have relevant technical skills for industry. 
+              While ECE classes may cover academic and theoretical topics, ECE USC’s technical committee emphasizes hands-on learning through fun workshops and quarter long projects. 
+              With topics on Arduino and basic circuit building, as well as Python and machine learning, these workshops cover the foundations of what it takes to be an industry-relevant engineer.
               </div>
-            </div>
           }
           content2={
-            <div
-              style={{
-                fontSize: "1.5rem",
-                textAlign: "center",
-                marginTop: "30px"
-              }}
-            >
-              <div>
-                Instead the Project Leads are hosting a Machine Learning Bootcamp for the Winter '21 quarter.
-              </div>
-              <div style={{ marginTop: "11px" }}>
-                To learn more click this link {" "}
-                <a
-                href="https://eceusc.ucsd.edu/ML-bootcamp"
-                target="_blank"
-                rel="noopener noreferrer"
-                >
-                  here
-                </a>
-                !
-              </div>
-              <div class="ui divider" />
+            <div style={{textAlign: "center", margin: "10px"}}>
+                <img src='/pics/TechnicalPic2.JPG' style={{width: "45%", margin: "10px"}}/>    
+                <img src='/pics/projectTeamPic.jpg' style={{width: "45%", margin: "10px"}}/>
             </div>
           }
           
-          contacts={[members[10]]}
+          contacts={[members[12]]}
         />
       </div>
     );

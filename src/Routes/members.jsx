@@ -10,7 +10,7 @@ export default [
       "Enjoys Skateboarding, Lifting, Cooking, Boxing, Guitar, Learning Japanese.",
       "Fun Fact: Their dog's names are Chowder & Panini. Yes, the foods."
     ],
-    isExec: true,
+    isPrez: true,
     pic: "pics/21-22/Branson.JPG",
     email: "bbeihl@ucsd.edu"
   },
@@ -47,7 +47,7 @@ export default [
   },
   {
     name: "Matthew Alfaro",
-    position: "Vice President Events",
+    position: "VP Events",
     major: "Electrical Engineering",
     minor: null,
     depth: "Circuits & Systems",
@@ -72,6 +72,7 @@ export default [
       'Fun Fact: Can cook instant noodles and rice.'
     ],
     pic: "pics/21-22/Jeffrey.JPG",
+    isFirstRow: true,
     email: "jsliu@ucsd.edu"
   },
   {
@@ -85,6 +86,7 @@ export default [
       'Fun Fact: Lives on an island right in the middle of the Bay.'
     ],
     pic: "pics/21-22/Justin.JPG",
+    isFirstRow: true,
     email: "jmsin@ucsd.edu"
   },
   {
@@ -99,6 +101,7 @@ export default [
       'Fun Fact: One of the few people in the world that enjoys LaCroix (the sparkling water).'
     ],
     pic: "pics/21-22/Nikhil.JPG",
+    isFirstRow: true,
     email: "nsdange@ucsd.edu"
   },
   {
@@ -112,6 +115,7 @@ export default [
       'Fun Fact: There has not been one single school/institution that they\'ve stayed for more than three years yet.'
     ],
     pic: "pics/21-22/Ruilin.JPG",
+    isFirstRow: true,
     email: "ruhu@ucsd.edu"
   },
   {
@@ -126,6 +130,7 @@ export default [
       'Fun Fact: Loves mystery novels.'
     ],
     pic: "pics/21-22/Harini.JPG",
+    isFirstRow: true,
     email: "hgurusan@ucsd.edu"
   },
   {
@@ -140,6 +145,7 @@ export default [
       'Fun Fact: Big fan of buses and trains!'
     ],
     pic: "pics/21-22/Marc.JPG",
+    isSecondRow: true,
     email: "mreta@ucsd.edu"
   },
   {
@@ -154,6 +160,7 @@ export default [
       'Fun Fact: I collect all my flight tickets.'
     ],
     pic: "pics/21-22/Carol.JPG",
+    isSecondRow: true,
     email: "y1bao@ucsd.edu"
   },
   {
@@ -167,6 +174,7 @@ export default [
       'Fun Fact: Named after Joey from Friends but has never seen Friends.'
     ],
     pic: "pics/21-22/Joey.JPG",
+    isSecondRow: true,
     email: "jjl028@ucsd.edu"
   },
   {
@@ -181,6 +189,7 @@ export default [
       'Fun Fact: Am a videogame nerd when it comes to anything nintendo related.'
     ],
     pic: "pics/21-22/Ryan.JPG",
+    isSecondRow: true,
     email: "rjirwandy@gmail.com"
   }
 ];

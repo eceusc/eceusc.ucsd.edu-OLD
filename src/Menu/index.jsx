@@ -22,7 +22,7 @@ export default class Menu extends React.Component {
             </MenuUI.Item>
             <Dropdown item text="Events">
               <Dropdown.Menu>
-                <Dropdown.Item as={Link} to="/town-halls">
+                <Dropdown.Item as={Link} to="/academic">
                   Academic
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/mentorship">
@@ -31,7 +31,7 @@ export default class Menu extends React.Component {
                 <Dropdown.Item as={Link} to="/professional">
                   Professional
                 </Dropdown.Item>
-                <Dropdown.Item as={Link} to="/study-jams">
+                <Dropdown.Item as={Link} to="/social">
                   Social
                 </Dropdown.Item>
                 <Dropdown.Item as={Link} to="/technical">
@@ -45,7 +45,7 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/shadow" activeClassName="active">
               Shadow
             </MenuUI.Item>
-            <MenuUI.Item as={NavLink} to="/about" activeClassName="active">
+            <MenuUI.Item as={NavLink} to="/login" activeClassName="active">
               Login
             </MenuUI.Item>
             <MenuUI.Item as={NavLink} to="/contact" activeClassName="active">
