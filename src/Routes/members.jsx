@@ -1,166 +1,195 @@
 export default [
   {
-    name: "Chau Vu",
+    name: "Branson Beihl",
     position: "President",
     major: "Computer Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Amazon SDE Intern Summer 2020",
-      "Involved with Open Source @ UCSD",
-      "Enjoys beating everyone at board & video games, playing basketball & volleyball, and practicing Rock climbing & Taekwondo",
-      "Fun Fact: Played competitive chinese chess & went to nationals"
+      "Interned at the startup Vinduino LLC Summer 2021.",
+      "Enjoys Skateboarding, Lifting, Cooking, Boxing, Guitar, Learning Japanese.",
+      "Fun Fact: Their dog's names are Chowder & Panini. Yes, the foods."
     ],
-    isExec: true,
-    pic: "pics/20-21/chau.jpg",
-    email: "diw115Avdte/fev"
+    isPrez: true,
+    pic: "pics/21-22/Branson.JPG",
+    email: "bbeihl@ucsd.edu"
   },
   {
-    name: "Branson Beihl",
+    name: "Lu Songyu",
     position: "VP External",
     major: "Computer Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Part of SRIP 2020: Spatial Audio Personalization",
-      "Volunteer of Envision Maker Studio",
-      "Enjoys Leetcode & general puzzle solving, weight training & boxing, playing video games, and having deep conversations about anything under the sun",
-      'Fun Fact: Obsessed with the color green.'
+      "Working with start-ups & working in research labs.",
+      "Enjoys eating all types of cuisines, and going on boba runs.",
+      'Fun Fact: Cannot pronounce word "vanilla" correctly.'
     ],
     isExec: true,
-    pic: "pics/20-21/branson.jpg",
-    email: "ccfjimAvdte/fev"
+    pic: "pics/20-21/Lu.jpg",
+    email: "sol009@ucsd.edu"
   },
   {
-    name: "Tommy Man",
+    name: "Sharon Johannes",
     position: "VP Internal",
     major: "Electrical Engineering",
     minor: null,
-    depth: "Machine Learning",
+    depth: "Power",
     lines: [
-      "Part of SRIP 2019",
-      "Enjoys cooking, watching sitcoms, playing sports, and having a good laugh",
-      'Fun Fact: Watched the entired Big Bang Theory show 8 times'
+      "Working for EnVision Maker Studio.",
+      "Enjoys waltz dancing, sharing puns, playing instruments, & winning in Cup Pong.",
+      // eslint-disable-next-line
+      'Fun Fact: Named their car: Car Car Binks.'
     ],
     isExec: true,
-    pic: "pics/20-21/tommy.jpg",
-    email: "gnboAvdte/fev"
+    pic: "pics/21-22/Sharon.JPG",
+    email: "sjohanne@ucsd.edu"
   },
   {
-    name: "Jun Lee",
+    name: "Matthew Alfaro",
+    position: "VP Events",
+    major: "Electrical Engineering",
+    minor: null,
+    depth: "Circuits & Systems",
+    lines: [
+      "Resident Advisor for ERC, part of Men's Club Lacrosse, & Chef's Assistant for UCSD Catering.",
+      "Enjoys being active, reading, playing video games, and drinking coffee with friends.",
+      'Fun Fact: Can play 4 instruments.'
+    ],
+    isExec: true,
+    pic: "pics/21-22/Matthew.JPG",
+    email: "m1alfaro@ucsd.edu"
+  },
+  {
+    name: "Jeffrey Liu",
     position: "Secretary",
     major: "Electrical Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Enjoys watching anime, playing games, making circuits & clay models, repairing anything, and play a little bit of sports",
-      'Fun Fact: Convinced they are a weird person'
+      "Part of ERSP 2021-2022, & Student Developer for UCSD IT Services.",
+      "Enjoys watching anime, playing video games, talking to people, walking.",
+      'Fun Fact: Can cook instant noodles and rice.'
     ],
-    pic: "pics/20-21/jun.jpg",
-    email: "kvm149Avdte/fev"
+    pic: "pics/21-22/Jeffrey.JPG",
+    isFirstRow: true,
+    email: "jsliu@ucsd.edu"
   },
   {
-    name: "Vas Sengupta",
+    name: "Justin Sin",
     position: "Treasurer",
-    major: "Computer Engineering",
+    major: "Electrical Engineering",
     minor: null,
-    depth: null,
+    depth: "Circuits & Systems",
     lines: [
-      "Working for IT services in UCSD",
-      "Affiliated with Women in Computing",
-      "Enjoys painting with acryilic & oil, and dancing",
-      'Fun Fact: Favorite color is aquamarine'
+      "Taking pictures, playing basketball, hanging out, watching anime.",
+      'Fun Fact: Lives on an island right in the middle of the Bay.'
     ],
-    pic: "pics/20-21/vas.png",
-    email: "xtfohvquAvdte/fev"
+    pic: "pics/21-22/Justin.JPG",
+    isFirstRow: true,
+    email: "jmsin@ucsd.edu"
   },
   {
-    name: "Sharon Johannes",
+    name: "Nikhil Dange",
     position: "Mentorship Chair",
     major: "Electrical Engineering",
-    minor: "Cognitive Science",
+    minor: null,
     depth: "Machine Learning",
     lines: [
-      "Part of GEAR research program",
-      "Involved with SWE, Envision Maker Studio, and Fishing club",
-      "Enjoys designing Redbubble art, karaoke, and quality naps",
-      // eslint-disable-next-line
-      'Fun Fact: \"Why did the man fall into the well? He couldn\'t see that well!\" (They really like puns)'
+      "Involved with ECE SRIP & ACM",
+      "Enjoys swimming, anything at the beach, hiking, watching football and basketball",
+      'Fun Fact: One of the few people in the world that enjoys LaCroix (the sparkling water).'
     ],
-    pic: "pics/20-21/sharon.jpg",
-    email: "tkpiboofAvdte/fev"
+    pic: "pics/21-22/Nikhil.JPG",
+    isFirstRow: true,
+    email: "nsdange@ucsd.edu"
   },
   {
-    name: "Romain Vergniault",
-    position: "Professional Chair",
-    major: "Electrical Engineering",
-    minor: null,
-    depth: null,
-    lines: [
-      "Enjoys watching movies, tv shows, playing video games",
-      'Fun Fact: Was a competitive swimmer for 4 years before college'
-    ],
-    pic: "pics/20-21/romain.jpg",
-    email: "sxfshojbAvdte/fev"
-  },
-  {
-    name: "Matthew Alfaro",
-    position: "Events Coordinator External",
-    major: "Electrical Engineering",
-    minor: null,
-    depth: null,
-    lines: [
-      "Involved with ERC's RAs, UCSD Catering, ECE 35 Tutoring, and Men’s Club Lacrosse",
-      "Enjoys going to coffee shops, exercising, reading, listening and playing music, playing video games, and going to the beach",
-      'Fun Fact: Have played an instrument for 10 years.'
-    ],
-    pic: "pics/20-21/matthew.JPG",
-    email: "n2bmgbspAvdte/fev"
-  },
-  {
-    name: "Lu Songyu",
-    position: "Events Coordinator Internal",
+    name: "Ruilin Hu",
+    position: "WECE Chair",
     major: "Computer Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Part of SRIP 2020: Spatial Audio Personalization",
-      "Involved with Project In a Box",
-      "Enjoys eating all types of cuisines, and going on boba runs",
-      'Fun Fact: Loves quality ramen'
+      "Loves video games and digital art. Also enjoy running and swimming a lot.",
+      'Fun Fact: There has not been one single school/institution that they\'ve stayed for more than three years yet.'
     ],
-    pic: "pics/20-21/lu.jpg",
-    email: "tpm11:Avdte/fev"
+    pic: "pics/21-22/Ruilin.JPG",
+    isFirstRow: true,
+    email: "ruhu@ucsd.edu"
+  },
+  {
+    name: "Harini Gurusankar",
+    position: "Professional Chair",
+    major: "Computer Engineering",
+    minor: null,
+    depth: null,
+    lines: [
+      "Also affiliated with SI Leadership",
+      "Enjoys playing the piano, Singing, Dancing",
+      'Fun Fact: Loves mystery novels.'
+    ],
+    pic: "pics/21-22/Harini.JPG",
+    isFirstRow: true,
+    email: "hgurusan@ucsd.edu"
+  },
+  {
+    name: "Marc Reta",
+    position: "Social Chair",
+    major: "Computer Engineering",
+    minor: null,
+    depth: null,
+    lines: [
+      "Los Angeles County Metropolitan Transportation Authority TCAP Intern - Summer 2019.",
+      "Enjoys playing video games (like Minecraft and CS-Go to name a few), watching movies and tv-shows, hiking, and having all types of adventures.",
+      'Fun Fact: Big fan of buses and trains!'
+    ],
+    pic: "pics/21-22/Marc.JPG",
+    isSecondRow: true,
+    email: "mreta@ucsd.edu"
   },
   {
     name: "Carol Bao",
+    position: "Academic Chair",
+    major: "Computer Engineering",
+    minor: null,
+    depth: null,
+    lines: [
+      "Working as a CSE Tutor.",
+      "Enjoys traveling and cooking.",
+      'Fun Fact: I collect all my flight tickets.'
+    ],
+    pic: "pics/21-22/Carol.JPG",
+    isSecondRow: true,
+    email: "y1bao@ucsd.edu"
+  },
+  {
+    name: "Joey Liu",
     position: "Publicity Chair",
     major: "Electrical Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Involved with SWE & CSSA",
-      "Enjoys cooking, and passing the time watching Youtube",
-      'Fun Fact: Went to three different highschools'
+      "Enjoys watching sports and yelling at my TV, going on drives",
+      'Fun Fact: Named after Joey from Friends but has never seen Friends.'
     ],
-    pic: "pics/20-21/carol.jpg",
-    email: "z2cbpAvdte/fev"
+    pic: "pics/21-22/Joey.JPG",
+    isSecondRow: true,
+    email: "jjl028@ucsd.edu"
   },
   {
-    name: "Albert Lee",
-    position: "Project Chair",
+    name: "Ryan Irwandy",
+    position: "Technical Chair",
     major: "Electrical Engineering",
     minor: null,
-    depth: "Machine Learning",
+    depth: "Signal and Image Processing",
     lines: [
-      "ECE 196 Tutor",
-      "Part of Talke Lab as circuit designer",
-      // eslint-disable-next-line
-      "Affiliated with \'We The Redeemed\' church",
-      "Enjoys listening to music and cooking",
-      'Fun Fact: Has an irrational fear of using an oven'
+      "Part of ECE Research",
+      "Enjoys playing the flute, drawing, & videogames." ,
+      'Fun Fact: Am a videogame nerd when it comes to anything nintendo related.'
     ],
-    pic: "pics/20-21/albert.jpg",
-    email: "bnm238Avdte/fev"
+    pic: "pics/21-22/Ryan.JPG",
+    isSecondRow: true,
+    email: "rjirwandy@gmail.com"
   }
 ];

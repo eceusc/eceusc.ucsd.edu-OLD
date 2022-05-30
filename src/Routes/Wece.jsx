@@ -23,35 +23,26 @@ export default class Wece extends React.Component {
         <Container
           header="Women in ECE"
           subheader=""
-          content="Women in ECE (WECE) is dedicated to supporting and connecting women 
-          of all levels (undergrad, grad, faculty) within the Electrical and Computer 
-          Engineering department at UCSD. We strive to bring together an underrepresented 
-          community of the field by hosting casual meetups, socials, and professional 
-          events. We welcome new members and would love to grow our tight-knit community! "
+          content={
+          <div style={{
+            fontSize: "1.5rem",
+            textAlign: "center",
+            lineHeight: "1.75rem",
+            marginBottom: "20px"
+          }}>
+          The Women in ECE program at ECE USC strives to build a community for women in ECE. <br></br>
+          As an underrepresented group in Electrical and Computer Engineering, 
+          WECE strives towards hosting events that can give women a better look into what it means to be an engineer in this field. 
+          From social events to panels with women in industry, WECE works to build a network where one can learn from others 
+          and establish a successful career as an Electrical or Computer Engineer.
+          </div>}
           content2={
             <div>
               <PhotoAlign />
-              <div
-                style={{
-                  fontSize: "1.5rem",
-                  textAlign: "center",
-                  marginTop: "22px"
-                }}
-              >
-                Sign up for the 2020-2021 Women in ECE Program{" "}
-                <a
-                  href="https://forms.gle/3nGfsaSYMejimd8Z6"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  here
-                </a>
-                !
-              </div>
             </div>
           }
           
-          contacts={[members[0], members[4]]}
+          contacts={[members[7]]}
         />
       </div>
     );

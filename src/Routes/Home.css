@@ -1,0 +1,54 @@
+.Hero-Text {
+    width: 60%;
+    text-align: center;
+    height: calc(100vh);
+    padding: 40vh 20px;
+    font-family: serif;
+}
+.Title {
+    font-size: 4rem;
+    font-style: bold;
+    line-height: 4rem;
+}
+.Title2 {
+    padding: 20px 0 10px 0;
+    font-size: 1.55rem;
+    font-style: bold;
+    line-height: 1.25rem;
+}
+.Subtitle {
+    font-size: 1.55rem;
+}
+.Text {
+    padding: 0 80px;
+    font-size: 1.25rem;
+}
+@media screen and (max-width:1111px) {
+    .Hero-Text {
+        width: calc(100% - 475px);
+        text-align: center;
+        height: calc(100vh);
+        padding: 30vh 0;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .Hero-Text {
+        width: 100%;
+        text-align: center;
+        padding: 40vh 20px ;
+        height: fit-content;
+        background-image: url('../../public/background.svg');
+        background-size: cover;
+    }
+}
+@media screen and (max-width:767px) {
+    .Hero-Text {
+        width: 100%;
+        text-align: center;
+        padding: 10vh 20px 10vh 20px;
+        height: fit-content;
+        background-image: url('../../public/background.svg');
+        background-size: cover;
+    }
+}

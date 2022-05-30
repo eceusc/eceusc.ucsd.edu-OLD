@@ -1,28 +1,35 @@
 import * as React from "react";
-import { Grid, Item, Header } from "semantic-ui-react";
+import { Grid, Item, Header, Divider } from "semantic-ui-react";
+import "./Route.css"
 
 export const hideEmail = email => {
   return email
     .split("")
-    .map(c => c.charCodeAt(0) + 1)
+    .map(c => c.charCodeAt(0))
     .map(c => String.fromCharCode(c))
     .join("");
 };
 export const getEmail = hiddenEmail =>
   hiddenEmail
     .split("")
-    .map(c => String.fromCharCode(c.charCodeAt(0) - 1))
+    .map(c => String.fromCharCode(c.charCodeAt(0)))
     .join("");
 
 export const Container = props => (
-  <Grid>
-    <Grid.Row centered>
-      <Header as="h1">
+  <div className="Contain" style={{minHeight:"100vh"}}>
+  <Grid style={{paddingTop: "97px", paddingBottom: "97px", backgroundImage: "url('../../public/background.svg')"}}>
+    <Grid.Row centered style={{width: "80%"}}>
+      <Header as="h1" style={{width: "80%", textAlign: "center"}}>
         {props.header}
+        <div
+              class="ui divider"
+              style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
+            ></div>
         <Header.Subheader style={{ textTransform: "none" }}>
           {props.subheader}
         </Header.Subheader>
       </Header>
+      
     </Grid.Row>
     <Grid.Row>
       <Grid.Column width={3} />
@@ -59,6 +66,7 @@ export const Container = props => (
       <Grid.Column width={3} />
     </Grid.Row>
   </Grid>
+  </div>
 );
 
 //https://github.com/uupaa/dynamic-import-polyfill/blob/master/importModule.js

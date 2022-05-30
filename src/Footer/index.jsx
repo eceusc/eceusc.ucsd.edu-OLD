@@ -1,39 +1,29 @@
 import * as React from "react";
+import {Image} from "semantic-ui-react";
+import "./footer.css"
 
 export default class Footer extends React.Component {
   render() {
     const footerStyle = {
-      marginTop: 15,
-      right: 0,
-      bottom: 0,
-      left: 0,
-      padding: "1rem",
-      backgroundColor: "#111",
+      position: "fixed",
+      bottom: "0px",
+      width:"100%",
+      padding: "0.5rem",
+      backgroundColor: "#1a1a1a",
       textAlign: "center"
     };
     return (
+
       <div style={footerStyle}>
-        <a
-          className="ui circular icon button"
-          data-tooltip="Find us on Facebook!"
-          href="https://www.facebook.com/ECEUSC/"
-        >
-          <i className="facebook f icon"></i>
-        </a>
-        <a
-          className="ui circular icon button"
-          data-tooltip="ECEUSC Github"
-          href="https://github.com/eceusc"
-        >
-          <i className="github icon"></i>
-        </a>
-        <a
-          className="ui circular icon button"
-          data-tooltip="Previous ECEUSC Websites!"
-          href="/past-years/index.html"
-        >
-          <i className="fast backward icon"></i>
-        </a>
+        <div>
+        <Image src="/facebook_icon.svg" href="https://www.facebook.com/ECEUSC/"/>
+        <Image src="/github_icon.svg" href="https://github.com/eceusc"/>
+        <Image src="/instagram_icon.svg" href="https://www.instagram.com/eceusc_ucsd/"/>
+        <Image src="/discord_icon.svg" href="https://discord.gg/cWUQpVA2j8"/>
+        <Image src="/reddit_icon.svg" href="https://www.reddit.com/user/eceusc_ucsd"/>
+        <Image src="/email_icon.svg" href="mailto:eceusc@eng.ucsd.edu"/>
+        </div>
+        
       </div>
     );
   }

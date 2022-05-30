@@ -58,13 +58,20 @@ export default class Interview extends React.Component {
         <Container
           header="ECE Interviews"
           subheader=""
-          content="The newest addition to the events, ECE interview 
-          was created to benefit those remote learning. ECE interview 
+          content={
+            <div
+                style={{
+                  fontSize: "1.5rem",
+                  textAlign: "center",
+                  lineHeight: "1.75rem"
+                }}
+              >ECE interview was created to benefit those remote learning. ECE interview 
           invites a professor to come and present what they do here at UCSD, 
           with the professor representing a specific depth that ECE students 
           can take. Once finished, students who come or answer a form can 
           question the professor about anything, be it research, the classes 
           they teach, or even how they have been handling the quarantine."
+          </div>}
           content2={
             <div
               style={{
@@ -159,7 +166,7 @@ export default class Interview extends React.Component {
               <Slides3 />
               </div>
           }
-          contacts={[members[8]]}
+          contacts={[members[10]]}
         />
       </div>
     );

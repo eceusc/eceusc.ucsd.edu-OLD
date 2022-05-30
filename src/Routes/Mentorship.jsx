@@ -13,9 +13,7 @@ const PhotoAlign = () => (
         <Image src="pics/mentorPic4.png" />
       </Grid.Column>
     </Grid.Row>
-    <Grid.Row>
-    <Image src="pics/mentorPoster.png" centered size="large" />
-    </Grid.Row>
+
   </Grid>
 );
 
@@ -27,7 +25,13 @@ export default class Mentorship extends React.Component {
           header="Mentorship Program"
           subheader=""
           content={
-            <div>
+            <div
+                style={{
+                  fontSize: "1.5rem",
+                  textAlign: "center",
+                  lineHeight: "1.75rem"
+                }}
+              >
               <div>
                 The Mentorship Program is an annual program to form{" "}
                 <b>mentorship groups</b> of ECE students consisting of
@@ -52,45 +56,9 @@ export default class Mentorship extends React.Component {
           content2={
             <div>
               <PhotoAlign />
-              <div
-                style={{
-                  fontSize: "1.5rem",
-                  textAlign: "center",
-                  marginTop: "22px"
-                }}
-              >
-                Sign up to be a <b>Mentee</b> for the 2020-2021 Mentorship Program{" "}
-                <a
-                  href="http://tinyurl.com/eceuscmentee20"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  here
-                </a>
-                !
-              </div>
             </div>
           }
-          content3={
-            <div
-              style={{
-                fontSize: "1.5rem",
-                textAlign: "center",
-                marginTop: "22px"
-              }}
-            >
-              Interested in being a <b>Mentor</b>? Sign up{" "}
-              <a
-                href="http://tinyurl.com/eceuscmentor20"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>
-              !
-            </div>
-          }
-          contacts={[members[5]]}
+          contacts={[members[6]]}
         />
       </div>
     );

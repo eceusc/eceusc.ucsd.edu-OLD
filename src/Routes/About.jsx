@@ -2,6 +2,7 @@ import * as React from "react";
 
 import members from "./members";
 import { Grid, Image } from "semantic-ui-react";
+import "./Route.css"
 
 const MemberItem = props => (
   <div class="item">
@@ -14,7 +15,6 @@ const MemberItem = props => (
         <span class="position">{props.position}</span>
       </div>
       <div class="description">
-        <p>
           <div class="ui bulleted list">
             <div class="item">
               {props.major} {props.depth ? <span>({props.depth})</span> : null}
@@ -23,7 +23,6 @@ const MemberItem = props => (
               <div class="item">{line}</div>
             ))}
           </div>
-        </p>
       </div>
     </div>
   </div>
@@ -34,17 +33,20 @@ const MemberItem = props => (
 export default class OpenSource extends React.Component {
   render() {
     return (
-      <div class="ui grid">
-        <div class="ui centered row">
-          <h1 class="ui centered header">
+      <div className="Contain">
+      <div class="ui grid" style={{paddingTop: "97px",backgroundImage: "url('../../public/background.svg')", paddingBottom:"100px"}}>
+        
+        <div class="ui centered row" style={{backgroundImage: "url('../../public/background.svg')", width: "100%"}}>
+          <h1 class="ui centered header" style={{ width: "80%"}}>
             Learn more about us
             <div
               class="ui divider"
               style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
             ></div>
             <div class="ui sub header" style={{ textTransform: "none" }}>
-              Geting to know your ECE Undergrad Student Council:
+              Getting to know your ECE Undergrad Student Council:
             </div>
+            
           </h1>
         </div>
         
@@ -52,7 +54,7 @@ export default class OpenSource extends React.Component {
         <Grid columns={1}>
           <Grid.Row>
             <Grid.Column>
-              <Image src="pics/20-21/all.png" centered size="big"/>
+              <Image src="pics/21-22/Group1.JPG" centered size="massive"/>
             </Grid.Column>
           </Grid.Row>
         </Grid>
@@ -92,6 +94,7 @@ export default class OpenSource extends React.Component {
             <div class="three wide column"></div>
           </div>
         </div>
+      </div>
       </div>
     );
   }
