@@ -52,7 +52,8 @@ export default class Shadow extends React.Component {
               style={{
                 fontSize: "2.0rem",
                 textAlign: "center",
-                marginTop: "22px"
+                marginTop: "22px",
+                lineHeight: "2.0rem"
               }}
             >
               The 2023 shadowing program applications will open sometime late Winter 2023!! 

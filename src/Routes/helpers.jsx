@@ -17,7 +17,7 @@ export const getEmail = hiddenEmail =>
 
 export const Container = props => (
   <div className="Contain" style={{minHeight:"100vh"}}>
-  <Grid style={{paddingTop: "97px", paddingBottom: "97px", backgroundImage: "url('../../public/background.svg')"}}>
+  <Grid style={{paddingTop: "127px", paddingBottom: "97px", backgroundImage: "url('../../public/background.svg')"}}>
     <Grid.Row centered style={{width: "80%"}}>
       <Header as="h1" style={{width: "80%", textAlign: "center"}}>
         {props.header}

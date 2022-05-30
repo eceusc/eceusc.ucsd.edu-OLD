@@ -15,6 +15,7 @@
     background: #1a1a1a;
     color: #1a1a1a;
     position: fixed;
+    top: 0px;
     width: 100%;
     z-index: 9;
 }
