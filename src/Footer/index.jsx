@@ -5,7 +5,7 @@ import "./footer.css"
 export default class Footer extends React.Component {
   render() {
     const footerStyle = {
-      position: "fixed",
+      position: "relative",
       bottom: "0px",
       width:"100%",
       padding: "0.5rem",
