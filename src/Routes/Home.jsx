@@ -26,27 +26,23 @@ export default class Home extends React.Component {
     return (
         <div className="Hero-Text">
           <div className="Title">
-            <b>ECE Undergraduate Student Council</b>  
+            <div id="title">
+            <b>ECE Undergraduate</b><br></br>
+            <b>Student Council</b> 
+            </div> 
           </div>
           <div class="Subtitle">
-              Serving and representing all ECE undergraduate students at UC San
-              Diego
+              <em>Serving and representing all ECE undergraduate students at UCSD</em>
           </div>
-          <div class="Title2"><b>About Us</b></div>
-          <div class="Text">
-              The ECE Undergraduate Student Council (ECE USC) is the voice of
-              Electrical and Computer Engineering (ECE) students at UC San
-              Diego. Through community building, networking, and leadership,
-              the council strives to effect change within the department and
-              campus at large though various events and programs.
-          </div>
+          
             <div className="Newsletter">
               <div class="Title2"><b>Join our Newsletter!</b></div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4L9CgfkrNSQNcNzbMf0iXQuvEGWmDPPqFj4aAdFnZub3Ypw/viewform">
-                <img className="subscribe" src="/Subscribe.svg" 
-                    onMouseOver={e => e.currentTarget.src = '/Subscribe-h.svg'} 
-                    onMouseOut={e => e.currentTarget.src = '/Subscribe.svg'}/>
-              </a>
+              <div class="Subtitle">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4L9CgfkrNSQNcNzbMf0iXQuvEGWmDPPqFj4aAdFnZub3Ypw/viewform" target="_blank" class="button">
+                Subscribe
+                </a>
+              </div>
+
             </div>
           </div>
     );

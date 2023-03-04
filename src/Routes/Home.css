@@ -3,26 +3,51 @@
     text-align: center;
     height: calc(100vh);
     padding: 30vh 20px;
-    font-family: serif;
+    padding-left: 5%;
+    font-family: sans-serif;
+    /*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 }
 .Title {
+    font-family: serif;
     font-size: 4rem;
     font-style: bold;
     line-height: 4rem;
+    text-shadow: 2px 2px #b6b6b6;
+    
 }
+
 .Title2 {
-    padding: 20px 0 10px 0;
+    padding: 35px 0 10px 0;
     font-size: 1.55rem;
     font-style: bold;
     line-height: 1.25rem;
+    text-shadow: 2px 1px #b6b6b6;
 }
+
 .Subtitle {
+    padding-top: 2%;
     font-size: 1.55rem;
 }
 .Text {
     padding: 0 80px;
     font-size: 1.25rem;
 }
+
+.button{
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 1.55rem;
+    background-color: black;
+    color: #b6b6b6;
+}
+
+a:hover{
+    background-color: #b6b6b6;
+    color: black;
+}
+
 @media screen and (max-width:1111px) {
     .Hero-Text {
         width: calc(100% - 475px);
@@ -52,3 +77,6 @@
         background-size: cover;
     }
 }
+
+
+

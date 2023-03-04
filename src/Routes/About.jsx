@@ -38,15 +38,18 @@ export default class OpenSource extends React.Component {
         
         <div class="ui centered row" style={{backgroundImage: "url('../../public/background.svg')", width: "100%"}}>
           <h1 class="ui centered header" style={{ width: "80%"}}>
-            Learn more about us
+            About Us
             <div
               class="ui divider"
               style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
             ></div>
-            <div class="ui sub header" style={{ textTransform: "none" }}>
-              Getting to know your ECE Undergrad Student Council:
+            <div class="Text">
+                The ECE Undergraduate Student Council (ECE USC) is the voice of
+                Electrical and Computer Engineering (ECE) students at UC San
+                Diego. Through community building, networking, and leadership,
+                the council strives to effect change within the department and
+                campus at large though various events and programs.
             </div>
-            
           </h1>
         </div>
         
