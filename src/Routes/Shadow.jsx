@@ -36,9 +36,9 @@ export default class Shadow extends React.Component {
                 initiatives and programs designed to benefit all ECE students!
                 
                 Check out our{" "}
-                <a href="https://docs.google.com/document/d/1WDOt6li_Bu_Hbc-ovbrhRgi5TQELHh5mzIXlY_kwomY/edit?usp=sharing">
-                  Positional Duties!
-                </a><br></br><br></br>
+                <a href="https://docs.google.com/document/d/1WDOt6li_Bu_Hbc-ovbrhRgi5TQELHh5mzIXlY_kwomY/edit?usp=sharing" target="_blank">
+                  Positional Duties
+                </a>!<br></br><br></br>
                 The Shadowing Program officially begins <b> Week 1 of Spring Quarter </b>,
                 with an expected workload of 2-3 hours per week (with flexible
                 hours!). Anyone can apply, no prior experience required!{" "}
