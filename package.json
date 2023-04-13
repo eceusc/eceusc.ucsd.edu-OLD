@@ -10,11 +10,13 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "^5.0.0",
     "semantic-ui-react": "^0.82.5",
+    "serve-build": "^0.1.0",
     "typescript": "^4.6.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "bstart": "serve-build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
