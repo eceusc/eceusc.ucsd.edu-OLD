@@ -1,0 +1,40 @@
+.ui.secondary.inverted.pointing.menu .active.item {
+    border-color: #b6b6b6;
+}
+
+.ui.menu {
+    font-size: 1.2rem;
+    font-family: serif;
+}
+
+.ui.secondary.inverted.pointing.menu .item.logo {
+    padding: 0px;
+}
+
+.ui.inverted.segment.Headest {
+    background: #1a1a1a;
+    color: #1a1a1a;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+}
+
+.ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
+    transform: translateY(0%);
+    transition: all 200ms linear;
+}
+
+.ui.secondary.inverted.menu .link.item:hover, .ui.secondary.inverted.menu a.item:hover {
+    transform:translateY(-10%);
+    transition: all 200ms linear;
+}
+
+@media only screen and (max-width: 767px) {
+    .ui.inverted.segment.Headest {
+        background: #1a1a1a;
+        color: #1a1a1a;
+        position: relative;
+        width: 100%;
+    }
+}
