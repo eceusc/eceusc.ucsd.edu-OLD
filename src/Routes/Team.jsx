@@ -38,29 +38,8 @@ export default class OpenSource extends React.Component {
         
         <div class="ui centered row" style={{backgroundImage: "url('../../public/background.svg')", width: "100%"}}>
           <h1 class="ui centered header" style={{ width: "80%"}}>
-            About Us
-            <div
-              class="ui divider"
-              style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
-            ></div>
-            <div class="Text">
-                The ECE Undergraduate Student Council (ECE USC) is the voice of
-                Electrical and Computer Engineering (ECE) students at UC San
-                Diego. Through community building, networking, and leadership,
-                the council strives to effect change within the department and
-                campus at large though various events and programs.
-            </div>
+            Meet the Team
           </h1>
-        </div>
-        
-        <div class="ui centered row">
-        <Grid columns={1}>
-          <Grid.Row>
-            <Grid.Column>
-              <Image src="pics/21-22/Group1.JPG" centered size="massive"/>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
         </div>
 
         <div class="ui row">

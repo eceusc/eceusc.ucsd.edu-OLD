@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 
 /*     Routes    */
-import About from "./Routes/About";
+import Team from "./Routes/Team";
 import Contact from "./Routes/Contact";
 import DeStress from "./Routes/DeStress";
 import FacultyMixers from "./Routes/FacultyMixers";
@@ -34,7 +34,7 @@ class App extends Component {
         <Menu />
         <div style={{}}>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/team" component={Team} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/deestressers" component={DeStress} />
           <Route exact path="/faculty-mixers" component={FacultyMixers} />

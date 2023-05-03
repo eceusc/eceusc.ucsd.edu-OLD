@@ -48,6 +48,22 @@ a:hover{
     color: black;
 }
 
+.fc .fc-col-header-cell-cushion {
+    color: black;
+}
+
+.fc th, .fc .fc-daygrid-day-frame {
+    background-color: #b6b6b6;
+    opacity: 85%;
+    border-color: black;
+}
+
+.fc .fc-daygrid-day-number {
+    color: black;
+    font-weight: bolder;
+}
+  
+
 @media screen and (max-width:1111px) {
     .Hero-Text {
         width: calc(100% - 475px);
