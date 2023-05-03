@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullcalendar/daygrid": "^6.1.6",
+    "@fullcalendar/google-calendar": "^6.1.6",
+    "@fullcalendar/react": "^6.1.6",
     "@observablehq/notebook-runtime": "^1.5.4",
     "firebase": "^9.6.11",
     "react": "^16.5.2",
