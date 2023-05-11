@@ -1,14 +1,18 @@
 .ui.secondary.inverted.pointing.menu .active.item {
-    border-color: #b6b6b6;
+    border-color: #ab4e4e;
 }
 
 .ui.menu {
-    font-size: 1.2rem;
-    font-family: serif;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .ui.secondary.inverted.pointing.menu .item.logo {
     padding: 0px;
+}
+
+.ui.secondary.inverted.pointing.menu {
+    border: none;
 }
 
 .ui.inverted.segment.Headest {
@@ -18,15 +22,14 @@
     top: 0px;
     width: 100%;
     z-index: 9;
+    border-radius: 0;
 }
 
 .ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
-    transform: translateY(0%);
     transition: all 200ms linear;
 }
 
 .ui.secondary.inverted.menu .link.item:hover, .ui.secondary.inverted.menu a.item:hover {
-    transform:translateY(-10%);
     transition: all 200ms linear;
 }
 

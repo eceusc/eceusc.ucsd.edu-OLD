@@ -45,9 +45,9 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/shadow" activeClassName="active">
               Shadow
             </MenuUI.Item>
-            <MenuUI.Item as={NavLink} to="/login" activeClassName="active">
+            {/* <MenuUI.Item as={NavLink} to="/login" activeClassName="active">
               Login
-            </MenuUI.Item>
+            </MenuUI.Item> */}
             <MenuUI.Item as={NavLink} to="/contact" activeClassName="active">
               Contact
             </MenuUI.Item>

@@ -77,18 +77,16 @@ export default class Home extends React.Component {
             <b>Student Council</b> 
             </div> 
           </div>
-          <div class="Subtitle">
-              <em>Serving and representing all ECE undergraduate students at UCSD</em>
+          <div className="Subtitle">
+              <em>Representing all ECE undergraduate students at UCSD</em>
           </div>
           
             <div className="Newsletter">
-              <div class="Title2"><b>Join our Newsletter!</b></div>
               <div class="Subtitle">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4L9CgfkrNSQNcNzbMf0iXQuvEGWmDPPqFj4aAdFnZub3Ypw/viewform" target="_blank" class="button">
-                Subscribe
+                Join our Newsletter!
                 </a>
               </div>
-
             </div>
         </div>
 

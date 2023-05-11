@@ -4411,7 +4411,7 @@
     "jest-message-util" "^27.4.2"
     "jest-regex-util" "^27.4.0"
 
-"express@^4.17.3":
+"express@^4.16.2", "express@^4.17.3":
   "integrity" "sha512-EJEXxiTQJS3lIPrU1AE2vRuT7X7E+0KBbpm5GSoK524yl0K8X+er8zS2P14E64eqsVNoWbMCT7MpmQ+ErAhgRg=="
   "resolved" "https://registry.npmjs.org/express/-/express-4.18.0.tgz"
   "version" "4.18.0"
@@ -4720,11 +4720,6 @@
   "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
-
-"fsevents@^2.3.2", "fsevents@~2.3.2":
-  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
-  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
-  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
@@ -8110,6 +8105,13 @@
   "version" "6.0.0"
   dependencies:
     "randombytes" "^2.1.0"
+
+"serve-build@^0.1.0":
+  "integrity" "sha512-hLmlGGmqoELSSxw8dENqmFPy3dV/ILJI9AXiTWPjduvksC0U86w7yo19Irj14zX/RjNXVmao8FRDQ8n5Xp0dog=="
+  "resolved" "https://registry.npmjs.org/serve-build/-/serve-build-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "express" "^4.16.2"
 
 "serve-index@^1.9.1":
   "integrity" "sha1-03aNabHn2C5c4FD/9bRTvqEqkjk="

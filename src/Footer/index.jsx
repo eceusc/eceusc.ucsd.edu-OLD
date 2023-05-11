@@ -5,12 +5,14 @@ import "./footer.css"
 export default class Footer extends React.Component {
   render() {
     const footerStyle = {
-      position: "relative",
+      position: "fixed", // for sticking to the bottom of the page
+      // position: "relative",  -- for being at the bottom of the page
       bottom: "0px",
       width:"100%",
       padding: "0.5rem",
       backgroundColor: "#1a1a1a",
-      textAlign: "center"
+      textAlign: "center",
+      zIndex: "1"
     };
     return (
 
