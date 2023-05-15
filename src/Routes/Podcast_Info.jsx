@@ -49,6 +49,6 @@ export default [
             " a CSE tutor and a PIB Officer. Tutoring at the CSE department and running technical workshops at PIB",
             " made Victor feel very happy and fulfilled about his UCSD life. Check out his podcast!"
         ],
-        url: "https://www.youtube.com/embed/wBvlnzKOXuw"
+        url: "https://www.youtube.com/embed/agaeqKq3PZ4"
     }
 ];
