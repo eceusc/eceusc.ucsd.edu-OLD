@@ -42,8 +42,8 @@ export default class Menu extends React.Component {
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <MenuUI.Item as={NavLink} to="/shadow" activeClassName="active">
-              Shadow
+            <MenuUI.Item as={NavLink} to="/podcast" activeClassName="active">
+              Podcast
             </MenuUI.Item>
             {/* <MenuUI.Item as={NavLink} to="/login" activeClassName="active">
               Login

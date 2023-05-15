@@ -21,6 +21,7 @@ import Workshop from "./Routes/Workshop";
 import Workshop2 from "./Routes/Workshop2";
 import ECEInterview from "./Routes/Interview";
 import MLBootcamp from "./Routes/MLBootcamp";
+import PodcastPage from "./Routes/PodcastPage"
 
 import TBD from "./Routes/TBD";
 import { Route } from "react-router-dom";
@@ -44,6 +45,7 @@ class App extends Component {
           <Route exact path="/open-source/workshop2" component={Workshop2} />
           <Route exact path="/outreach" component={Outreach} />
           <Route exact path="/professional" component={Professional} />
+          <Route exact path="/podcast" component={PodcastPage} />
           <Route exact path="/shadow" component={Shadow} />
           <Route exact path="/social" component={Social} />
           <Route exact path="/academic" component={Academic} />
