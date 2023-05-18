@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Menu />
-        <div style={{}}>
+        <div style={{overflow: "hidden"}}>
           <Route exact path="/" component={Home} />
           <Route exact path="/team" component={Team} />
           <Route exact path="/contact" component={Contact} />
