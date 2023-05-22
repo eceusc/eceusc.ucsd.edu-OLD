@@ -4,19 +4,9 @@ import "./footer.css"
 
 export default class Footer extends React.Component {
   render() {
-    const footerStyle = {
-      position: "fixed", // for sticking to the bottom of the page
-      // position: "relative",  -- for being at the bottom of the page
-      bottom: "0px",
-      width:"100%",
-      padding: "0.5rem",
-      backgroundColor: "#1a1a1a",
-      textAlign: "center",
-      zIndex: "1"
-    };
     return (
 
-      <div style={footerStyle}>
+      <div className="footer fixed">
         <div>
         <Image src="/facebook_icon.svg" href="https://www.facebook.com/ECEUSC/"/>
         <Image src="/github_icon.svg" href="https://github.com/eceusc"/>

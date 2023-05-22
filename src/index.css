@@ -17,6 +17,6 @@ body {
     background-image: url('../public/jsoe-extended.png');
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: left;
   }
 }

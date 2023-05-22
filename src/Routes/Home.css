@@ -67,8 +67,11 @@ a:hover{
         text-align: center;
         padding: 40vh 20px ;
         height: fit-content;
-        background-image: url('../../public/background.svg');
-        background-size: cover;
+        color: #E0E0E0;
+    }
+
+    iframe {
+        width: 100vw;
     }
 }
 @media screen and (max-width:767px) {
@@ -77,8 +80,12 @@ a:hover{
         text-align: center;
         padding: 10vh 20px 10vh 20px;
         height: fit-content;
-        background-image: url('../../public/background.svg');
-        background-size: cover;
+        color: #E0E0E0;
+        margin: 0 0 10vh 0;
+    }
+    
+    .Title {
+        font-size: 3rem;
     }
 }
 
