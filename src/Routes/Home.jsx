@@ -145,7 +145,9 @@ export default class Home extends React.Component {
               ></div>
             </h1>
             <div>
-            { <Podcast {...Podcast_Info.at(-1)} />     }
+              <h2 style= {{ marginBottom: 0 }}>EP{Podcast_Info.at(-1).episode}: {Podcast_Info.at(-1).guest}</h2>
+              <h3 style = {{ textAlign: 'center', width: '70vw', fontSize: '1rem', marginBotton: 10, marginTop: 5, marginLeft:'auto', marginRight: 'auto'}}>{ Podcast_Info.at(-1).description }</h3>
+              <iframe width="560" height="315" src={Podcast_Info.at(-1).url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             

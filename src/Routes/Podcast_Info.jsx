@@ -1,11 +1,10 @@
 export default [
     {
         episode: 1,
-        host: "Kai-Wen Cheng",
         guest: "Arjun Sampath",
         description: 
         [
-            "Welcome to the ECE USC Podcast Series! In this episode, Arjun Sampath,",
+            "In this episode, Arjun Sampath,",
             " who is in the last quarter of his computer engineering undergrad life",
             " at UC San Diego, is here to share his internship experience with you!",
             " Through his ECE life at UC San Diego, he was able to get an internship",
@@ -16,7 +15,6 @@ export default [
     },
     {
         episode: 2,
-        host: "Kai-Wen Cheng",
         guest: "Kevin Chang",
         description: 
         [
@@ -29,7 +27,6 @@ export default [
     },
     {
         episode: 3,
-        host: "Kai-Wen Cheng",
         guest: "Darell Chua",
         description: 
         [
@@ -41,7 +38,6 @@ export default [
     },
     {
         episode: 4,
-        host: "Kai-Wen Cheng",
         guest: "Victor Chen",
         description: 
         [
@@ -50,5 +46,28 @@ export default [
             " made Victor feel very happy and fulfilled about his UCSD life. Check out his podcast!"
         ],
         url: "https://www.youtube.com/embed/agaeqKq3PZ4"
+    },
+    {
+        episode: 5,
+        guest: "Ryan Irwindy",
+        description:
+        [
+            "In this episode, Ryan Irwindy from electrical engineering is here to share",
+            " his past experience as a Technical Chair at ECEUSC  and his research experience",
+            "through our Summer Research Internship Program at UC San Diego."
+        ],
+        url: "https://www.youtube.com/embed/gQnBWi2JrTs"
+
+    },
+    {
+        episode: 6,
+        guest: "Romain Vergniault",
+        description:
+        [
+            "For this week, Romain from electrical engineering discusses his work at Engineers",
+            " for Exploration, the Computational Systems and Imaging Laboratory, and how he made",
+            " the most out of his experiences! Check out his podcast!"
+        ],
+        url: "https://www.youtube.com/embed/VRK4ap5I9tk"
     }
 ];
