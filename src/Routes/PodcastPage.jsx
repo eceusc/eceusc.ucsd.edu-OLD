@@ -21,9 +21,10 @@ export default function PodcastPage(){
               </div>
               
             </h1>
-          { Podcast_Info.map( pi =>
-            <Podcast {...pi} />
-          )}
+            <div style = {{ display: "flex", flexWrap: "wrap", justifyContent: "center"}}>{ Podcast_Info.reverse().map( pi =>
+              <Podcast {...pi}/>
+            )}
+            </div>
           </div>
           </div>
           
