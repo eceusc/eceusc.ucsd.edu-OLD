@@ -3,7 +3,6 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 
 /*     Routes    */
-import Team from "./Routes/Team";
 import Contact from "./Routes/Contact";
 import DeStress from "./Routes/DeStress";
 import FacultyMixers from "./Routes/FacultyMixers";
@@ -21,7 +20,7 @@ import Workshop from "./Routes/Workshop";
 import Workshop2 from "./Routes/Workshop2";
 import ECEInterview from "./Routes/Interview";
 import MLBootcamp from "./Routes/MLBootcamp";
-import PodcastPage from "./Routes/PodcastPage"
+import PodcastPage from "./Routes/PodcastPage";
 
 import TBD from "./Routes/TBD";
 import { Route } from "react-router-dom";
@@ -35,7 +34,6 @@ class App extends Component {
         <Menu />
         <div style={{overflow: "hidden"}}>
           <Route exact path="/" component={Home} />
-          <Route exact path="/team" component={Team} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/deestressers" component={DeStress} />
           <Route exact path="/faculty-mixers" component={FacultyMixers} />

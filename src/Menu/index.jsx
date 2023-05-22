@@ -17,9 +17,6 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/" activeClassName="active" exact>
               Home
             </MenuUI.Item>
-            <MenuUI.Item as={NavLink} to="/team" activeClassName="active">
-              Team
-            </MenuUI.Item>
             <Dropdown item text="Events">
               <Dropdown.Menu>
                 <Dropdown.Item as={Link} to="/academic">
@@ -45,9 +42,6 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/podcast" activeClassName="active">
               Podcast
             </MenuUI.Item>
-            {/* <MenuUI.Item as={NavLink} to="/login" activeClassName="active">
-              Login
-            </MenuUI.Item> */}
             <MenuUI.Item as={NavLink} to="/contact" activeClassName="active">
               Contact
             </MenuUI.Item>
