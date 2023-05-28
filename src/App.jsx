@@ -16,6 +16,7 @@ import Academic from "./Routes/Academic";
 import Wece from "./Routes/Wece";
 import ECEInterview from "./Routes/Interview";
 import PodcastPage from "./Routes/PodcastPage";
+import CalendarPage from "./Routes/CalendarPage";
 
 import TBD from "./Routes/TBD";
 import { Route } from "react-router-dom";
@@ -27,7 +28,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Menu />
-        <div style={{overflow: "hidden"}}>
+        <div style={{ overflow: "hidden" }}>
           <Route exact path="/" component={Home} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/mentorship" component={Mentorship} />
@@ -40,14 +41,22 @@ class App extends Component {
           <Route exact path="/academic" component={Academic} />
           <Route exact path="/women-ece" component={Wece} />
           <Route exact path="/ece-interview" component={ECEInterview} />
-          <Route path='/positions' component={() => { 
-            window.location.href = 'https://docs.google.com/document/d/13sTv6RvrrNYfIXy6iVXueAHsTCEbrONBya01zCZuZZI/edit?usp=sharing'; 
-            return null;
-          }}/>
-          <Route path='/apply' component={() => { 
-            window.location.href = 'https://forms.gle/kxwxnmoENT5qqUeq5'; 
-            return null;
-          }}/>
+          <Route exact path="/calendar" component={CalendarPage} />
+          <Route
+            path="/positions"
+            component={() => {
+              window.location.href =
+                "https://docs.google.com/document/d/13sTv6RvrrNYfIXy6iVXueAHsTCEbrONBya01zCZuZZI/edit?usp=sharing";
+              return null;
+            }}
+          />
+          <Route
+            path="/apply"
+            component={() => {
+              window.location.href = "https://forms.gle/kxwxnmoENT5qqUeq5";
+              return null;
+            }}
+          />
         </div>
         <Footer />
       </React.Fragment>

@@ -5,7 +5,9 @@
     padding: 30vh 20px;
     padding-left: 5%;
     font-family: 'Roboto', sans-serif;
+    color: #E0E0E0;
 }
+
 .Title {
     font-size: 4rem;
     line-height: 4rem;
@@ -15,12 +17,13 @@
     padding-top: 3rem;
     font-size: 1.55rem;
 }
+
 .Text {
     padding: 0 80px;
     font-size: 1.25rem;
 }
 
-.button{
+.button {
     border: solid;
     border-color: black;
     border-radius: 10px;
@@ -31,7 +34,7 @@
     transition: 200ms ease-in-out;
 }
 
-a:hover{
+a:hover {
     background-color: #b6b6b6;
     color: black;
 }
@@ -50,6 +53,17 @@ a:hover{
     color: black;
     font-weight: bolder;
 }
+
+.background {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../public/jsoe.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right; 
+    z-index: -1;
+ }
   
 
 @media screen and (max-width:1111px) {
@@ -66,14 +80,19 @@ a:hover{
         width: 100%;
         text-align: center;
         padding: 40vh 20px ;
-        height: fit-content;
         color: #E0E0E0;
+        height: fit-content;
     }
 
     iframe {
         width: 100vw;
     }
+
+    .Text {
+        padding: 0 5vw;
+    }
 }
+
 @media screen and (max-width:767px) {
     .Hero-Text {
         width: 100%;
@@ -86,6 +105,10 @@ a:hover{
     
     .Title {
         font-size: 3rem;
+    }
+
+    .background {
+        display: none;
     }
 }
 
