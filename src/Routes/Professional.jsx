@@ -37,7 +37,8 @@ const Slides = () => (
           title="su-prep-recording"
           src="https://drive.google.com/file/d/1_Px_x659szuzmAfS4V0L0R1kk6Po45wC/preview"
           width="640"
-          height="480">
+          height="480"
+          frameborder="0">
         </iframe>
     </div>
     <div class="ui centered header"
@@ -51,7 +52,8 @@ const Slides = () => (
           title="bsms-recording"
           src="https://drive.google.com/file/d/1YyzWF2H6JTD-bEWq3SJnqwo2NbuNVKpu/preview" 
           width="640"
-          height="480">
+          height="480"
+          frameborder="0">
         </iframe>
     </div>
     <div class="ui centered header"
@@ -67,7 +69,6 @@ const Slides = () => (
           width="600"
           height="500"
           frameborder="0"
-          scrolling="no"
         />
       </div>
     <div class="ui row">
