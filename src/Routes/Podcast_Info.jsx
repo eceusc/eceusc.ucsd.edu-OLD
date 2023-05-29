@@ -1,5 +1,17 @@
 export default [
   {
+    episode: 7,
+    guest: "Behrad Rabiei",
+    description: [
+      "For this week, We are pleased to have Behrad Rabiei (Class of 2023) from Electrical",
+      " Engineering here to offer you some suggestions about how to interact with recruiters",
+      " and get a potential intern or job offer! Behrad has previously interned at NASA,",
+      " SpaceX, and Amazon that helped him build good relationships with", 
+      " recruiters as well as gaining practical knowledge. So get some tips from Behrad! Stay tuned!",
+    ],
+    url: "https://www.youtube.com/embed/uz3MpPc2j5Q",
+  },
+  {
     episode: 6,
     guest: "Romain Vergniault",
     description: [
