@@ -3,7 +3,8 @@ import Menu from "./Menu";
 import Footer from "./Footer";
 
 /*     Routes    */
-import Contact from "./Routes/Contact";
+import Team from "./Routes/Team";
+import Join from "./Routes/Join"
 import GraffitiWall from "./Routes/GraffitiWall";
 import Home from "./Routes/Home";
 import Mentorship from "./Routes/Mentorship";
@@ -30,7 +31,8 @@ class App extends Component {
         <Menu />
         <div style={{ overflow: "hidden" }}>
           <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/team" component={Team} />
+          <Route exact path="/join" component={Join} />
           <Route exact path="/mentorship" component={Mentorship} />
           <Route exact path="/technical" component={Technical} />
           <Route exact path="/outreach" component={Outreach} />
@@ -53,7 +55,7 @@ class App extends Component {
           <Route
             path="/apply"
             component={() => {
-              window.location.href = "https://forms.gle/kxwxnmoENT5qqUeq5";
+              window.location.href = "https://forms.gle/tL6vF2G1KgZKDvPL6";
               return null;
             }}
           />

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Dropdown, Image, Menu as MenuUI, Segment } from "semantic-ui-react";
 import { Link, NavLink } from "react-router-dom";
-import "./menu.css"
+import "./menu.css";
 
 export default class Menu extends React.Component {
   render() {
@@ -17,7 +17,7 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/" activeClassName="active" exact>
               Home
             </MenuUI.Item>
-            <Dropdown item text="Events">
+            <Dropdown item text="Committees">
               <Dropdown.Menu>
                 <Dropdown.Item as={Link} to="/academic">
                   Academic
@@ -42,9 +42,16 @@ export default class Menu extends React.Component {
             <MenuUI.Item as={NavLink} to="/podcast" activeClassName="active">
               Podcast
             </MenuUI.Item>
-            <MenuUI.Item as={NavLink} to="/contact" activeClassName="active">
-              Contact
-            </MenuUI.Item>
+            {/* <Dropdown item text="Our Team">
+              <Dropdown.Menu>
+                <Dropdown.Item as={Link} to="/team">
+                  Meet the Team
+                </Dropdown.Item>
+                <Dropdown.Item as={Link} to="/join">
+                  Join the Team
+                </Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown> */}
           </MenuUI.Menu>
         </MenuUI>
       </Segment>
