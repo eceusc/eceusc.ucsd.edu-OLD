@@ -1,9 +1,44 @@
 export default [
   {
+    episode: 9,
+    guest: "Kai-Wen Cheng",
+    description: [
+      "In this episode, Kai-Wen from Electrical Engineering (Class of 2023) discusses",
+      " his philosophy of learning and research as well as some tips and tricks in navigating",
+      " through college! Throughout his college life, he was involved with electronics and ",
+      " power system research as well as student organization leadership.",
+    ],
+    url: "https://www.youtube.com/embed/HDQk6cOrGjQ",
+  },
+  {
+    episode: 8,
+    guest: "Karl Johnson",
+    description: [
+      "In this episode, Karl Johnson from electrical engineering,",
+      " who just led the Yonder Dynamics 2022-2023 team to compete successfully in the",
+      " final round of the University Rover Challenge in Utah last week! From over a ",
+      " hundred competing teams, Yonder Dynamics placed 5th in the finals!",
+      " Check out Karl's podcast if you are interested in the story behind Yonder!",
+    ],
+    url: "https://www.youtube.com/embed/QMUBlMy0lIA",
+  },
+  {
+    episode: 7,
+    guest: "Behrad Rabiei",
+    description: [
+      "In this episode, we are pleased to have Behrad Rabiei (Class of 2023) from Electrical",
+      " Engineering here to offer you some suggestions about how to interact with recruiters",
+      " and get a potential intern or job offer! Behrad has previously interned at NASA,",
+      " SpaceX, and Amazon that helped him build good relationships with",
+      " recruiters as well as gaining practical knowledge. So get some tips from Behrad! Stay tuned!",
+    ],
+    url: "https://www.youtube.com/embed/uz3MpPc2j5Q",
+  },
+  {
     episode: 6,
     guest: "Romain Vergniault",
     description: [
-      "For this week, Romain from electrical engineering discusses his work at Engineers",
+      "In this episode, Romain from electrical engineering discusses his work at Engineers",
       " for Exploration, the Computational Systems and Imaging Laboratory, and how he made",
       " the most out of his experiences! Check out his podcast!",
     ],
@@ -43,7 +78,7 @@ export default [
     episode: 2,
     guest: "Kevin Chang",
     description: [
-      "For this week, Kevin Chang (BS Electrical Engineering Class of 2024) is",
+      "In this episode, Kevin Chang (BS Electrical Engineering Class of 2024) is",
       " here to share his internship / academic experience with you! Through his",
       " time at ucsd, he participated in a hardware internship, a software internship,",
       " as well as a research project. Tune in and let us know what you think in the comments!",
