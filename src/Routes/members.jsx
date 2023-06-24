@@ -1,108 +1,75 @@
 export default [
   {
-    name: "Branson Beihl",
+    name: "Kayren Zheng",
     position: "President",
-    major: "Computer Engineering",
+    major: "Electrical Engineering",
     minor: null,
-    depth: null,
+    depth: "Circuit",
     lines: [
-      "Interned at the startup Vinduino LLC Summer 2021.",
-      "Enjoys Skateboarding, Lifting, Cooking, Boxing, Guitar, Learning Japanese.",
-      "Fun Fact: Their dog's names are Chowder & Panini. Yes, the foods."
+      "Has summer internship",
+      "Enjoys playing Legos and jigsaw puzzles,",
+      "Fun Fact: I'm a bad driver :-)"
     ],
     isPrez: true,
-    pic: "pics/21-22/Branson.JPG",
-    email: "bbeihl@ucsd.edu"
+    pic: "pics/22-23/Kayren.JPG",
+    email: "k1zheng@ucsd.edu"
   },
   {
-    name: "Lu Songyu",
+    name: "TBD",
     position: "VP External",
-    major: "Computer Engineering",
+    major: "N/A",
     minor: null,
     depth: null,
     lines: [
-      "Working with start-ups & working in research labs.",
-      "Enjoys eating all types of cuisines, and going on boba runs.",
-      'Fun Fact: Cannot pronounce word "vanilla" correctly.'
+      "TBD"
     ],
     isExec: true,
-    pic: "pics/20-21/lu.jpg",
+    pic: "pics/22-23/tbd.jpeg",
     email: "sol009@ucsd.edu"
   },
   {
-    name: "Sharon Johannes",
+    name: "Harini Gurusankar",
     position: "VP Internal",
-    major: "Electrical Engineering",
+    major: "Computer engineering",
     minor: null,
     depth: "Power",
     lines: [
-      "Working for EnVision Maker Studio.",
-      "Enjoys waltz dancing, sharing puns, playing instruments, & winning in Cup Pong.",
-      // eslint-disable-next-line
-      'Fun Fact: Named their car: Car Car Binks.'
+      "Intern at Keysight Technologies",
+      "Enjoys playing the piano, dancing, and singing",
+      "Fun Fact: I can speak 5 languages."
     ],
     isExec: true,
-    pic: "pics/21-22/Sharon.JPG",
-    email: "sjohanne@ucsd.edu"
+    pic: "pics/22-23/Harini.JPG",
+    email: "hgurusan@ucsd.edu"
   },
   {
-    name: "Matthew Alfaro",
-    position: "VP Events",
-    major: "Electrical Engineering",
-    minor: null,
-    depth: "Circuits & Systems",
-    lines: [
-      "Resident Advisor for ERC, part of Men's Club Lacrosse, & Chef's Assistant for UCSD Catering.",
-      "Enjoys being active, reading, playing video games, and drinking coffee with friends.",
-      'Fun Fact: Can play 4 instruments.'
-    ],
-    isExec: true,
-    pic: "pics/21-22/Matthew.JPG",
-    email: "m1alfaro@ucsd.edu"
-  },
-  {
-    name: "Jeffrey Liu",
+    name: "Zarif Mustahsin",
     position: "Secretary",
     major: "Electrical Engineering",
     minor: null,
+    depth: "Computer System Design & Electronic Circuits and Systems",
+    lines: [
+      "Part of IEEE QP, RoboCup, Supercomputing, and Kendo",
+      "Likes reading light novels, watching KDramas, talking to new people, watching anime, moderating Facebook and discord groups/servers",
+      "Fun Fact: I've been preparing for this my whole life but I cannot remember. Let's go with the fact that my right thumb has a missing crease. Oh, I also hold a black belt in Karate. I'm the RoboCup Soccer Co-Chair if any of you want to join. I WANT TO BUILD BAYMAX BECAUSE HUGS CAN SAVE THE WORLD"
+    ],
+    pic: "pics/22-23/Zarif.JPG",
+    isFirstRow: true,
+    email: "mmzarif@ucsd.edu"
+  },
+  
+  {
+    name: "TBD",
+    position: "Mentorship Chair",
+    major: "N/A",
+    minor: null,
     depth: null,
     lines: [
-      "Part of ERSP 2021-2022, & Student Developer for UCSD IT Services.",
-      "Enjoys watching anime, playing video games, talking to people, walking.",
-      'Fun Fact: Can cook instant noodles and rice.'
+      "N/A"
     ],
-    pic: "pics/21-22/Jeffrey.JPG",
+    pic: "pics/22-23/tbd.jpeg",
     isFirstRow: true,
-    email: "jsliu@ucsd.edu"
-  },
-  {
-    name: "Justin Sin",
-    position: "Treasurer",
-    major: "Electrical Engineering",
-    minor: null,
-    depth: "Circuits & Systems",
-    lines: [
-      "Taking pictures, playing basketball, hanging out, watching anime.",
-      'Fun Fact: Lives on an island right in the middle of the Bay.'
-    ],
-    pic: "pics/21-22/Justin.JPG",
-    isFirstRow: true,
-    email: "jmsin@ucsd.edu"
-  },
-  {
-    name: "Nikhil Dange",
-    position: "Mentorship Chair",
-    major: "Electrical Engineering",
-    minor: null,
-    depth: "Machine Learning",
-    lines: [
-      "Involved with ECE SRIP & ACM",
-      "Enjoys swimming, anything at the beach, hiking, watching football and basketball",
-      'Fun Fact: One of the few people in the world that enjoys LaCroix (the sparkling water).'
-    ],
-    pic: "pics/21-22/Nikhil.JPG",
-    isFirstRow: true,
-    email: "nsdange@ucsd.edu"
+    email: "N/A"
   },
   {
     name: "Ruilin Hu",
@@ -115,81 +82,96 @@ export default [
       'Fun Fact: There has not been one single school/institution that they\'ve stayed for more than three years yet.'
     ],
     pic: "pics/21-22/Ruilin.JPG",
-    isFirstRow: true,
+    isSecondRow: true,
     email: "ruhu@ucsd.edu"
   },
   {
-    name: "Harini Gurusankar",
-    position: "Professional Chair",
+    name: "Brandon Szeto",
+    position: "Co-Professional Chair",
     major: "Computer Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Also affiliated with SI Leadership",
-      "Enjoys playing the piano, Singing, Dancing",
-      'Fun Fact: Loves mystery novels.'
+      "Enjoys exercising, reading, and exploring the outdoors.",
+      'Fun Fact: I look better in person.'
     ],
-    pic: "pics/21-22/Harini.JPG",
+    pic: "pics/22-23/Brandon.JPG",
     isFirstRow: true,
-    email: "hgurusan@ucsd.edu"
+    email: "bszeto@ucsd.edu"
   },
   {
-    name: "Marc Reta",
+    name: "Haochen Wang",
+    position: "Co-Professional Chair",
+    major: "Computer Engineering",
+    minor: null,
+    depth: null,
+    lines: [
+      "Part of E4E and work as Math grader.",
+      "Likes electronic music.",
+      'Fun Fact: I took 8 classes in the summer of my freshman year.'
+    ],
+    pic: "pics/21-22/Haochen.JPG",
+    isFirstRow: true,
+    email: "haw057@ucsd.edu"
+  },
+  {
+    name: "Ricky Li",
     position: "Social Chair",
     major: "Computer Engineering",
     minor: null,
     depth: null,
     lines: [
-      "Los Angeles County Metropolitan Transportation Authority TCAP Intern - Summer 2019.",
-      "Enjoys playing video games (like Minecraft and CS-Go to name a few), watching movies and tv-shows, hiking, and having all types of adventures.",
-      'Fun Fact: Big fan of buses and trains!'
+      "Part of Chinese American Student Association.",
+      "Enjoys being active, going to the gym, playing volleyball and basketball.",
+      'Fun Fact: I grew up in the city with the very first in-n-out.'
     ],
-    pic: "pics/21-22/Marc.JPG",
+    pic: "pics/22-23/Ricky.png",
     isSecondRow: true,
-    email: "mreta@ucsd.edu"
+    email: "rili@ucsd.edu"
   },
   {
-    name: "Carol Bao",
+    name: "Yann Baglin-Bunod",
     position: "Academic Chair",
-    major: "Computer Engineering",
-    minor: null,
-    depth: null,
-    lines: [
-      "Working as a CSE Tutor.",
-      "Enjoys traveling and cooking.",
-      'Fun Fact: I collect all my flight tickets.'
-    ],
-    pic: "pics/21-22/Carol.JPG",
-    isSecondRow: true,
-    email: "y1bao@ucsd.edu"
-  },
-  {
-    name: "Joey Liu",
-    position: "Publicity Chair",
     major: "Electrical Engineering",
     minor: null,
-    depth: null,
+    depth: "Machine Learning and Controls",
     lines: [
-      "Enjoys watching sports and yelling at my TV, going on drives",
-      'Fun Fact: Named after Joey from Friends but has never seen Friends.'
+      "Part of Triton Rock Climbing Team.",
+      "Enjoys surfing, rock Climbing, and food!.",
+      'Fun Fact: I climbed a glacier.'
     ],
-    pic: "pics/21-22/Joey.JPG",
+    pic: "pics/22-23/Yann.JPG",
     isSecondRow: true,
-    email: "jjl028@ucsd.edu"
+    email: "ybaglinbunod@ucsd.edu"
   },
   {
-    name: "Ryan Irwandy",
+    name: "Rana Singh",
     position: "Technical Chair",
     major: "Electrical Engineering",
     minor: null,
-    depth: "Signal and Image Processing",
+    depth: null,
     lines: [
-      "Part of ECE Research",
-      "Enjoys playing the flute, drawing, & videogames." ,
-      'Fun Fact: Am a videogame nerd when it comes to anything nintendo related.'
+      "Part of Triton Robosub and IEEE",
+      "Enjoys playing guitar, table tennis, and swimming. " ,
+      'Fun Fact: I can solve a rubiks cube blindfolded.'
     ],
-    pic: "pics/21-22/Ryan.JPG",
+    pic: "pics/22-23/Rana.JPG",
     isSecondRow: true,
-    email: "rjirwandy@gmail.com"
+    email: "ras010@ucsd.edu"
+  },
+  {
+    name: "Angela Tsai",
+    position: "Webmaster",
+    major: "Math-CS",
+    minor: "Data Science",
+    depth: null,
+    lines: [
+      "CSE tutor",
+      "Enjoys playing basketball, table tennis, badminton, and watching anime.",
+      'Fun Fact: Im left handed but I play sports with my right hand.'
+    ],
+    pic: "pics/22-23/Angela.png",
+    isSecondRow: true,
+    email: "cjt002@ucsd.edu"
   }
 ];
