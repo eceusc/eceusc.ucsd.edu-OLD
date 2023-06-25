@@ -46,13 +46,18 @@ export const Container = props => (
                   <Item.Image size="tiny" src={c.pic} circular />
 
                   <Item.Content>
-                    <Item.Header as="a">{c.name}</Item.Header>
+                    <Item.Header as="h3">
+                      {c.name}
+                      <a href={`mailto:${getEmail(c.email)}`} style={{marginLeft: 5}}>
+                        <img width="15" height="15" src="https://img.icons8.com/material/24/mail.png" alt="mail" style={{marginTop: 8}}/>
+                      </a>
+                    </Item.Header>
                     <Item.Meta>{c.position}</Item.Meta>
                     <Item.Description>
-                      <a
+                      {/*<a
                         href={`mailto:${getEmail(c.email)}`}
                         style={{ fontSize: ".8rem" }}
-                      >
+                      > */}
                         {getEmail(c.email)}
                       </a>
                     </Item.Description>
