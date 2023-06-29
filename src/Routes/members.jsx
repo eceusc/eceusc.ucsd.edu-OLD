@@ -24,8 +24,8 @@ export default [
       "TBD"
     ],
     isExec: true,
-    pic: "pics/22-23/tbd.jpeg",
-    email: "sol009@ucsd.edu"
+    pic: "pics/22-23/tbd.png",
+    email: ""
   },
   {
     name: "Harini Gurusankar",
@@ -39,7 +39,7 @@ export default [
       "Fun Fact: I can speak 5 languages."
     ],
     isExec: true,
-    pic: "pics/22-23/Harini.JPG",
+    pic: "pics/22-23/Harini.PNG",
     email: "hgurusan@ucsd.edu"
   },
   {
@@ -53,7 +53,7 @@ export default [
       "Likes reading light novels, watching KDramas, talking to new people, watching anime, moderating Facebook and discord groups/servers",
       "Fun Fact: I've been preparing for this my whole life but I cannot remember. Let's go with the fact that my right thumb has a missing crease. Oh, I also hold a black belt in Karate. I'm the RoboCup Soccer Co-Chair if any of you want to join. I WANT TO BUILD BAYMAX BECAUSE HUGS CAN SAVE THE WORLD"
     ],
-    pic: "pics/22-23/Zarif.JPG",
+    pic: "pics/22-23/Zarif.png",
     isFirstRow: true,
     email: "mmzarif@ucsd.edu"
   },
@@ -67,7 +67,7 @@ export default [
     lines: [
       "N/A"
     ],
-    pic: "pics/22-23/tbd.jpeg",
+    pic: "pics/22-23/tbd.png",
     isFirstRow: true,
     email: "N/A"
   },
@@ -82,7 +82,7 @@ export default [
       'Fun Fact: There has not been one single school/institution that they\'ve stayed for more than three years yet.'
     ],
     pic: "pics/21-22/Ruilin.JPG",
-    isSecondRow: true,
+    isFirstRow: true,
     email: "ruhu@ucsd.edu"
   },
   {
@@ -95,7 +95,7 @@ export default [
       "Enjoys exercising, reading, and exploring the outdoors.",
       'Fun Fact: I look better in person.'
     ],
-    pic: "pics/22-23/Brandon.JPG",
+    pic: "pics/22-23/Brandon.png",
     isFirstRow: true,
     email: "bszeto@ucsd.edu"
   },
@@ -110,7 +110,7 @@ export default [
       "Likes electronic music.",
       'Fun Fact: I took 8 classes in the summer of my freshman year.'
     ],
-    pic: "pics/21-22/Haochen.JPG",
+    pic: "pics/22-23/Haochen.png",
     isFirstRow: true,
     email: "haw057@ucsd.edu"
   },
@@ -140,7 +140,7 @@ export default [
       "Enjoys surfing, rock Climbing, and food!.",
       'Fun Fact: I climbed a glacier.'
     ],
-    pic: "pics/22-23/Yann.JPG",
+    pic: "pics/22-23/Yann.png",
     isSecondRow: true,
     email: "ybaglinbunod@ucsd.edu"
   },
@@ -155,7 +155,7 @@ export default [
       "Enjoys playing guitar, table tennis, and swimming. " ,
       'Fun Fact: I can solve a rubiks cube blindfolded.'
     ],
-    pic: "pics/22-23/Rana.JPG",
+    pic: "pics/22-23/Rana.png",
     isSecondRow: true,
     email: "ras010@ucsd.edu"
   },
@@ -173,5 +173,48 @@ export default [
     pic: "pics/22-23/Angela.png",
     isSecondRow: true,
     email: "cjt002@ucsd.edu"
+  },
+  {
+    name: "Basil Thaddeus",
+    position: "Webmaster",
+    major: "Cognitive Science w/ spec in Machine Learning and Neural Computation",
+    minor: null,
+    depth: null,
+    lines: [
+      "Enjoys hanging out with friends, playing video games, and coding (lame i know).",
+      'Fun Fact: TBD :D'
+    ],
+    pic: "pics/22-23/Basil.png",
+    isSecondRow: true,
+    email: "brobertthaddeus@ucsd.edu"
+  },
+  {
+    name: "Joshua Choi",
+    position: "Mentorship Social Chair",
+    major: "Electrical Engineering",
+    minor: null,
+    depth: null,
+    lines: [
+      "Part of IEEE",
+      "Enjoys playing basketball, working out, and watching TV.",
+      'Fun Fact: I am Korean but I do not like kimchi.'
+    ],
+    pic: "pics/22-23/Joshua.png",
+    isThirdRow: true,
+    email: "jmc008@ucsd.edu"
+  },
+  {
+    name: "Yong Quan Neo",
+    position: "Mentorship Social Chair",
+    major: "Electrical Engineering",
+    minor: null,
+    depth: "Computer System Design",
+    lines: [
+      "Enjoys playing badminton.",
+      'Fun Fact: I am from Malaysia 🇲🇾.'
+    ],
+    pic: "pics/22-23/tbd.png",
+    isThirdRow: true,
+    email: "yneo@ucsd.edu"
   }
 ];

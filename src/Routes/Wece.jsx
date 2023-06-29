@@ -42,7 +42,7 @@ export default class Wece extends React.Component {
             </div>
           }
           
-          contacts={[members[7]]}
+          contacts={[members[5]]}
         />
       </div>
     );

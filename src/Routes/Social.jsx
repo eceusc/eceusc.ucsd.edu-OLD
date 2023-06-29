@@ -45,7 +45,7 @@ export default class Social extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[9]]}
+          contacts={[members[8]]}
         />
       </div>
     );

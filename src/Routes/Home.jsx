@@ -100,7 +100,7 @@ export default class Home extends React.Component {
                     <Grid.Row>
                       <Grid.Column>
                         <Image
-                          src="pics/21-22/Group1.JPG"
+                          src="pics/22-23/all_officers.png"
                           centered
                           size="massive"
                         />
@@ -108,10 +108,8 @@ export default class Home extends React.Component {
                     </Grid.Row>
                   </Grid>
                 </div>
-                <div
-                  class="ui divider"
-                  style={{ marginTop: ".25rem", marginBottom: ".5rem" }}
-                ></div>
+                <br />
+                
                 <div class="Text">
                   The ECE Undergraduate Student Council (ECE USC) is the voice
                   of Electrical and Computer Engineering (ECE) students at UC

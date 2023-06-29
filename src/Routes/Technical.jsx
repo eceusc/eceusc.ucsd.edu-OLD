@@ -30,7 +30,7 @@ export default class Technical extends React.Component {
             </div>
           }
           
-          contacts={[members[12]]}
+          contacts={[members[14], members[10]]}
         />
       </div>
     );

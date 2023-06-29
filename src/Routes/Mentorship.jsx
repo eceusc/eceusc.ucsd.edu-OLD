@@ -56,7 +56,7 @@ export default class Mentorship extends React.Component {
               <PhotoAlign />
             </div>
           }
-          contacts={[members[6]]}
+          contacts={[members[4], members[13]]}
         />
       </div>
     );

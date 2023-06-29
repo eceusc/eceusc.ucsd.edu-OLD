@@ -101,7 +101,7 @@ export default class TownHalls extends React.Component {
               <Slides />
             </div>
           }
-          contacts={[members[10]]}
+          contacts={[members[9]]}
         />
       </div>
     );
