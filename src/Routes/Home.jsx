@@ -56,6 +56,8 @@ export default class Home extends React.Component {
               <b>Student Council</b>
             </div>
           </div>
+
+          <div className="fadeIn">
           <div className="Subtitle">
             <em>Representing all ECE undergraduate students at UCSD</em>
           </div>
@@ -70,6 +72,8 @@ export default class Home extends React.Component {
                 Join our Newsletter!
               </a>
             </div>
+          </div>
+
           </div>
         </div>
 
@@ -109,7 +113,7 @@ export default class Home extends React.Component {
                   </Grid>
                 </div>
                 <br />
-                
+
                 <div class="Text">
                   The ECE Undergraduate Student Council (ECE USC) is the voice
                   of Electrical and Computer Engineering (ECE) students at UC
