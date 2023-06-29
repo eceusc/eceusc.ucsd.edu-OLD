@@ -1,3 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
 .ui.secondary.inverted.pointing.menu .active.item {
     border-color: #90A4AE;
 }
@@ -16,7 +24,8 @@
 }
 
 .ui.inverted.segment.Headest {
-    background: #1a1a1a;
+    /* background: #1a1a1a; */
+    animation-name: bgChange;
     color: #1a1a1a;
     position: fixed;
     top: 0px;
@@ -24,6 +33,17 @@
     z-index: 9;
     border-radius: 0;
 }
+
+@keyframes bgChange {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+
 
 .ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
     transition: all 200ms linear;

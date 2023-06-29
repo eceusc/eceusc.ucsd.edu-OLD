@@ -11,7 +11,7 @@ export default [
       "Fun Fact: I'm a bad driver :-)"
     ],
     isPrez: true,
-    pic: "pics/22-23/Kayren.JPG",
+    pic: "pics/22-23/Kayren.png",
     email: "k1zheng@ucsd.edu"
   },
   {
@@ -200,7 +200,7 @@ export default [
       'Fun Fact: I am Korean but I do not like kimchi.'
     ],
     pic: "pics/22-23/Joshua.png",
-    isThirdRow: true,
+    isSeconddRow: true,
     email: "jmc008@ucsd.edu"
   },
   {
@@ -213,8 +213,8 @@ export default [
       "Enjoys playing badminton.",
       'Fun Fact: I am from Malaysia 🇲🇾.'
     ],
-    pic: "pics/22-23/tbd.png",
-    isThirdRow: true,
+    pic: "pics/22-23/Neo.png",
+    isSecondRow: true,
     email: "yneo@ucsd.edu"
   }
 ];

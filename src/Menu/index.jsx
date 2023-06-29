@@ -6,6 +6,26 @@ import "./menu.css";
 export default class Menu extends React.Component {
   render() {
     return (
+
+      // <div className="navbar">
+      //   <div>
+      //     <Image src="/logo.svg"/>
+      //   </div>
+      //   <div>
+      //     <a href="/">Home</a>
+      //     <div class="dropdown">
+      //     <button class="dropbtn">Committees
+      //       <i class="fa fa-caret-down"></i>
+      //     </button>
+      //         <div class="dropdown-content">
+      //           <a href="/academic">Academics</a>
+      //           <a href="/mentorship">Mentorship</a>
+      //           <a href="/professional">Professional</a>
+      //         </div>
+      //       </div>
+      //     </div>
+      // </div>
+
       <Segment inverted className="Headest">
         <MenuUI inverted secondary pointing stackable>
           <MenuUI.Menu position="left">

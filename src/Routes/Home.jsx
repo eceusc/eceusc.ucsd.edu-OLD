@@ -19,6 +19,10 @@ const handleEventClick = (info) => {
   }
 };
 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 const MemberItem = (props) => (
   <div class="item">
     <div class="ui small image">
