@@ -57,9 +57,9 @@ export const Container = props => (
                       {/*<a
                         href={`mailto:${getEmail(c.email)}`}
                         style={{ fontSize: ".8rem" }}
-                      > */}
+                      > 
                         {getEmail(c.email)}
-                      </a>
+                      </a>*/}
                     </Item.Description>
                   </Item.Content>
                 </Item>
